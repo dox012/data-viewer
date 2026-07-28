@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,21 +10,21 @@
   <header class="site-header">
     <div class="wrap">
       <div>
-        <div class="eyebrow">Composition2 data viewer</div>
+        <div class="eyebrow">Composition2 数据浏览器</div>
         <h1 id="pageTitle">LMM4Edit</h1>
-        <p id="pageSubtitle">Source dataset preview</p>
+        <p id="pageSubtitle">源数据集预览</p>
       </div>
-      <a class="home-link" href="../../index.html">← Summary</a>
+      <a class="home-link" href="../../index.html">← 总览</a>
     </div>
   </header>
   <main class="wrap">
     <div id="warningArea"></div>
     <section class="panel">
-      <div class="panel-head"><div><h2>Overview</h2><p id="overviewText"></p></div></div>
+      <div class="panel-head"><div><h2>概览</h2><p id="overviewText"></p></div></div>
       <div id="metaRow" class="meta-row"></div>
     </section>
     <section>
-      <div class="section-head"><h2>Samples</h2><p>Sampled rows from the source dataset.</p></div>
+      <div class="section-head"><h2>样本</h2><p>从源数据集中抽取的样本。</p></div>
       <div id="sampleGrid" class="sample-grid"></div>
     </section>
   </main>
@@ -37,26 +37,26 @@
   function esc(s){return String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
   function renderField(f){return `<div class="kv"><div class="k">${esc(f.label)}</div><div class="v">${esc(f.value)}</div></div>`;}
   function renderSample(s, i){
-    const text = (s.text_fields || []).map(renderField).join('') || '<div class="muted">No text fields extracted.</div>';
-    const imgs = (s.images || []).map(img => `<figure class="image-card"><div class="image-label">${esc(img.label)}</div><img src="${esc(img.src)}" alt="${esc(img.alt || img.label || 'preview')}" /></figure>`).join('') || '<div class="muted">No previewable images extracted.</div>';
-    return `<article class="card"><div class="card-head"><div><div class="sample-index">Sample ${i + 1}</div><h3>${esc(s.title || 'Sample')}</h3><p>${esc(s.subtitle || '')}</p></div></div><div class="card-body"><div class="text-col">${text}</div><div class="image-col">${imgs}</div></div></article>`;
+    const text = (s.text_fields || []).map(renderField).join('') || '<div class="muted">未提取到文本字段。</div>';
+    const imgs = (s.images || []).map(img => `<figure class="image-card"><div class="image-label">${esc(img.label)}</div><img src="${esc(img.src)}" alt="${esc(img.alt || img.label || '预览')}" /></figure>`).join('') || '<div class="muted">未提取到可预览图片。</div>';
+    return `<article class="card"><div class="card-head"><div><div class="sample-index">样本 ${i + 1}</div><h3>${esc(s.title || '样本')}</h3><p>${esc(s.subtitle || '')}</p></div></div><div class="card-body"><div class="text-col">${text}</div><div class="image-col">${imgs}</div></div></article>`;
   }
   fetch(DATA_URL).then(r=>r.json()).then(data=>{
-    document.title = `${data.name} · data viewer`;
+    document.title = `${data.name} · 数据浏览器`;
     document.getElementById('pageTitle').textContent = data.name;
     document.getElementById('pageSubtitle').textContent = data.name;
-    overviewText.textContent = `${data.kind} · ${data.samples.length} preview sample(s) · ${data.total_files} file(s) scanned`;
+    overviewText.textContent = `${data.kind} · ${data.samples.length} 条预览样本 · 扫描了 ${data.total_files} 个文件`;
     metaRow.innerHTML = [
-      ['Data file', data.data_label || 'n/a'],
-      ['Source dir', data.source_dir || data.name],
-      ['Preview kind', data.kind],
+      ['数据文件', data.data_label || 'n/a'],
+      ['源目录', data.source_dir || data.name],
+      ['预览类型', data.kind],
     ].map(([k,v])=>`<div class="meta-pill"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');
     if (data.warnings && data.warnings.length) {
-      warningArea.innerHTML = `<div class="warning"><strong>Warning</strong><ul>${data.warnings.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></div>`;
+      warningArea.innerHTML = `<div class="warning"><strong>警告</strong><ul>${data.warnings.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></div>`;
     }
-    sampleGrid.innerHTML = (data.samples || []).map(renderSample).join('') || '<div class="warning">No samples were extracted.</div>';
+    sampleGrid.innerHTML = (data.samples || []).map(renderSample).join('') || '<div class="warning">未提取到样本。</div>';
   }).catch(err => {
-    warningArea.innerHTML = `<div class="warning"><strong>Warning</strong><div>Failed to load preview data: ${esc(err)}</div></div>`;
+    warningArea.innerHTML = `<div class="warning"><strong>警告</strong><div>加载预览数据失败：${esc(err)}</div></div>`;
   });
   </script>
 </body>
