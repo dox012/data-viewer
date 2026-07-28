@@ -3,77 +3,64 @@
   "slug": "editval",
   "kind": "json",
   "data_label": "object.json",
-  "warnings": [],
+  "warnings": [
+    "未找到结构化样本与图片的明确对应关系；这里展示目录中的代表性图片供检查。"
+  ],
   "samples": [
     {
-      "title": "Sample 1",
-      "subtitle": "Key",
+      "title": "test.png",
+      "subtitle": "代表性图片预览",
       "text_fields": [
         {
-          "label": "Key",
-          "value": "bench"
+          "label": "File",
+          "value": "Diffedit/ldm/modules/image_degradation/utils/test.png"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/editval/s0-test.jpg",
+          "alt": "test.png"
+        }
+      ]
     },
     {
-      "title": "Sample 2",
-      "subtitle": "Key",
+      "title": "tmp.jpg",
+      "subtitle": "代表性图片预览",
       "text_fields": [
         {
-          "label": "Key",
-          "value": "pizza"
+          "label": "File",
+          "value": "Diffedit/tmp.jpg"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/editval/s1-tmp.jpg",
+          "alt": "tmp.jpg"
+        }
+      ]
     },
     {
-      "title": "Sample 3",
-      "subtitle": "Key",
+      "title": "test.png",
+      "subtitle": "代表性图片预览",
       "text_fields": [
         {
-          "label": "Key",
-          "value": "cup"
+          "label": "File",
+          "value": "SINE/ldm/modules/image_degradation/utils/test.png"
         }
       ],
-      "images": []
-    },
-    {
-      "title": "Sample 4",
-      "subtitle": "Key",
-      "text_fields": [
+      "images": [
         {
-          "label": "Key",
-          "value": "dog"
+          "label": "image",
+          "src": "../../assets/editval/s2-test.jpg",
+          "alt": "test.png"
         }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 5",
-      "subtitle": "Key",
-      "text_fields": [
-        {
-          "label": "Key",
-          "value": "stop_sign"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 6",
-      "subtitle": "Key",
-      "text_fields": [
-        {
-          "label": "Key",
-          "value": "sink"
-        }
-      ],
-      "images": []
+      ]
     }
   ],
   "total_files": 278,
-  "sample_count": 6,
+  "sample_count": 3,
   "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/EditVal",
   "summary": "6 preview sample(s) extracted from object.json; warnings are shown on the page if anything could not be resolved."
 }

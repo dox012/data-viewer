@@ -4,23 +4,115 @@
   "kind": "unpreviewable",
   "data_label": "n/a",
   "warnings": [
-    "No previewable data file found."
+    "No previewable data file found.",
+    "未找到结构化样本与图片的明确对应关系；这里展示目录中的代表性图片供检查。"
   ],
   "samples": [
     {
-      "title": "README snippet",
-      "subtitle": "Fallback text",
+      "title": "A0001_00_00.bmp",
+      "subtitle": "代表性图片预览",
       "text_fields": [
         {
-          "label": "Excerpt",
-          "value": "---\nlicense: apache-2.0\n---\n"
+          "label": "File",
+          "value": "Distortion_1/A0001_00_00.bmp"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/pipal/s0-A0001_00_00.jpg",
+          "alt": "A0001_00_00.bmp"
+        }
+      ]
+    },
+    {
+      "title": "A0001_00_01.bmp",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Distortion_1/A0001_00_01.bmp"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/pipal/s1-A0001_00_01.jpg",
+          "alt": "A0001_00_01.bmp"
+        }
+      ]
+    },
+    {
+      "title": "A0001_00_02.bmp",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Distortion_1/A0001_00_02.bmp"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/pipal/s2-A0001_00_02.jpg",
+          "alt": "A0001_00_02.bmp"
+        }
+      ]
+    },
+    {
+      "title": "A0001_00_03.bmp",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Distortion_1/A0001_00_03.bmp"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/pipal/s3-A0001_00_03.jpg",
+          "alt": "A0001_00_03.bmp"
+        }
+      ]
+    },
+    {
+      "title": "A0001_00_04.bmp",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Distortion_1/A0001_00_04.bmp"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/pipal/s4-A0001_00_04.jpg",
+          "alt": "A0001_00_04.bmp"
+        }
+      ]
+    },
+    {
+      "title": "A0001_00_05.bmp",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Distortion_1/A0001_00_05.bmp"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/pipal/s5-A0001_00_05.jpg",
+          "alt": "A0001_00_05.bmp"
+        }
+      ]
     }
   ],
   "total_files": 23633,
-  "sample_count": 1,
+  "sample_count": 6,
   "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/PIPAL",
   "summary": "1 preview sample(s) extracted from n/a; warnings are shown on the page if anything could not be resolved."
 }

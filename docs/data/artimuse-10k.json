@@ -18,7 +18,13 @@
           "value": "4.08"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "Image",
+          "src": "../../assets/artimuse-10k/s0-Image-0_263.jpg",
+          "alt": "0_263.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -33,7 +39,13 @@
           "value": "4.3"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "Image",
+          "src": "../../assets/artimuse-10k/s1-Image-0_1150.jpg",
+          "alt": "0_1150.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -48,7 +60,13 @@
           "value": "5.18"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "Image",
+          "src": "../../assets/artimuse-10k/s2-Image-0_1031.jpg",
+          "alt": "0_1031.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -63,7 +81,13 @@
           "value": "4.55"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "Image",
+          "src": "../../assets/artimuse-10k/s3-Image-0_174.jpg",
+          "alt": "0_174.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -78,7 +102,13 @@
           "value": "7.31"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "Image",
+          "src": "../../assets/artimuse-10k/s4-Image-0_1137.jpg",
+          "alt": "0_1137.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -93,7 +123,13 @@
           "value": "5.71"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "Image",
+          "src": "../../assets/artimuse-10k/s5-Image-0_527.jpg",
+          "alt": "0_527.jpg"
+        }
+      ]
     }
   ],
   "total_files": 3042,

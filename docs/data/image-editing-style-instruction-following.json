@@ -26,7 +26,18 @@
           "value": "Echo the style of this photo to generate a cozy library corner with a wooden chair by a large window. A closed door suggests quiet study."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "File name",
+          "src": "../../assets/image-editing-style-instruction-following/s0-File_name-output1_140836.jpg",
+          "alt": "1/output1_140836.png"
+        },
+        {
+          "label": "Input style ref",
+          "src": "../../assets/image-editing-style-instruction-following/s0-Input_style_ref-input.jpg",
+          "alt": "1/input.png"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -49,7 +60,18 @@
           "value": "Take inspiration from the reference photo to craft Inside a dimly lit storm shelter, a lone hammer rests on a wooden workbench. Dust motes dance in the faint light filtering from a small vent."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "File name",
+          "src": "../../assets/image-editing-style-instruction-following/s1-File_name-output2_140844.jpg",
+          "alt": "1/output2_140844.png"
+        },
+        {
+          "label": "Input style ref",
+          "src": "../../assets/image-editing-style-instruction-following/s1-Input_style_ref-input.jpg",
+          "alt": "1/input.png"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -72,7 +94,18 @@
           "value": "Use the vibe of this image to generate A pelican flies over an amusement pier on a sunny day. The sun shines brightly on the calm ocean."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "File name",
+          "src": "../../assets/image-editing-style-instruction-following/s2-File_name-output3_140925.jpg",
+          "alt": "1/output3_140925.png"
+        },
+        {
+          "label": "Input style ref",
+          "src": "../../assets/image-editing-style-instruction-following/s2-Input_style_ref-input.jpg",
+          "alt": "1/input.png"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -95,7 +128,18 @@
           "value": "Employ the aesthetic of this picture to craft an artist sitting on a bench at a bus shelter, sketching in a small notebook on a sunny afternoon."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "File name",
+          "src": "../../assets/image-editing-style-instruction-following/s3-File_name-output1_072028.jpg",
+          "alt": "2/output1_072028.png"
+        },
+        {
+          "label": "Input style ref",
+          "src": "../../assets/image-editing-style-instruction-following/s3-Input_style_ref-input.jpg",
+          "alt": "2/input.png"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -118,7 +162,18 @@
           "value": "Take cues from this image’s aesthetic to depict a broken pier scene during a blizzard. A lone dolphin swims near the damaged structure."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "File name",
+          "src": "../../assets/image-editing-style-instruction-following/s4-File_name-output2_072028.jpg",
+          "alt": "2/output2_072028.png"
+        },
+        {
+          "label": "Input style ref",
+          "src": "../../assets/image-editing-style-instruction-following/s4-Input_style_ref-input.jpg",
+          "alt": "2/input.png"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -141,7 +196,18 @@
           "value": "Use the style of this image to generate A lone glass sits on a weathered wooden bench at a ferry dock. Nearby, a datepalm sways gently in the sea breeze."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "File name",
+          "src": "../../assets/image-editing-style-instruction-following/s5-File_name-output3_072028.jpg",
+          "alt": "2/output3_072028.png"
+        },
+        {
+          "label": "Input style ref",
+          "src": "../../assets/image-editing-style-instruction-following/s5-Input_style_ref-input.jpg",
+          "alt": "2/input.png"
+        }
+      ]
     }
   ],
   "total_files": 297,

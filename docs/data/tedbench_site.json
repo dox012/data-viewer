@@ -3,7 +3,9 @@
   "slug": "tedbench_site",
   "kind": "json",
   "data_label": "input_list.json",
-  "warnings": [],
+  "warnings": [
+    "部分图片字段未匹配到本地图片：dog2_standing.png-A_photo_of_a_sitting_dog., dog2_standing.png-A_photo_of_a_jumping_dog., dog2_standing.png-A_photo_of_a_breakdancing_dog., dog2_standing.png-A_photo_of_a_dog_laying_down., dog2_standing.png-A_photo_of_a_yawning_dog., tennis_ball.jpeg-A_photo_of_a_tomato_in_a_blue_tennis_court."
+  ],
   "samples": [
     {
       "title": "Sample 1",
@@ -18,7 +20,13 @@
           "value": "A photo of a sitting dog."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "source",
+          "src": "../../assets/tedbench_site/s0-source-dog2_standing.jpg",
+          "alt": "dog2_standing.png"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -33,7 +41,13 @@
           "value": "A photo of a jumping dog."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "source",
+          "src": "../../assets/tedbench_site/s1-source-dog2_standing.jpg",
+          "alt": "dog2_standing.png"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -48,7 +62,13 @@
           "value": "A photo of a breakdancing dog."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "source",
+          "src": "../../assets/tedbench_site/s2-source-dog2_standing.jpg",
+          "alt": "dog2_standing.png"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -63,7 +83,13 @@
           "value": "A photo of a dog laying down."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "source",
+          "src": "../../assets/tedbench_site/s3-source-dog2_standing.jpg",
+          "alt": "dog2_standing.png"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -78,7 +104,13 @@
           "value": "A photo of a yawning dog."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "source",
+          "src": "../../assets/tedbench_site/s4-source-dog2_standing.jpg",
+          "alt": "dog2_standing.png"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -93,7 +125,13 @@
           "value": "A photo of a tomato in a blue tennis court."
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "source",
+          "src": "../../assets/tedbench_site/s5-source-tennis_ball.jpg",
+          "alt": "tennis_ball.jpeg"
+        }
+      ]
     }
   ],
   "total_files": 199,

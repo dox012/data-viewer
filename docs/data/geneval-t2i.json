@@ -3,101 +3,30 @@
   "slug": "geneval-t2i",
   "kind": "jsonl",
   "data_label": "evaluation_metadata.jsonl",
-  "warnings": [],
+  "warnings": [
+    "未找到结构化样本与图片的明确对应关系；这里展示目录中的代表性图片供检查。"
+  ],
   "samples": [
     {
-      "title": "Sample 1",
-      "subtitle": "Tag, Prompt",
+      "title": "geneval_figure_1.png",
+      "subtitle": "代表性图片预览",
       "text_fields": [
         {
-          "label": "Tag",
-          "value": "single_object"
-        },
-        {
-          "label": "Prompt",
-          "value": "a photo of a bench"
+          "label": "File",
+          "value": "images/geneval_figure_1.png"
         }
       ],
-      "images": []
-    },
-    {
-      "title": "Sample 2",
-      "subtitle": "Tag, Prompt",
-      "text_fields": [
+      "images": [
         {
-          "label": "Tag",
-          "value": "single_object"
-        },
-        {
-          "label": "Prompt",
-          "value": "a photo of a cow"
+          "label": "image",
+          "src": "../../assets/geneval-t2i/s0-geneval_figure_1.jpg",
+          "alt": "geneval_figure_1.png"
         }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 3",
-      "subtitle": "Tag, Prompt",
-      "text_fields": [
-        {
-          "label": "Tag",
-          "value": "single_object"
-        },
-        {
-          "label": "Prompt",
-          "value": "a photo of a bicycle"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 4",
-      "subtitle": "Tag, Prompt",
-      "text_fields": [
-        {
-          "label": "Tag",
-          "value": "single_object"
-        },
-        {
-          "label": "Prompt",
-          "value": "a photo of a clock"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 5",
-      "subtitle": "Tag, Prompt",
-      "text_fields": [
-        {
-          "label": "Tag",
-          "value": "single_object"
-        },
-        {
-          "label": "Prompt",
-          "value": "a photo of a carrot"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 6",
-      "subtitle": "Tag, Prompt",
-      "text_fields": [
-        {
-          "label": "Tag",
-          "value": "single_object"
-        },
-        {
-          "label": "Prompt",
-          "value": "a photo of a suitcase"
-        }
-      ],
-      "images": []
+      ]
     }
   ],
   "total_files": 45,
-  "sample_count": 6,
+  "sample_count": 1,
   "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/GenEval-t2i",
   "summary": "6 preview sample(s) extracted from evaluation_metadata.jsonl; warnings are shown on the page if anything could not be resolved."
 }

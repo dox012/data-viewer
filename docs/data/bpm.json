@@ -4,23 +4,115 @@
   "kind": "unpreviewable",
   "data_label": "n/a",
   "warnings": [
-    "No previewable data file found."
+    "No previewable data file found.",
+    "未找到结构化样本与图片的明确对应关系；这里展示目录中的代表性图片供检查。"
   ],
   "samples": [
     {
-      "title": "README snippet",
-      "subtitle": "Fallback text",
+      "title": "example_light_hqsam.png",
+      "subtitle": "代表性图片预览",
       "text_fields": [
         {
-          "label": "Excerpt",
-          "value": "# Balancing Preservation and Modification: A Region and Semantic-Aware Metric for Instruction-Based Image Editing\nThis is the official implementation of the paper: \"[Balancing Preservation and Modification: A Region and Semantic-Aware Metric for Instruction-Based Image Editing](https://arxiv.org/abs/2506.13827)\" (Accepted to ICML 2025)\n\n## Installation\n```\nconda create -n bpm python=3.8\npip install -r requirements.txt\n```\nThen please follow [Grounded_Segment_Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main?tab=readme-ov-file#running_man-grounded-sam-detect-and-segment-everything-with-text-prompt) to download pretrained weights\n\n## Download metrics evaluation dataset with human annotations\nPlease download the dataset from [Google Drive](https://drive.google.com/drive/folders/12Z4vX8pAGMbq7TtSTuGRCnHmvfb359XL?usp=drive_link), the `data` should be as follows:\n```\ndata\n├── sample_test (human align test images)\n├── gt_test_images (ground truth test images)\n├── local_metadata.json\n├── global_metadata.json\n├── gt_test_metadata.json\n```\n\n## Run BPM\n```shell\n# step 1: run LLM\npython gemma.py\n\n# step 2: run BPM\nexport CUDA_VISIBLE_DEVICES=0\nHF_ENDPOINT=https://h"
+          "label": "File",
+          "value": "EfficientSAM/LightHQSAM/example_light_hqsam.png"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/bpm/s0-example_light_hqsam.jpg",
+          "alt": "example_light_hqsam.png"
+        }
+      ]
+    },
+    {
+      "title": "gsam_whisper_inpainting_demo.png",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "assets/acoustics/gsam_whisper_inpainting_demo.png"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/bpm/s1-gsam_whisper_inpainting_demo.jpg",
+          "alt": "gsam_whisper_inpainting_demo.png"
+        }
+      ]
+    },
+    {
+      "title": "demo1.jpg",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "assets/automatic_label_output/demo1.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/bpm/s2-demo1.jpg",
+          "alt": "demo1.jpg"
+        }
+      ]
+    },
+    {
+      "title": "demo2.jpg",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "assets/automatic_label_output/demo2.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/bpm/s3-demo2.jpg",
+          "alt": "demo2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "demo4.jpg",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "assets/automatic_label_output/demo4.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/bpm/s4-demo4.jpg",
+          "alt": "demo4.jpg"
+        }
+      ]
+    },
+    {
+      "title": "demo8.jpg",
+      "subtitle": "代表性图片预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "assets/automatic_label_output/demo8.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/bpm/s5-demo8.jpg",
+          "alt": "demo8.jpg"
+        }
+      ]
     }
   ],
   "total_files": 258,
-  "sample_count": 1,
+  "sample_count": 6,
   "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/BPM",
   "summary": "1 preview sample(s) extracted from n/a; warnings are shown on the page if anything could not be resolved."
 }
