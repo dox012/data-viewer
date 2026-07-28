@@ -22,7 +22,13 @@
           "value": "3.925619834"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image_name",
+          "src": "../../assets/koniq-10k/s0-826373.jpg",
+          "alt": "826373.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -41,7 +47,13 @@
           "value": "3.333333333"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image_name",
+          "src": "../../assets/koniq-10k/s1-2017266.jpg",
+          "alt": "2017266.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -60,7 +72,13 @@
           "value": "3.183333333"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image_name",
+          "src": "../../assets/koniq-10k/s2-2190310.jpg",
+          "alt": "2190310.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -79,7 +97,13 @@
           "value": "2.791666666"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image_name",
+          "src": "../../assets/koniq-10k/s3-2704811.jpg",
+          "alt": "2704811.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -98,7 +122,13 @@
           "value": "2.633333333"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image_name",
+          "src": "../../assets/koniq-10k/s4-3039024.jpg",
+          "alt": "3039024.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -117,7 +147,13 @@
           "value": "1.933333333"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image_name",
+          "src": "../../assets/koniq-10k/s5-3615562.jpg",
+          "alt": "3615562.jpg"
+        }
+      ]
     }
   ],
   "total_files": 10378,
