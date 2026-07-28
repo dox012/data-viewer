@@ -182,6 +182,5 @@
   ],
   "total_files": 23782,
   "sample_count": 6,
-  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/DOCCI",
   "summary": "6 条预览样本来自 docci_descriptions.jsonlines，并匹配 images/ 下的图片。"
 }

@@ -61,6 +61,5 @@
   ],
   "total_files": 60,
   "sample_count": 3,
-  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/TIFA",
   "summary": "6 preview sample(s) extracted from human_annotations.json; warnings are shown on the page if anything could not be resolved."
 }

@@ -218,6 +218,5 @@
   ],
   "total_files": 176,
   "sample_count": 6,
-  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/MagicBrush",
   "summary": "6 preview sample(s) extracted from dev-00000-of-00004-f147d414270a90e1.parquet; warnings are shown on the page if anything could not be resolved."
 }
