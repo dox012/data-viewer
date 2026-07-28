@@ -26,7 +26,18 @@
           "value": "0.496"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "dist_img",
+          "src": "../../assets/kadid-10k/s0-dist_img-I01_01_01.jpg",
+          "alt": "I01_01_01.png"
+        },
+        {
+          "label": "ref_img",
+          "src": "../../assets/kadid-10k/s0-ref_img-I01.jpg",
+          "alt": "I01.png"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -49,7 +60,18 @@
           "value": "0.869"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "dist_img",
+          "src": "../../assets/kadid-10k/s1-dist_img-I01_01_02.jpg",
+          "alt": "I01_01_02.png"
+        },
+        {
+          "label": "ref_img",
+          "src": "../../assets/kadid-10k/s1-ref_img-I01.jpg",
+          "alt": "I01.png"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -72,7 +94,18 @@
           "value": "0.789"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "dist_img",
+          "src": "../../assets/kadid-10k/s2-dist_img-I01_01_03.jpg",
+          "alt": "I01_01_03.png"
+        },
+        {
+          "label": "ref_img",
+          "src": "../../assets/kadid-10k/s2-ref_img-I01.jpg",
+          "alt": "I01.png"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -95,7 +128,18 @@
           "value": "0.596"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "dist_img",
+          "src": "../../assets/kadid-10k/s3-dist_img-I01_01_04.jpg",
+          "alt": "I01_01_04.png"
+        },
+        {
+          "label": "ref_img",
+          "src": "../../assets/kadid-10k/s3-ref_img-I01.jpg",
+          "alt": "I01.png"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -118,7 +162,18 @@
           "value": "0.3"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "dist_img",
+          "src": "../../assets/kadid-10k/s4-dist_img-I01_01_05.jpg",
+          "alt": "I01_01_05.png"
+        },
+        {
+          "label": "ref_img",
+          "src": "../../assets/kadid-10k/s4-ref_img-I01.jpg",
+          "alt": "I01.png"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -141,7 +196,18 @@
           "value": "0.86"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "dist_img",
+          "src": "../../assets/kadid-10k/s5-dist_img-I01_02_01.jpg",
+          "alt": "I01_02_01.png"
+        },
+        {
+          "label": "ref_img",
+          "src": "../../assets/kadid-10k/s5-ref_img-I01.jpg",
+          "alt": "I01.png"
+        }
+      ]
     }
   ],
   "total_files": 10351,
