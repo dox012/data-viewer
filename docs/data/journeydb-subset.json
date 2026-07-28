@@ -1,0 +1,15 @@
+{
+  "name": "JourneyDB-subset",
+  "slug": "journeydb-subset",
+  "kind": "unpreviewable",
+  "data_label": "n/a",
+  "warnings": [
+    "No previewable data file found.",
+    "No samples could be extracted."
+  ],
+  "samples": [],
+  "total_files": 0,
+  "sample_count": 0,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/JourneyDB-subset",
+  "summary": "0 preview sample(s) extracted from n/a; warnings are shown on the page if anything could not be resolved."
+}

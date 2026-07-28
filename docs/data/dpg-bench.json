@@ -1,0 +1,103 @@
+{
+  "name": "DPG-Bench",
+  "slug": "dpg-bench",
+  "kind": "parquet",
+  "data_label": "test-00000-of-00001.parquet",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "partiprompts97",
+      "subtitle": "Item id, Prompt",
+      "text_fields": [
+        {
+          "label": "Item id",
+          "value": "partiprompts97"
+        },
+        {
+          "label": "Prompt",
+          "value": "An empty space where an invisible man would be, with a pair of horn-rimmed glasses seemingly floating in mid-air, and a pearl bead necklace draped in the space below them. In the space where his hands would be, a smartphone is held, as if being operated by the unseen figure. Around this curious scene, the room appears ordinary, with a couch and a coffee table nearby, upon which rests a scattering of magazines and a remote control."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "partiprompts301",
+      "subtitle": "Item id, Prompt",
+      "text_fields": [
+        {
+          "label": "Item id",
+          "value": "partiprompts301"
+        },
+        {
+          "label": "Prompt",
+          "value": "a potted plant with delicate small flowers featuring vibrant purple petals sits on a wooden windowsill. the plant's green leaves are lush and interspersed among the flowers, creating a contrast against the light-colored wall behind it. sunlight filters through the window, casting a soft glow on the plant's foliage and petals."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "partiprompts306",
+      "subtitle": "Item id, Prompt",
+      "text_fields": [
+        {
+          "label": "Item id",
+          "value": "partiprompts306"
+        },
+        {
+          "label": "Prompt",
+          "value": "A lush green ivy plant with broad leaves, creeping up the side of a weathered red brick wall. The wall has a rough texture, and the plant's tendrils are firmly attached, showcasing the contrast between the organic growth and the man-made structure. Small patches of moss can also be seen interspersed between the bricks, adding to the visual diversity of the scene."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "partiprompts161",
+      "subtitle": "Item id, Prompt",
+      "text_fields": [
+        {
+          "label": "Item id",
+          "value": "partiprompts161"
+        },
+        {
+          "label": "Prompt",
+          "value": "a detailed oil painting that captures the essence of an elderly raccoon adorned with a distinguished black top hat. The raccoon's fur is depicted with textured, swirling strokes reminiscent of Van Gogh's signature style, and it clutches a bright red apple in its paws. The background swirls with vibrant colors, giving the impression of movement around the still figure of the raccoon."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "partiprompts231",
+      "subtitle": "Item id, Prompt",
+      "text_fields": [
+        {
+          "label": "Item id",
+          "value": "partiprompts231"
+        },
+        {
+          "label": "Prompt",
+          "value": "a precarious stack of three pickup trucks with the bottom one painted red, the middle one a faded blue, and the top one a dusty white. Each truck is dented and scratched, suggesting they've been through rough conditions. The trucks are set against a backdrop of a clear sky, and they cast long shadows on the gravel lot where they are stacked."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "partiprompts63",
+      "subtitle": "Item id, Prompt",
+      "text_fields": [
+        {
+          "label": "Item id",
+          "value": "partiprompts63"
+        },
+        {
+          "label": "Prompt",
+          "value": "A playful collection of 2x2 emoji icons, each resembling a vibrant macaron with a distinct facial expression. The top left macaron is a sunny yellow with a beaming smile, while the top right is a fiery red with furrowed brows and an angry scowl. Below them, the bottom left is a bright blue with wide, surprised eyes, and the bottom right is a soft lavender with a tearful, sobbing face. Each of the macaron emojis is whimsically topped with a miniature brown cowboy hat, adding a touch of whimsy to their appearance."
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 12,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/DPG-Bench",
+  "summary": "6 preview sample(s) extracted from test-00000-of-00001.parquet; warnings are shown on the page if anything could not be resolved."
+}

@@ -1,0 +1,217 @@
+{
+  "name": "HQ-Edit",
+  "slug": "hq-edit",
+  "kind": "parquet",
+  "data_label": "HQ-Edit_0.parquet",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Input, Edit, Inverse edit",
+      "text_fields": [
+        {
+          "label": "Input",
+          "value": "A bustling traditional market scene with vendors and shoppers, vibrant textiles, and hanging lanterns under a sunlit arcade."
+        },
+        {
+          "label": "Edit",
+          "value": "Add futuristic elements such as holographic displays and floating platforms while maintaining the market's traditional structure."
+        },
+        {
+          "label": "Inverse edit",
+          "value": "Remove futuristic elements and restore traditional market elements like textiles and static lanterns."
+        },
+        {
+          "label": "Output",
+          "value": "A market that blends tradition with futuristic technology, featuring holographic displays, floating platforms, and shoppers interacting with advanced systems amidst a traditional architectural setting."
+        }
+      ],
+      "images": [
+        {
+          "label": "Input image",
+          "src": "../../assets/hq-edit/s0-input_image.jpg",
+          "alt": "input_image"
+        },
+        {
+          "label": "Output image",
+          "src": "../../assets/hq-edit/s0-output_image.jpg",
+          "alt": "output_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Input, Edit, Inverse edit",
+      "text_fields": [
+        {
+          "label": "Input",
+          "value": "A workbench with various tools including a red and black circular saw, a yellow measuring tape, a utility knife, a handsaw, a chisel, a wooden mallet, a coping saw, a try square, and some wooden planks with sawdust scattered around."
+        },
+        {
+          "label": "Edit",
+          "value": "replace the wooden mallet with a metal hammer, add a red pencil, remove the chisel, coping saw, and try square, and place a metal mug next to the circular saw."
+        },
+        {
+          "label": "Inverse edit",
+          "value": "replace the metal hammer with a wooden mallet, remove the red pencil, add back the chisel, coping saw, and try square, and remove the metal mug."
+        },
+        {
+          "label": "Output",
+          "value": "A workbench with various tools including a red and black circular saw, a yellow measuring tape, a utility knife, a handsaw, a metal hammer, a red pencil, and some wooden planks with sawdust scattered around, and a metal mug next to the circular saw."
+        }
+      ],
+      "images": [
+        {
+          "label": "Input image",
+          "src": "../../assets/hq-edit/s1-input_image.jpg",
+          "alt": "input_image"
+        },
+        {
+          "label": "Output image",
+          "src": "../../assets/hq-edit/s1-output_image.jpg",
+          "alt": "output_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Input, Edit, Inverse edit",
+      "text_fields": [
+        {
+          "label": "Input",
+          "value": "A rusty hammer with a worn wooden handle lies on a dirty barn floor covered in hay, dirt, and debris. The barn has wooden walls with gaps allowing beams of light to enter, and cobwebs are visible in the upper corner."
+        },
+        {
+          "label": "Edit",
+          "value": "Remove the rust from the hammer, polish the metal to a shine, and replace the worn handle with a new wooden one. Clean the barn floor, removing all dirt and debris, and lay down fresh, clean hay."
+        },
+        {
+          "label": "Inverse edit",
+          "value": "Reapply rust to the hammer, scuff the metal, and replace the new handle with an old, worn one. Scatter dirt, debris, and old hay on the barn floor, making it look dirty and used again."
+        },
+        {
+          "label": "Output",
+          "value": "A shiny, restored hammer with a new wooden handle rests on a clean barn floor covered in fresh, clean hay. The barn's wooden walls still have gaps with beams of light shining through, and cobwebs remain in the upper corner."
+        }
+      ],
+      "images": [
+        {
+          "label": "Input image",
+          "src": "../../assets/hq-edit/s2-input_image.jpg",
+          "alt": "input_image"
+        },
+        {
+          "label": "Output image",
+          "src": "../../assets/hq-edit/s2-output_image.jpg",
+          "alt": "output_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Input, Edit, Inverse edit",
+      "text_fields": [
+        {
+          "label": "Input",
+          "value": "A person is performing a trick on a skateboard at a skatepark with various ramps and graffiti-covered walls."
+        },
+        {
+          "label": "Edit",
+          "value": "Replace the skateboard with a BMX bike and add multiple BMX riders performing tricks in the background."
+        },
+        {
+          "label": "Inverse edit",
+          "value": "Replace the BMX bike with a skateboard and remove the additional BMX riders in the background."
+        },
+        {
+          "label": "Output",
+          "value": "A person is performing a trick on a BMX bike at a skatepark with various ramps and graffiti-covered walls, with multiple BMX riders performing tricks in the background."
+        }
+      ],
+      "images": [
+        {
+          "label": "Input image",
+          "src": "../../assets/hq-edit/s3-input_image.jpg",
+          "alt": "input_image"
+        },
+        {
+          "label": "Output image",
+          "src": "../../assets/hq-edit/s3-output_image.jpg",
+          "alt": "output_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Input, Edit, Inverse edit",
+      "text_fields": [
+        {
+          "label": "Input",
+          "value": "A black Labrador puppy with bright eyes and a shiny coat is lying on the grass, holding a black and white soccer ball with its front paws. The puppy is looking directly at the camera with a playful expression. In the background, there is a wooden fence and a garden with blooming sunflowers and various colorful flowers."
+        },
+        {
+          "label": "Edit",
+          "value": "Replace the soccer ball with a giant sunflower that the puppy is holding in the same manner as the soccer ball."
+        },
+        {
+          "label": "Inverse edit",
+          "value": "Replace the giant sunflower with the original soccer ball, ensuring the puppy holds it in the same way as before."
+        },
+        {
+          "label": "Output",
+          "value": "A black Labrador puppy with bright eyes and a shiny coat is lying on the grass, holding a giant sunflower with its front paws. The puppy is looking directly at the camera with a playful expression and its tongue sticking out slightly. In the background, there is a wooden fence and a garden with blooming sunflowers and various colorful flowers."
+        }
+      ],
+      "images": [
+        {
+          "label": "Input image",
+          "src": "../../assets/hq-edit/s4-input_image.jpg",
+          "alt": "input_image"
+        },
+        {
+          "label": "Output image",
+          "src": "../../assets/hq-edit/s4-output_image.jpg",
+          "alt": "output_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Input, Edit, Inverse edit",
+      "text_fields": [
+        {
+          "label": "Input",
+          "value": "a silver teapot with a reflection of a bright kitchen window is placed on a wooden table."
+        },
+        {
+          "label": "Edit",
+          "value": "change the reflection on the teapot to show a clear blue sky with clouds instead of the bright kitchen window"
+        },
+        {
+          "label": "Inverse edit",
+          "value": "change the reflection on the teapot back to show the bright kitchen window instead of the clear blue sky with clouds"
+        },
+        {
+          "label": "Output",
+          "value": "a silver teapot with a reflection of a clear blue sky with clouds is placed on a wooden table."
+        }
+      ],
+      "images": [
+        {
+          "label": "Input image",
+          "src": "../../assets/hq-edit/s5-input_image.jpg",
+          "alt": "input_image"
+        },
+        {
+          "label": "Output image",
+          "src": "../../assets/hq-edit/s5-output_image.jpg",
+          "alt": "output_image"
+        }
+      ]
+    }
+  ],
+  "total_files": 1835,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/HQ-Edit",
+  "summary": "6 preview sample(s) extracted from HQ-Edit_0.parquet; warnings are shown on the page if anything could not be resolved."
+}

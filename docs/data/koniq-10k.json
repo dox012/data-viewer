@@ -1,0 +1,127 @@
+{
+  "name": "KonIQ-10k",
+  "slug": "koniq-10k",
+  "kind": "csv/tsv",
+  "data_label": "koniq10k_scores.csv",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Image name, M O S zscore, M O S",
+      "text_fields": [
+        {
+          "label": "Image name",
+          "value": "826373.jpg"
+        },
+        {
+          "label": "M O S zscore",
+          "value": "77.7457983193277"
+        },
+        {
+          "label": "M O S",
+          "value": "3.925619834"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Image name, M O S zscore, M O S",
+      "text_fields": [
+        {
+          "label": "Image name",
+          "value": "2017266.jpg"
+        },
+        {
+          "label": "M O S zscore",
+          "value": "62.5953389830508"
+        },
+        {
+          "label": "M O S",
+          "value": "3.333333333"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Image name, M O S zscore, M O S",
+      "text_fields": [
+        {
+          "label": "Image name",
+          "value": "2190310.jpg"
+        },
+        {
+          "label": "M O S zscore",
+          "value": "58.3269230769231"
+        },
+        {
+          "label": "M O S",
+          "value": "3.183333333"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Image name, M O S zscore, M O S",
+      "text_fields": [
+        {
+          "label": "Image name",
+          "value": "2704811.jpg"
+        },
+        {
+          "label": "M O S zscore",
+          "value": "47.3974358974359"
+        },
+        {
+          "label": "M O S",
+          "value": "2.791666666"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Image name, M O S zscore, M O S",
+      "text_fields": [
+        {
+          "label": "Image name",
+          "value": "3039024.jpg"
+        },
+        {
+          "label": "M O S zscore",
+          "value": "43.4487179487179"
+        },
+        {
+          "label": "M O S",
+          "value": "2.633333333"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Image name, M O S zscore, M O S",
+      "text_fields": [
+        {
+          "label": "Image name",
+          "value": "3615562.jpg"
+        },
+        {
+          "label": "M O S zscore",
+          "value": "24.3516949152542"
+        },
+        {
+          "label": "M O S",
+          "value": "1.933333333"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 10378,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/KonIQ-10k",
+  "summary": "6 preview sample(s) extracted from koniq10k_scores.csv; warnings are shown on the page if anything could not be resolved."
+}

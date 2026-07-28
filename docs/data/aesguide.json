@@ -1,0 +1,139 @@
+{
+  "name": "AesGuide",
+  "slug": "aesguide",
+  "kind": "json mapping + images",
+  "data_label": "Benchmark_AesGuide/json/Benchmark_AesGuide.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "5735.png",
+      "subtitle": "Caption entry",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "5735.png"
+        },
+        {
+          "label": "Description",
+          "value": "The composition of the tall building is visually enhanced by the partitioning effect created by the window frame, contributing to a balanced sense of symmetry within the image. A notable contrast is achieved by the interplay of light and shadow, particularly evident in the stark differentiation between the brightness outside and the shadowed interior of the room. It is noted that the central highlights appear somewhat abrupt, suggesting a possible opportunity to refine the overall lighting equilibrium by moderating the exposure levels for a more harmonious aesthetic outcome."
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aesguide/aesguide-0.png",
+          "alt": "5735.png"
+        }
+      ]
+    },
+    {
+      "title": "5736.png",
+      "subtitle": "Caption entry",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "5736.png"
+        },
+        {
+          "label": "Description",
+          "value": "The image features intricate details emblematic of traditional architecture, enhanced by the lively depiction of figures which imbue the scene with a sense of warmth. Aesthetic refinement may be achieved through repositioning the main subject to create a more balanced composition, thereby elevating the overall visual impact."
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aesguide/aesguide-1.png",
+          "alt": "5736.png"
+        }
+      ]
+    },
+    {
+      "title": "5737.png",
+      "subtitle": "Caption entry",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "5737.png"
+        },
+        {
+          "label": "Description",
+          "value": "The image excels in capturing the dynamic essence of children in a vivid and natural manner. The interplay between the colors and architectural textures in the background infuses life into the composition. A suggestion for further enhancement is to consider realigning the composition to mitigate the perception of emptiness on the left side, thereby allowing the main subject to assume a more dominant presence within the frame."
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aesguide/aesguide-2.png",
+          "alt": "5737.png"
+        }
+      ]
+    },
+    {
+      "title": "5738.png",
+      "subtitle": "Caption entry",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "5738.png"
+        },
+        {
+          "label": "Description",
+          "value": "The composition displays a precise and elegant portrayal of reflections, where the silhouettes of pedestrians harmoniously resonate with the mirrored imagery on the ground, resulting in a sophisticated and understated artistic composition. It is noted that the overall luminosity of the image is perceived as slightly subdued; a nuanced adjustment to the brightness level could potentially enhance the delineation of the primary subject within the frame."
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aesguide/aesguide-3.png",
+          "alt": "5738.png"
+        }
+      ]
+    },
+    {
+      "title": "5739.png",
+      "subtitle": "Caption entry",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "5739.png"
+        },
+        {
+          "label": "Description",
+          "value": "The utilization of black and white tones in the image accentuates the solidity of the buildings and streets, thereby heightening the contrast that emphasizes the sternness of the modern urban landscape. It is noted that the details present in the sky may benefit from additional layers of clouds, as this could contribute to a more enriched visual composition."
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aesguide/aesguide-4.png",
+          "alt": "5739.png"
+        }
+      ]
+    },
+    {
+      "title": "5740.png",
+      "subtitle": "Caption entry",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "5740.png"
+        },
+        {
+          "label": "Description",
+          "value": "The image effectively conveys natural emotions and interactions through the candid depiction of the black and white toned figures. The contrast between the main subject and the background is skillfully managed, enhancing the depth of the composition. However, there appears to be a slight overcrowding in the space occupied by the figure on the left and the main subject. An adjustment in composition could potentially create a more visually balanced and harmonious atmosphere within the image."
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aesguide/aesguide-5.png",
+          "alt": "5740.png"
+        }
+      ]
+    }
+  ],
+  "total_files": 57634,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/AesGuide",
+  "summary": "6 preview sample(s) extracted from Benchmark_AesGuide/json/Benchmark_AesGuide.json; warnings are shown on the page if anything could not be resolved."
+}

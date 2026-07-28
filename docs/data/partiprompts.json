@@ -1,0 +1,151 @@
+{
+  "name": "PartiPrompts",
+  "slug": "partiprompts",
+  "kind": "csv/tsv",
+  "data_label": "PartiPrompts.tsv",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Prompt, Category, Challenge",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "bond"
+        },
+        {
+          "label": "Category",
+          "value": "Abstract"
+        },
+        {
+          "label": "Challenge",
+          "value": "Basic"
+        },
+        {
+          "label": "Note",
+          "value": "Biology-inspired concepts with multiple meanings"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Prompt, Category, Challenge",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "element"
+        },
+        {
+          "label": "Category",
+          "value": "Abstract"
+        },
+        {
+          "label": "Challenge",
+          "value": "Basic"
+        },
+        {
+          "label": "Note",
+          "value": "Biology-inspired concepts with multiple meanings"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Prompt, Category, Challenge",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "molecule"
+        },
+        {
+          "label": "Category",
+          "value": "Abstract"
+        },
+        {
+          "label": "Challenge",
+          "value": "Basic"
+        },
+        {
+          "label": "Note",
+          "value": "Biology-inspired concepts with multiple meanings"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Prompt, Category, Challenge",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "life"
+        },
+        {
+          "label": "Category",
+          "value": "Abstract"
+        },
+        {
+          "label": "Challenge",
+          "value": "Basic"
+        },
+        {
+          "label": "Note",
+          "value": "Biology-inspired concepts with multiple meanings"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Prompt, Category, Challenge",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "protein"
+        },
+        {
+          "label": "Category",
+          "value": "Abstract"
+        },
+        {
+          "label": "Challenge",
+          "value": "Basic"
+        },
+        {
+          "label": "Note",
+          "value": "Biology-inspired concepts with multiple meanings"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Prompt, Category, Challenge",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "yin-yang"
+        },
+        {
+          "label": "Category",
+          "value": "Abstract"
+        },
+        {
+          "label": "Challenge",
+          "value": "Basic"
+        },
+        {
+          "label": "Note",
+          "value": "Related to five elements"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 12,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/PartiPrompts",
+  "summary": "6 preview sample(s) extracted from PartiPrompts.tsv; warnings are shown on the page if anything could not be resolved."
+}

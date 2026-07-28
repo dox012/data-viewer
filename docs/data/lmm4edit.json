@@ -1,0 +1,26 @@
+{
+  "name": "LMM4Edit",
+  "slug": "lmm4edit",
+  "kind": "json",
+  "data_label": "test_c.json",
+  "warnings": [
+    "Failed to parse JSON: Extra data: line 2 column 1 (char 565)"
+  ],
+  "samples": [
+    {
+      "title": "README snippet",
+      "subtitle": "Fallback text",
+      "text_fields": [
+        {
+          "label": "Excerpt",
+          "value": "# LMM4Edit\n[ACM MM 2025] [LMM4Edit: Benchmarking and Evaluating Multimodal Image Editing with LMMs](https://www.arxiv.org/abs/2507.16193)\n\n## 🔥 Updates\n- [2026-04] Upgraded the backbone model from Qwen2.5-VL-8B to Qwen3-VL-8B using the same training method.\nYou can download the pre-trained LoRA checkpoints from the following link:\n[LMM4Edit(Qwen3-VL)](https://huggingface.co/sparkling621/LMM4Edit_Qwen3/tree/main)\n\n## 📦 Installation\n```bash\npip install -r requirements.txt\n```\n\n## ⚡Quick Start\n```bash\npython inference.py \\\n    --source_image \"/path/to/source.jpg\" \\\n    --edited_image \"/path/to/edited.jpg\" \\\n    --instruction \"Editing instruction\" \\\n    --peft_dir \"weights/visual\" \\\n    --mode visual\n```\n\n## 🚀 Training\n```bash\nunzip ms-swift.zip\ncd ./ms-swift-3.2.0\npip install -e .\npip install torchvision qwen_vl_utils decord\nunzip transformers.zip\ncd ./transformers\npip install -e .\n```\n\n```bash\nCUDA_VISIBLE_DEVICES=0 swift sft \\\n  --model_type qwen2_5_vl \\\n  --model ./weights/qwen2_5 \\\n  --dataset ./data/train_v.json \\\n  --val_dataset ./data/test_v.json \\\n  --max_length 4096 \\\n  --num_train_epochs 2 \\\n  --save_steps 16 \\\n  --eval_steps 16 \\\n  --per_device_train_batch_size 1 \\\n  --per_"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 43,
+  "sample_count": 1,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/LMM4Edit",
+  "summary": "1 preview sample(s) extracted from test_c.json; warnings are shown on the page if anything could not be resolved."
+}

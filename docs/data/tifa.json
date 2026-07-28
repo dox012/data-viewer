@@ -1,0 +1,79 @@
+{
+  "name": "TIFA",
+  "slug": "tifa",
+  "kind": "json",
+  "data_label": "human_annotations.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "coco_669925_mini_dalle"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "coco_669925_stable_diffusion_v1_1"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "coco_669925_stable_diffusion_v1_5"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "coco_669925_stable_diffusion_v2_1"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "coco_669925_vq_diffusion"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "coco_325049_mini_dalle"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 60,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/TIFA",
+  "summary": "6 preview sample(s) extracted from human_annotations.json; warnings are shown on the page if anything could not be resolved."
+}

@@ -1,0 +1,127 @@
+{
+  "name": "T2I-CompBench",
+  "slug": "t2i-compbench",
+  "kind": "parquet",
+  "data_label": "test-00000-of-00001.parquet",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Prompt, Category, Sub split",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "a green bench and a blue bowl"
+        },
+        {
+          "label": "Category",
+          "value": "color"
+        },
+        {
+          "label": "Sub split",
+          "value": "seen"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Prompt, Category, Sub split",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "a blue bench and a green bowl"
+        },
+        {
+          "label": "Category",
+          "value": "color"
+        },
+        {
+          "label": "Sub split",
+          "value": "seen"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Prompt, Category, Sub split",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "a green bench and a blue cake"
+        },
+        {
+          "label": "Category",
+          "value": "color"
+        },
+        {
+          "label": "Sub split",
+          "value": "seen"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Prompt, Category, Sub split",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "a blue bench and a green cake"
+        },
+        {
+          "label": "Category",
+          "value": "color"
+        },
+        {
+          "label": "Sub split",
+          "value": "seen"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Prompt, Category, Sub split",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "a brown horse and a blue vase"
+        },
+        {
+          "label": "Category",
+          "value": "color"
+        },
+        {
+          "label": "Sub split",
+          "value": "seen"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Prompt, Category, Sub split",
+      "text_fields": [
+        {
+          "label": "Prompt",
+          "value": "a blue horse and a brown vase"
+        },
+        {
+          "label": "Category",
+          "value": "color"
+        },
+        {
+          "label": "Sub split",
+          "value": "seen"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 49,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/T2I-CompBench",
+  "summary": "6 preview sample(s) extracted from test-00000-of-00001.parquet; warnings are shown on the page if anything could not be resolved."
+}

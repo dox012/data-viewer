@@ -1,0 +1,151 @@
+{
+  "name": "KADID-10K",
+  "slug": "kadid-10k",
+  "kind": "csv/tsv",
+  "data_label": "dmos.csv",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Dist img, Ref img, Dmos",
+      "text_fields": [
+        {
+          "label": "Dist img",
+          "value": "I01_01_01.png"
+        },
+        {
+          "label": "Ref img",
+          "value": "I01.png"
+        },
+        {
+          "label": "Dmos",
+          "value": "4.57"
+        },
+        {
+          "label": "Var",
+          "value": "0.496"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Dist img, Ref img, Dmos",
+      "text_fields": [
+        {
+          "label": "Dist img",
+          "value": "I01_01_02.png"
+        },
+        {
+          "label": "Ref img",
+          "value": "I01.png"
+        },
+        {
+          "label": "Dmos",
+          "value": "4.33"
+        },
+        {
+          "label": "Var",
+          "value": "0.869"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Dist img, Ref img, Dmos",
+      "text_fields": [
+        {
+          "label": "Dist img",
+          "value": "I01_01_03.png"
+        },
+        {
+          "label": "Ref img",
+          "value": "I01.png"
+        },
+        {
+          "label": "Dmos",
+          "value": "2.67"
+        },
+        {
+          "label": "Var",
+          "value": "0.789"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Dist img, Ref img, Dmos",
+      "text_fields": [
+        {
+          "label": "Dist img",
+          "value": "I01_01_04.png"
+        },
+        {
+          "label": "Ref img",
+          "value": "I01.png"
+        },
+        {
+          "label": "Dmos",
+          "value": "1.67"
+        },
+        {
+          "label": "Var",
+          "value": "0.596"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Dist img, Ref img, Dmos",
+      "text_fields": [
+        {
+          "label": "Dist img",
+          "value": "I01_01_05.png"
+        },
+        {
+          "label": "Ref img",
+          "value": "I01.png"
+        },
+        {
+          "label": "Dmos",
+          "value": "1.1"
+        },
+        {
+          "label": "Var",
+          "value": "0.3"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Dist img, Ref img, Dmos",
+      "text_fields": [
+        {
+          "label": "Dist img",
+          "value": "I01_02_01.png"
+        },
+        {
+          "label": "Ref img",
+          "value": "I01.png"
+        },
+        {
+          "label": "Dmos",
+          "value": "3.83"
+        },
+        {
+          "label": "Var",
+          "value": "0.86"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 10351,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/KADID-10K",
+  "summary": "6 preview sample(s) extracted from dmos.csv; warnings are shown on the page if anything could not be resolved."
+}

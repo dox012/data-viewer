@@ -1,0 +1,79 @@
+{
+  "name": "RealQA",
+  "slug": "realqa",
+  "kind": "json",
+  "data_label": "aesthetic_high_and_low_9502_4300_llm_fusion_en_new_high_mid_low_new_simple.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Raw",
+      "text_fields": [
+        {
+          "label": "Raw",
+          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': 'The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/0dc959f9fafe72dc932358e8ecff51a8_2048_2048_80.jpg']\"}"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Raw",
+      "text_fields": [
+        {
+          "label": "Raw",
+          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': \\\"The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/54f512683907e5f95038362e8e920a4e_2048_2048_80.jpg']\"}"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Raw",
+      "text_fields": [
+        {
+          "label": "Raw",
+          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': 'The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/b9b3ec03dcbe0969219ee7de7738da83_2048_2048_80.jpg']\"}"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Raw",
+      "text_fields": [
+        {
+          "label": "Raw",
+          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': 'The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/8fd1cbb2d625696418326c8cdeaf9a76_2048_2048_80.jpg']\"}"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Raw",
+      "text_fields": [
+        {
+          "label": "Raw",
+          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': \\\"The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/d5f77392a1384a4fda0d0fd5e0037bea_2048_2048_80.jpg']\"}"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Raw",
+      "text_fields": [
+        {
+          "label": "Raw",
+          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': \\\"The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/a0af1452ea63531759e048ade11c2d9b_2048_2048_80.jpg']\"}"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 476377,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/RealQA",
+  "summary": "6 preview sample(s) extracted from aesthetic_high_and_low_9502_4300_llm_fusion_en_new_high_mid_low_new_simple.json; warnings are shown on the page if anything could not be resolved."
+}

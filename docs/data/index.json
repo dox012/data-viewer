@@ -1,0 +1,380 @@
+[
+  {
+    "name": "AesGuide",
+    "slug": "aesguide",
+    "kind": "json mapping + images",
+    "data_label": "Benchmark_AesGuide/json/Benchmark_AesGuide.json",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 57634
+  },
+  {
+    "name": "AGIQA-1K",
+    "slug": "agiqa-1k",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 1080
+  },
+  {
+    "name": "AGIQA-3K",
+    "slug": "agiqa-3k",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 2982
+  },
+  {
+    "name": "AIGCIQA2023",
+    "slug": "aigciqa2023",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 4806
+  },
+  {
+    "name": "AnyEdit",
+    "slug": "anyedit",
+    "kind": "parquet",
+    "data_label": "train-00000-of-00383.parquet",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 1167
+  },
+  {
+    "name": "ArtiMuse-10K",
+    "slug": "artimuse-10k",
+    "kind": "json",
+    "data_label": "ArtiMuse-10K_test.json",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 3042
+  },
+  {
+    "name": "BPM",
+    "slug": "bpm",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 1,
+    "sample_count": 1,
+    "total_files": 258
+  },
+  {
+    "name": "CC12M-subset",
+    "slug": "cc12m-subset",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 0
+  },
+  {
+    "name": "DiffusionDB-subset",
+    "slug": "diffusiondb-subset",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 0
+  },
+  {
+    "name": "DOCCI",
+    "slug": "docci",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 23782
+  },
+  {
+    "name": "DPG-Bench",
+    "slug": "dpg-bench",
+    "kind": "parquet",
+    "data_label": "test-00000-of-00001.parquet",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 12
+  },
+  {
+    "name": "DrawBench",
+    "slug": "drawbench",
+    "kind": "csv/tsv",
+    "data_label": "DrawBench Prompts - Sheet1.csv",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 12
+  },
+  {
+    "name": "EditScore",
+    "slug": "editscore",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 1,
+    "sample_count": 1,
+    "total_files": 189
+  },
+  {
+    "name": "EditVal",
+    "slug": "editval",
+    "kind": "json",
+    "data_label": "object.json",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 278
+  },
+  {
+    "name": "GenEval",
+    "slug": "geneval",
+    "kind": "jsonl",
+    "data_label": "GenEval.jsonl",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 12
+  },
+  {
+    "name": "GenEval-t2i",
+    "slug": "geneval-t2i",
+    "kind": "jsonl",
+    "data_label": "evaluation_metadata.jsonl",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 45
+  },
+  {
+    "name": "GIER",
+    "slug": "gier",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 9
+  },
+  {
+    "name": "HQ-Edit",
+    "slug": "hq-edit",
+    "kind": "parquet",
+    "data_label": "HQ-Edit_0.parquet",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 1835
+  },
+  {
+    "name": "image-editing-style-instruction-following",
+    "slug": "image-editing-style-instruction-following",
+    "kind": "jsonl",
+    "data_label": "metadata.jsonl",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 297
+  },
+  {
+    "name": "image_edit_eval_survey",
+    "slug": "image_edit_eval_survey",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 1
+  },
+  {
+    "name": "image_editing_survey",
+    "slug": "image_editing_survey",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 10
+  },
+  {
+    "name": "instruct-pix2pix",
+    "slug": "instruct-pix2pix",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 0
+  },
+  {
+    "name": "instructpix2pix-clip-filtered",
+    "slug": "instructpix2pix-clip-filtered",
+    "kind": "parquet",
+    "data_label": "train-00000-of-00262-57cebf95b4a9170c.parquet",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 797
+  },
+  {
+    "name": "JourneyDB-subset",
+    "slug": "journeydb-subset",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 0
+  },
+  {
+    "name": "KADID-10K",
+    "slug": "kadid-10k",
+    "kind": "csv/tsv",
+    "data_label": "dmos.csv",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 10351
+  },
+  {
+    "name": "KonIQ-10k",
+    "slug": "koniq-10k",
+    "kind": "csv/tsv",
+    "data_label": "koniq10k_scores.csv",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 10378
+  },
+  {
+    "name": "LMM4Edit",
+    "slug": "lmm4edit",
+    "kind": "json",
+    "data_label": "test_c.json",
+    "warnings": 1,
+    "sample_count": 1,
+    "total_files": 43
+  },
+  {
+    "name": "MagicBrush",
+    "slug": "magicbrush",
+    "kind": "parquet",
+    "data_label": "dev-00000-of-00004-f147d414270a90e1.parquet",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 176
+  },
+  {
+    "name": "MLLM-as-a-Judge",
+    "slug": "mllm-as-a-judge",
+    "kind": "jsonl",
+    "data_label": "judge_evaluations_all_category_wise.jsonl",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 68
+  },
+  {
+    "name": "papers_image_editing_eval",
+    "slug": "papers_image_editing_eval",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 15
+  },
+  {
+    "name": "PartiPrompts",
+    "slug": "partiprompts",
+    "kind": "csv/tsv",
+    "data_label": "PartiPrompts.tsv",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 12
+  },
+  {
+    "name": "PIPAL",
+    "slug": "pipal",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 1,
+    "sample_count": 1,
+    "total_files": 23633
+  },
+  {
+    "name": "RealQA",
+    "slug": "realqa",
+    "kind": "json",
+    "data_label": "aesthetic_high_and_low_9502_4300_llm_fusion_en_new_high_mid_low_new_simple.json",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 476377
+  },
+  {
+    "name": "Recap-DataComp-subset",
+    "slug": "recap-datacomp-subset",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 0
+  },
+  {
+    "name": "relaion-art",
+    "slug": "relaion-art",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 10
+  },
+  {
+    "name": "ShareGPT4V",
+    "slug": "sharegpt4v",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 0
+  },
+  {
+    "name": "SPAQ",
+    "slug": "spaq",
+    "kind": "unpreviewable",
+    "data_label": "n/a",
+    "warnings": 2,
+    "sample_count": 0,
+    "total_files": 0
+  },
+  {
+    "name": "T2I-CompBench",
+    "slug": "t2i-compbench",
+    "kind": "parquet",
+    "data_label": "test-00000-of-00001.parquet",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 49
+  },
+  {
+    "name": "TedBench_site",
+    "slug": "tedbench_site",
+    "kind": "json",
+    "data_label": "input_list.json",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 199
+  },
+  {
+    "name": "TIFA",
+    "slug": "tifa",
+    "kind": "json",
+    "data_label": "human_annotations.json",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 60
+  },
+  {
+    "name": "UltraEdit_500k",
+    "slug": "ultraedit_500k",
+    "kind": "parquet",
+    "data_label": "FreeForm-00000-of-00390.parquet",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 1179
+  },
+  {
+    "name": "UniPercept-Bench",
+    "slug": "unipercept-bench",
+    "kind": "json",
+    "data_label": "UniPercept-Bench-IAA.json",
+    "warnings": 0,
+    "sample_count": 6,
+    "total_files": 11093
+  }
+]

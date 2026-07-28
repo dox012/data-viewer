@@ -1,0 +1,151 @@
+{
+  "name": "image-editing-style-instruction-following",
+  "slug": "image-editing-style-instruction-following",
+  "kind": "jsonl",
+  "data_label": "metadata.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "File name, Sample id, Input style ref",
+      "text_fields": [
+        {
+          "label": "File name",
+          "value": "1/output1_140836.png"
+        },
+        {
+          "label": "Sample id",
+          "value": "1"
+        },
+        {
+          "label": "Input style ref",
+          "value": "1/input.png"
+        },
+        {
+          "label": "Instruction",
+          "value": "Echo the style of this photo to generate a cozy library corner with a wooden chair by a large window. A closed door suggests quiet study."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "File name, Sample id, Input style ref",
+      "text_fields": [
+        {
+          "label": "File name",
+          "value": "1/output2_140844.png"
+        },
+        {
+          "label": "Sample id",
+          "value": "1"
+        },
+        {
+          "label": "Input style ref",
+          "value": "1/input.png"
+        },
+        {
+          "label": "Instruction",
+          "value": "Take inspiration from the reference photo to craft Inside a dimly lit storm shelter, a lone hammer rests on a wooden workbench. Dust motes dance in the faint light filtering from a small vent."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "File name, Sample id, Input style ref",
+      "text_fields": [
+        {
+          "label": "File name",
+          "value": "1/output3_140925.png"
+        },
+        {
+          "label": "Sample id",
+          "value": "1"
+        },
+        {
+          "label": "Input style ref",
+          "value": "1/input.png"
+        },
+        {
+          "label": "Instruction",
+          "value": "Use the vibe of this image to generate A pelican flies over an amusement pier on a sunny day. The sun shines brightly on the calm ocean."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "File name, Sample id, Input style ref",
+      "text_fields": [
+        {
+          "label": "File name",
+          "value": "2/output1_072028.png"
+        },
+        {
+          "label": "Sample id",
+          "value": "2"
+        },
+        {
+          "label": "Input style ref",
+          "value": "2/input.png"
+        },
+        {
+          "label": "Instruction",
+          "value": "Employ the aesthetic of this picture to craft an artist sitting on a bench at a bus shelter, sketching in a small notebook on a sunny afternoon."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "File name, Sample id, Input style ref",
+      "text_fields": [
+        {
+          "label": "File name",
+          "value": "2/output2_072028.png"
+        },
+        {
+          "label": "Sample id",
+          "value": "2"
+        },
+        {
+          "label": "Input style ref",
+          "value": "2/input.png"
+        },
+        {
+          "label": "Instruction",
+          "value": "Take cues from this image’s aesthetic to depict a broken pier scene during a blizzard. A lone dolphin swims near the damaged structure."
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "File name, Sample id, Input style ref",
+      "text_fields": [
+        {
+          "label": "File name",
+          "value": "2/output3_072028.png"
+        },
+        {
+          "label": "Sample id",
+          "value": "2"
+        },
+        {
+          "label": "Input style ref",
+          "value": "2/input.png"
+        },
+        {
+          "label": "Instruction",
+          "value": "Use the style of this image to generate A lone glass sits on a weathered wooden bench at a ferry dock. Nearby, a datepalm sways gently in the sea breeze."
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 297,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/image-editing-style-instruction-following",
+  "summary": "6 preview sample(s) extracted from metadata.jsonl; warnings are shown on the page if anything could not be resolved."
+}

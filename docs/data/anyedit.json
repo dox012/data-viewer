@@ -1,0 +1,271 @@
+{
+  "name": "AnyEdit",
+  "slug": "anyedit",
+  "kind": "parquet",
+  "data_label": "train-00000-of-00383.parquet",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "mscoco_35b35ee9aee0",
+      "subtitle": "Image id, Edit instruction, Edit type",
+      "text_fields": [
+        {
+          "label": "Image id",
+          "value": "mscoco_35b35ee9aee0"
+        },
+        {
+          "label": "Edit instruction",
+          "value": "Watch the given depth image [V*] to remove street sign "
+        },
+        {
+          "label": "Edit type",
+          "value": "visual_depth"
+        },
+        {
+          "label": "Input",
+          "value": "a street sign modified to read stop bush."
+        },
+        {
+          "label": "Output",
+          "value": "a bush"
+        }
+      ],
+      "images": [
+        {
+          "label": "Image file",
+          "src": "../../assets/anyedit/s0-image_file.jpg",
+          "alt": "image_file"
+        },
+        {
+          "label": "Edited file",
+          "src": "../../assets/anyedit/s0-edited_file.jpg",
+          "alt": "edited_file"
+        },
+        {
+          "label": "Visual input",
+          "src": "../../assets/anyedit/s0-visual_input.jpg",
+          "alt": "visual_input"
+        }
+      ]
+    },
+    {
+      "title": "mscoco_6778cbca77c0",
+      "subtitle": "Image id, Edit instruction, Edit type",
+      "text_fields": [
+        {
+          "label": "Image id",
+          "value": "mscoco_6778cbca77c0"
+        },
+        {
+          "label": "Edit instruction",
+          "value": "Refer to the given depth image [V*] to remove girl "
+        },
+        {
+          "label": "Edit type",
+          "value": "visual_depth"
+        },
+        {
+          "label": "Input",
+          "value": "a guy and a girl are walking on the beach holding surfboards."
+        },
+        {
+          "label": "Output",
+          "value": "A guy is walking on the beach holding a surfboard."
+        }
+      ],
+      "images": [
+        {
+          "label": "Image file",
+          "src": "../../assets/anyedit/s1-image_file.jpg",
+          "alt": "image_file"
+        },
+        {
+          "label": "Edited file",
+          "src": "../../assets/anyedit/s1-edited_file.jpg",
+          "alt": "edited_file"
+        },
+        {
+          "label": "Visual input",
+          "src": "../../assets/anyedit/s1-visual_input.jpg",
+          "alt": "visual_input"
+        }
+      ]
+    },
+    {
+      "title": "mscoco_b14c258944d5",
+      "subtitle": "Image id, Edit instruction, Edit type",
+      "text_fields": [
+        {
+          "label": "Image id",
+          "value": "mscoco_b14c258944d5"
+        },
+        {
+          "label": "Edit instruction",
+          "value": "Follow the given depth image [V*] to remove umbrella "
+        },
+        {
+          "label": "Edit type",
+          "value": "visual_depth"
+        },
+        {
+          "label": "Input",
+          "value": "a person, protected from the rain by their umbrella, walks down the road."
+        },
+        {
+          "label": "Output",
+          "value": "a person walks down the road."
+        }
+      ],
+      "images": [
+        {
+          "label": "Image file",
+          "src": "../../assets/anyedit/s2-image_file.jpg",
+          "alt": "image_file"
+        },
+        {
+          "label": "Edited file",
+          "src": "../../assets/anyedit/s2-edited_file.jpg",
+          "alt": "edited_file"
+        },
+        {
+          "label": "Visual input",
+          "src": "../../assets/anyedit/s2-visual_input.jpg",
+          "alt": "visual_input"
+        }
+      ]
+    },
+    {
+      "title": "mscoco_c6049d429839",
+      "subtitle": "Image id, Edit instruction, Edit type",
+      "text_fields": [
+        {
+          "label": "Image id",
+          "value": "mscoco_c6049d429839"
+        },
+        {
+          "label": "Edit instruction",
+          "value": "Watch the given depth image [V*] to remove two bicycles and the woman "
+        },
+        {
+          "label": "Edit type",
+          "value": "visual_depth"
+        },
+        {
+          "label": "Input",
+          "value": "a storefront with two bicycles and a woman walking past."
+        },
+        {
+          "label": "Output",
+          "value": "a storefront."
+        }
+      ],
+      "images": [
+        {
+          "label": "Image file",
+          "src": "../../assets/anyedit/s3-image_file.jpg",
+          "alt": "image_file"
+        },
+        {
+          "label": "Edited file",
+          "src": "../../assets/anyedit/s3-edited_file.jpg",
+          "alt": "edited_file"
+        },
+        {
+          "label": "Visual input",
+          "src": "../../assets/anyedit/s3-visual_input.jpg",
+          "alt": "visual_input"
+        }
+      ]
+    },
+    {
+      "title": "mscoco_c8482355378e",
+      "subtitle": "Image id, Edit instruction, Edit type",
+      "text_fields": [
+        {
+          "label": "Image id",
+          "value": "mscoco_c8482355378e"
+        },
+        {
+          "label": "Edit instruction",
+          "value": "Follow the given depth image [V*] to remove bike "
+        },
+        {
+          "label": "Edit type",
+          "value": "visual_depth"
+        },
+        {
+          "label": "Input",
+          "value": "a bike on the platform of a public transportation stop at night."
+        },
+        {
+          "label": "Output",
+          "value": "A public transportation stop at night."
+        }
+      ],
+      "images": [
+        {
+          "label": "Image file",
+          "src": "../../assets/anyedit/s4-image_file.jpg",
+          "alt": "image_file"
+        },
+        {
+          "label": "Edited file",
+          "src": "../../assets/anyedit/s4-edited_file.jpg",
+          "alt": "edited_file"
+        },
+        {
+          "label": "Visual input",
+          "src": "../../assets/anyedit/s4-visual_input.jpg",
+          "alt": "visual_input"
+        }
+      ]
+    },
+    {
+      "title": "mscoco_2e42a7070ca0",
+      "subtitle": "Image id, Edit instruction, Edit type",
+      "text_fields": [
+        {
+          "label": "Image id",
+          "value": "mscoco_2e42a7070ca0"
+        },
+        {
+          "label": "Edit instruction",
+          "value": "Follow the given depth image [V*] to remove surfboard "
+        },
+        {
+          "label": "Edit type",
+          "value": "visual_depth"
+        },
+        {
+          "label": "Input",
+          "value": "a man on a bike carrying a surfboard under his arm."
+        },
+        {
+          "label": "Output",
+          "value": "a man on a bike."
+        }
+      ],
+      "images": [
+        {
+          "label": "Image file",
+          "src": "../../assets/anyedit/s5-image_file.jpg",
+          "alt": "image_file"
+        },
+        {
+          "label": "Edited file",
+          "src": "../../assets/anyedit/s5-edited_file.jpg",
+          "alt": "edited_file"
+        },
+        {
+          "label": "Visual input",
+          "src": "../../assets/anyedit/s5-visual_input.jpg",
+          "alt": "visual_input"
+        }
+      ]
+    }
+  ],
+  "total_files": 1167,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/AnyEdit",
+  "summary": "6 preview sample(s) extracted from train-00000-of-00383.parquet; warnings are shown on the page if anything could not be resolved."
+}

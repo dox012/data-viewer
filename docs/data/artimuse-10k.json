@@ -1,0 +1,103 @@
+{
+  "name": "ArtiMuse-10K",
+  "slug": "artimuse-10k",
+  "kind": "json",
+  "data_label": "ArtiMuse-10K_test.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Image, Gt score",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "0_263.jpg"
+        },
+        {
+          "label": "Gt score",
+          "value": "4.08"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Image, Gt score",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "0_1150.jpg"
+        },
+        {
+          "label": "Gt score",
+          "value": "4.3"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Image, Gt score",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "0_1031.jpg"
+        },
+        {
+          "label": "Gt score",
+          "value": "5.18"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Image, Gt score",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "0_174.jpg"
+        },
+        {
+          "label": "Gt score",
+          "value": "4.55"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Image, Gt score",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "0_1137.jpg"
+        },
+        {
+          "label": "Gt score",
+          "value": "7.31"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Image, Gt score",
+      "text_fields": [
+        {
+          "label": "Image",
+          "value": "0_527.jpg"
+        },
+        {
+          "label": "Gt score",
+          "value": "5.71"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 3042,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/ArtiMuse-10K",
+  "summary": "6 preview sample(s) extracted from ArtiMuse-10K_test.json; warnings are shown on the page if anything could not be resolved."
+}

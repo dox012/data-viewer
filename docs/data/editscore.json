@@ -1,0 +1,26 @@
+{
+  "name": "EditScore",
+  "slug": "editscore",
+  "kind": "unpreviewable",
+  "data_label": "n/a",
+  "warnings": [
+    "No previewable data file found."
+  ],
+  "samples": [
+    {
+      "title": "README snippet",
+      "subtitle": "Fallback text",
+      "text_fields": [
+        {
+          "label": "Excerpt",
+          "value": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/VectorSpaceLab/EditScore/refs/heads/main/assets/logo.png\" width=\"65%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://vectorspacelab.github.io/EditScore\"><img src=\"https://img.shields.io/badge/Project%20Page-EditScore-yellow\" alt=\"project page\"></a>\n  <a href=\"https://arxiv.org/abs/2509.23909\"><img src=\"https://img.shields.io/badge/arXiv%20paper-2509.23909-b31b1b.svg\" alt=\"arxiv\"></a>\n  <a href=\"https://huggingface.co/collections/EditScore/editscore-68d8e27ee676981221db3cfe\"><img src=\"https://img.shields.io/badge/EditScore-🤗-yellow\" alt=\"model\"></a>\n  <a href=\"https://huggingface.co/datasets/EditScore/EditReward-Bench\"><img src=\"https://img.shields.io/badge/EditReward--Bench-🤗-yellow\" alt=\"dataset\"></a>\n  <a href=\"https://huggingface.co/datasets/EditScore/EditScore-Reward-Data\"><img src=\"https://img.shields.io/badge/EditScore--Reward--Data-🤗-yellow\" alt=\"dataset\"></a>\n  <a href=\"https://huggingface.co/datasets/EditScore/EditScore-RL-Data\"><img src=\"https://img.shields.io/badge/EditScore--RL--Data-🤗-yellow\" alt=\"dataset\"></a>\n</p>\n\n<h4 align=\"center\">\n    <p>\n        <a href=#-news>News</a> |\n        <a href=#-quick-start"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 189,
+  "sample_count": 1,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/EditScore",
+  "summary": "1 preview sample(s) extracted from n/a; warnings are shown on the page if anything could not be resolved."
+}

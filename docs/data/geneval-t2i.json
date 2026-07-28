@@ -1,0 +1,103 @@
+{
+  "name": "GenEval-t2i",
+  "slug": "geneval-t2i",
+  "kind": "jsonl",
+  "data_label": "evaluation_metadata.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Tag, Prompt",
+      "text_fields": [
+        {
+          "label": "Tag",
+          "value": "single_object"
+        },
+        {
+          "label": "Prompt",
+          "value": "a photo of a bench"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Tag, Prompt",
+      "text_fields": [
+        {
+          "label": "Tag",
+          "value": "single_object"
+        },
+        {
+          "label": "Prompt",
+          "value": "a photo of a cow"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Tag, Prompt",
+      "text_fields": [
+        {
+          "label": "Tag",
+          "value": "single_object"
+        },
+        {
+          "label": "Prompt",
+          "value": "a photo of a bicycle"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Tag, Prompt",
+      "text_fields": [
+        {
+          "label": "Tag",
+          "value": "single_object"
+        },
+        {
+          "label": "Prompt",
+          "value": "a photo of a clock"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Tag, Prompt",
+      "text_fields": [
+        {
+          "label": "Tag",
+          "value": "single_object"
+        },
+        {
+          "label": "Prompt",
+          "value": "a photo of a carrot"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Tag, Prompt",
+      "text_fields": [
+        {
+          "label": "Tag",
+          "value": "single_object"
+        },
+        {
+          "label": "Prompt",
+          "value": "a photo of a suitcase"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 45,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/GenEval-t2i",
+  "summary": "6 preview sample(s) extracted from evaluation_metadata.jsonl; warnings are shown on the page if anything could not be resolved."
+}

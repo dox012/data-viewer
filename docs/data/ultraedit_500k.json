@@ -1,0 +1,265 @@
+{
+  "name": "UltraEdit_500k",
+  "slug": "ultraedit_500k",
+  "kind": "parquet",
+  "data_label": "FreeForm-00000-of-00390.parquet",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Clip sim source, Clip sim target, Clip sim dir",
+      "text_fields": [
+        {
+          "label": "Clip sim source",
+          "value": "0.3351283669471741"
+        },
+        {
+          "label": "Clip sim target",
+          "value": "0.34355467557907104"
+        },
+        {
+          "label": "Clip sim dir",
+          "value": "0.4011916220188141"
+        },
+        {
+          "label": "Clip sim image",
+          "value": "0.8552061915397644"
+        },
+        {
+          "label": "Dinov2 sim",
+          "value": "0.8189253807067871"
+        },
+        {
+          "label": "Ssim",
+          "value": "0.3243562007614602"
+        }
+      ],
+      "images": [
+        {
+          "label": "Source image",
+          "src": "../../assets/ultraedit_500k/s0-source_image.jpg",
+          "alt": "source_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/ultraedit_500k/s0-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Clip sim source, Clip sim target, Clip sim dir",
+      "text_fields": [
+        {
+          "label": "Clip sim source",
+          "value": "0.2553516626358032"
+        },
+        {
+          "label": "Clip sim target",
+          "value": "0.3078004717826843"
+        },
+        {
+          "label": "Clip sim dir",
+          "value": "0.393869012594223"
+        },
+        {
+          "label": "Clip sim image",
+          "value": "0.9325910806655884"
+        },
+        {
+          "label": "Dinov2 sim",
+          "value": "0.7073879241943359"
+        },
+        {
+          "label": "Ssim",
+          "value": "0.760568300231608"
+        }
+      ],
+      "images": [
+        {
+          "label": "Source image",
+          "src": "../../assets/ultraedit_500k/s1-source_image.jpg",
+          "alt": "source_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/ultraedit_500k/s1-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Clip sim source, Clip sim target, Clip sim dir",
+      "text_fields": [
+        {
+          "label": "Clip sim source",
+          "value": "0.3091711401939392"
+        },
+        {
+          "label": "Clip sim target",
+          "value": "0.34869277477264404"
+        },
+        {
+          "label": "Clip sim dir",
+          "value": "0.4267817735671997"
+        },
+        {
+          "label": "Clip sim image",
+          "value": "0.9284846782684326"
+        },
+        {
+          "label": "Dinov2 sim",
+          "value": "0.920151948928833"
+        },
+        {
+          "label": "Ssim",
+          "value": "0.8914363772598851"
+        }
+      ],
+      "images": [
+        {
+          "label": "Source image",
+          "src": "../../assets/ultraedit_500k/s2-source_image.jpg",
+          "alt": "source_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/ultraedit_500k/s2-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Clip sim source, Clip sim target, Clip sim dir",
+      "text_fields": [
+        {
+          "label": "Clip sim source",
+          "value": "0.2774078845977783"
+        },
+        {
+          "label": "Clip sim target",
+          "value": "0.29237014055252075"
+        },
+        {
+          "label": "Clip sim dir",
+          "value": "0.3710007071495056"
+        },
+        {
+          "label": "Clip sim image",
+          "value": "0.9286715984344482"
+        },
+        {
+          "label": "Dinov2 sim",
+          "value": "0.43979111313819885"
+        },
+        {
+          "label": "Ssim",
+          "value": "0.8926173451050334"
+        }
+      ],
+      "images": [
+        {
+          "label": "Source image",
+          "src": "../../assets/ultraedit_500k/s3-source_image.jpg",
+          "alt": "source_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/ultraedit_500k/s3-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Clip sim source, Clip sim target, Clip sim dir",
+      "text_fields": [
+        {
+          "label": "Clip sim source",
+          "value": "0.25202322006225586"
+        },
+        {
+          "label": "Clip sim target",
+          "value": "0.2860081195831299"
+        },
+        {
+          "label": "Clip sim dir",
+          "value": "0.36892610788345337"
+        },
+        {
+          "label": "Clip sim image",
+          "value": "0.9711421728134155"
+        },
+        {
+          "label": "Dinov2 sim",
+          "value": "0.987085223197937"
+        },
+        {
+          "label": "Ssim",
+          "value": "0.8297886550349461"
+        }
+      ],
+      "images": [
+        {
+          "label": "Source image",
+          "src": "../../assets/ultraedit_500k/s4-source_image.jpg",
+          "alt": "source_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/ultraedit_500k/s4-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Clip sim source, Clip sim target, Clip sim dir",
+      "text_fields": [
+        {
+          "label": "Clip sim source",
+          "value": "0.30336081981658936"
+        },
+        {
+          "label": "Clip sim target",
+          "value": "0.32036739587783813"
+        },
+        {
+          "label": "Clip sim dir",
+          "value": "0.37692582607269287"
+        },
+        {
+          "label": "Clip sim image",
+          "value": "0.8634322881698608"
+        },
+        {
+          "label": "Dinov2 sim",
+          "value": "0.8358068466186523"
+        },
+        {
+          "label": "Ssim",
+          "value": "0.5968478682627989"
+        }
+      ],
+      "images": [
+        {
+          "label": "Source image",
+          "src": "../../assets/ultraedit_500k/s5-source_image.jpg",
+          "alt": "source_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/ultraedit_500k/s5-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    }
+  ],
+  "total_files": 1179,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/UltraEdit_500k",
+  "summary": "6 preview sample(s) extracted from FreeForm-00000-of-00390.parquet; warnings are shown on the page if anything could not be resolved."
+}

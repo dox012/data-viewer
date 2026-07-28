@@ -1,0 +1,193 @@
+{
+  "name": "instructpix2pix-clip-filtered",
+  "slug": "instructpix2pix-clip-filtered",
+  "kind": "parquet",
+  "data_label": "train-00000-of-00262-57cebf95b4a9170c.parquet",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Original prompt, Edit prompt, Edited prompt",
+      "text_fields": [
+        {
+          "label": "Original prompt",
+          "value": "Baronne James de Rothschild-nee Betty von Rothschild | Jean-Auguste-Dominique Ingres | oil painting"
+        },
+        {
+          "label": "Edit prompt",
+          "value": "Turn it into a photo"
+        },
+        {
+          "label": "Edited prompt",
+          "value": "Baronne James de Rothschild-nee Betty von Rothschild | photo |"
+        }
+      ],
+      "images": [
+        {
+          "label": "Original image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s0-original_image.jpg",
+          "alt": "original_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s0-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Original prompt, Edit prompt, Edited prompt",
+      "text_fields": [
+        {
+          "label": "Original prompt",
+          "value": "Picture winter, animals, snow, stream, fire, the moon, spruce, the fire, tent, axe, painting, deer, Darrell …"
+        },
+        {
+          "label": "Edit prompt",
+          "value": "Make it a cartoon."
+        },
+        {
+          "label": "Edited prompt",
+          "value": "Picture cartoon, animals, snow, stream, fire, the moon, spruce, the fire, tent, axe, painting, deer, Darrell …"
+        }
+      ],
+      "images": [
+        {
+          "label": "Original image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s1-original_image.jpg",
+          "alt": "original_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s1-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Original prompt, Edit prompt, Edited prompt",
+      "text_fields": [
+        {
+          "label": "Original prompt",
+          "value": "Andrea Kowch Solo Exhibition: Into The Wind"
+        },
+        {
+          "label": "Edit prompt",
+          "value": "put her in a windmill"
+        },
+        {
+          "label": "Edited prompt",
+          "value": "Andrea Kowch in a windmill, holding a paintbrush."
+        }
+      ],
+      "images": [
+        {
+          "label": "Original image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s2-original_image.jpg",
+          "alt": "original_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s2-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Original prompt, Edit prompt, Edited prompt",
+      "text_fields": [
+        {
+          "label": "Original prompt",
+          "value": "'The Journal' by contemporary American artist Lynn Sanguedolce (1959-)."
+        },
+        {
+          "label": "Edit prompt",
+          "value": "turn the cover into a magnifying glass"
+        },
+        {
+          "label": "Edited prompt",
+          "value": "'The Journal' by contemporary American artist Lynn Sanguedolce (1959-), with a magnifying glass on the cover."
+        }
+      ],
+      "images": [
+        {
+          "label": "Original image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s3-original_image.jpg",
+          "alt": "original_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s3-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Original prompt, Edit prompt, Edited prompt",
+      "text_fields": [
+        {
+          "label": "Original prompt",
+          "value": "Overlander Falls Waterfall, Fraser River, Mount Robson Provincial Park, British Columbia, Canada, North America"
+        },
+        {
+          "label": "Edit prompt",
+          "value": "make the waterfall a rainbow"
+        },
+        {
+          "label": "Edited prompt",
+          "value": "Rainbow Falls Waterfall, Fraser River, Mount Robson Provincial Park, British Columbia, Canada, North America"
+        }
+      ],
+      "images": [
+        {
+          "label": "Original image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s4-original_image.jpg",
+          "alt": "original_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s4-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Original prompt, Edit prompt, Edited prompt",
+      "text_fields": [
+        {
+          "label": "Original prompt",
+          "value": "Blue Paper Bride by Zeng Chuanxing, at Tanya Baxter Contemporary"
+        },
+        {
+          "label": "Edit prompt",
+          "value": "make her a scientist"
+        },
+        {
+          "label": "Edited prompt",
+          "value": "Blue Paper Bride scientist by Zeng Chuanxing, at Tanya Baxter Contemporary"
+        }
+      ],
+      "images": [
+        {
+          "label": "Original image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s5-original_image.jpg",
+          "alt": "original_image"
+        },
+        {
+          "label": "Edited image",
+          "src": "../../assets/instructpix2pix-clip-filtered/s5-edited_image.jpg",
+          "alt": "edited_image"
+        }
+      ]
+    }
+  ],
+  "total_files": 797,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/instructpix2pix-clip-filtered",
+  "summary": "6 preview sample(s) extracted from train-00000-of-00262-57cebf95b4a9170c.parquet; warnings are shown on the page if anything could not be resolved."
+}

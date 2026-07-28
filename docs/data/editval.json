@@ -1,0 +1,79 @@
+{
+  "name": "EditVal",
+  "slug": "editval",
+  "kind": "json",
+  "data_label": "object.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "bench"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "pizza"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "cup"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "dog"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "stop_sign"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Key",
+      "text_fields": [
+        {
+          "label": "Key",
+          "value": "sink"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 278,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/EditVal",
+  "summary": "6 preview sample(s) extracted from object.json; warnings are shown on the page if anything could not be resolved."
+}

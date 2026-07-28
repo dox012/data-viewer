@@ -1,0 +1,199 @@
+{
+  "name": "UniPercept-Bench",
+  "slug": "unipercept-bench",
+  "kind": "json",
+  "data_label": "UniPercept-Bench-IAA.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "1",
+      "subtitle": "Id, Domain, Category",
+      "text_fields": [
+        {
+          "label": "Id",
+          "value": "1"
+        },
+        {
+          "label": "Domain",
+          "value": "IAA"
+        },
+        {
+          "label": "Category",
+          "value": "Comprehensive Evaluation"
+        },
+        {
+          "label": "Criterion",
+          "value": "Comprehensive Evaluation Level"
+        },
+        {
+          "label": "Qa template",
+          "value": "Level Prediction"
+        },
+        {
+          "label": "Image",
+          "value": "benchmark/VQA/IAA/image/0_849.jpg"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "2",
+      "subtitle": "Id, Domain, Category",
+      "text_fields": [
+        {
+          "label": "Id",
+          "value": "2"
+        },
+        {
+          "label": "Domain",
+          "value": "IAA"
+        },
+        {
+          "label": "Category",
+          "value": "Visual Elements & Structure"
+        },
+        {
+          "label": "Criterion",
+          "value": "Visual Elements & Structure Level"
+        },
+        {
+          "label": "Qa template",
+          "value": "Level Prediction"
+        },
+        {
+          "label": "Image",
+          "value": "benchmark/VQA/IAA/image/0_312.jpg"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "3",
+      "subtitle": "Id, Domain, Category",
+      "text_fields": [
+        {
+          "label": "Id",
+          "value": "3"
+        },
+        {
+          "label": "Domain",
+          "value": "IAA"
+        },
+        {
+          "label": "Category",
+          "value": "Comprehensive Evaluation"
+        },
+        {
+          "label": "Criterion",
+          "value": "Comprehensive Evaluation Level"
+        },
+        {
+          "label": "Qa template",
+          "value": "Level Prediction"
+        },
+        {
+          "label": "Image",
+          "value": "benchmark/VQA/IAA/image/1_378.jpg"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "4",
+      "subtitle": "Id, Domain, Category",
+      "text_fields": [
+        {
+          "label": "Id",
+          "value": "4"
+        },
+        {
+          "label": "Domain",
+          "value": "IAA"
+        },
+        {
+          "label": "Category",
+          "value": "Originality & Creativity"
+        },
+        {
+          "label": "Criterion",
+          "value": "Concept Innovation"
+        },
+        {
+          "label": "Qa template",
+          "value": "Yes-No"
+        },
+        {
+          "label": "Image",
+          "value": "benchmark/VQA/IAA/image/12_714.jpg"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "5",
+      "subtitle": "Id, Domain, Category",
+      "text_fields": [
+        {
+          "label": "Id",
+          "value": "5"
+        },
+        {
+          "label": "Domain",
+          "value": "IAA"
+        },
+        {
+          "label": "Category",
+          "value": "Originality & Creativity"
+        },
+        {
+          "label": "Criterion",
+          "value": "Creative Problem-Solving"
+        },
+        {
+          "label": "Qa template",
+          "value": "How"
+        },
+        {
+          "label": "Image",
+          "value": "benchmark/VQA/IAA/image/0_207.jpg"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "6",
+      "subtitle": "Id, Domain, Category",
+      "text_fields": [
+        {
+          "label": "Id",
+          "value": "6"
+        },
+        {
+          "label": "Domain",
+          "value": "IAA"
+        },
+        {
+          "label": "Category",
+          "value": "Composition & Design"
+        },
+        {
+          "label": "Criterion",
+          "value": "Structural Organization"
+        },
+        {
+          "label": "Qa template",
+          "value": "How"
+        },
+        {
+          "label": "Image",
+          "value": "benchmark/VQA/IAA/image/12_424.jpg"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 11093,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/UniPercept-Bench",
+  "summary": "6 preview sample(s) extracted from UniPercept-Bench-IAA.json; warnings are shown on the page if anything could not be resolved."
+}
