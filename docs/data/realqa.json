@@ -7,69 +7,153 @@
   "samples": [
     {
       "title": "Sample 1",
-      "subtitle": "Raw",
+      "subtitle": "images, messages",
       "text_fields": [
         {
-          "label": "Raw",
-          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': 'The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/0dc959f9fafe72dc932358e8ecff51a8_2048_2048_80.jpg']\"}"
+          "label": "Image",
+          "value": "source_data/our_train_data/9502_4300/0dc959f9fafe72dc932358e8ecff51a8_2048_2048_80.jpg"
+        },
+        {
+          "label": "User prompt",
+          "value": "<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn."
+        },
+        {
+          "label": "Assistant answer",
+          "value": "The detailed analysis of the image is as follows:\n1. Composition and Eye-Catching Analysis:\n 1.1 Reason for Composition Score: The photo is blurry, the subject is unclear, and most of the frame is filled with plain brown wood grain. The vertical lines are too simple, lacking depth and interest.\n 1.2 Composition Score: 2\n 1.3 Reason for Eye-Catching Score: The content of the photo is unremarkable and lacks appeal.\n 1.4 Eye-Catching Score: 1\n2. Aesthetic Features and Quality Analysis:\n 2.1 Subject: Door crack, Subject Integrity: partially complete (slightly cut off or slightly obscured), Subject Clutter: uncluttered\n 2.2 Background: Wooden door, Background Clutter:uncluttered\n 2.3 Level Shot: no\n 2.4 Image clarity: very blurry\n 2.5 Exposure: slightly underexposed \n 2.6 Saturation: low saturation \n"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/realqa/s0-0dc959f9fafe72dc932358e8ecff51a8_2048_2048_80.jpg",
+          "alt": "source_data/our_train_data/9502_4300/0dc959f9fafe72dc932358e8ecff51a8_2048_2048_80.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 2",
-      "subtitle": "Raw",
+      "subtitle": "images, messages",
       "text_fields": [
         {
-          "label": "Raw",
-          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': \\\"The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/54f512683907e5f95038362e8e920a4e_2048_2048_80.jpg']\"}"
+          "label": "Image",
+          "value": "source_data/our_train_data/9502_4300/54f512683907e5f95038362e8e920a4e_2048_2048_80.jpg"
+        },
+        {
+          "label": "User prompt",
+          "value": "<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn."
+        },
+        {
+          "label": "Assistant answer",
+          "value": "The detailed analysis of the image is as follows:\n1. Composition and Eye-Catching Analysis:\n 1.1 Reason for Composition Score: The photo's composition has some strengths, such as using the river's reflection and including buildings of different heights and styles, which creates a sense of depth.\n 1.2 Composition Score: 6\n 1.3 Reason for Eye-Catching Score: The dazzling lights of the city at night are naturally appealing, and the colors of the lights and the reflections of the buildings in the photo add visual interest.\n 1.4 Eye-Catching Score: 7\n2. Aesthetic Features and Quality Analysis:\n 2.1 Subject: City Night View, Subject Integrity: partially complete (slightly cut off or slightly obscured), Subject Clutter: uncluttered\n 2.2 Background: City buildings and river, Background Clutter:moderately cluttered\n 2.3 Level Shot: yes\n 2.4 Image clarity: moderately clear\n 2.5 Exposure: properly exposed \n 2.6 Saturation: medium saturation \n"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/realqa/s1-54f512683907e5f95038362e8e920a4e_2048_2048_80.jpg",
+          "alt": "source_data/our_train_data/9502_4300/54f512683907e5f95038362e8e920a4e_2048_2048_80.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 3",
-      "subtitle": "Raw",
+      "subtitle": "images, messages",
       "text_fields": [
         {
-          "label": "Raw",
-          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': 'The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/b9b3ec03dcbe0969219ee7de7738da83_2048_2048_80.jpg']\"}"
+          "label": "Image",
+          "value": "source_data/our_train_data/9502_4300/b9b3ec03dcbe0969219ee7de7738da83_2048_2048_80.jpg"
+        },
+        {
+          "label": "User prompt",
+          "value": "<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn."
+        },
+        {
+          "label": "Assistant answer",
+          "value": "The detailed analysis of the image is as follows:\n1. Composition and Eye-Catching Analysis:\n 1.1 Reason for Composition Score: The image is well-organized, highlighting the European Championship theme and brand partnership information.\n 1.2 Composition Score: 6\n 1.3 Reason for Eye-Catching Score: The elements of the European Championship trophy and soccer balls are quite eye-catching, especially for soccer fans.\n 1.4 Eye-Catching Score: 7\n2. Aesthetic Features and Quality Analysis:\n 2.1 Subject: A display board showing the UEFA European Championship trophy and three soccer balls, Subject Integrity: fully complete (no cuts or obstructions at all), Subject Clutter: uncluttered\n 2.2 Background: An appliance showroom, including exhibited refrigerators and other kitchen appliances, Background Clutter:uncluttered\n 2.3 Level Shot: yes\n 2.4 Image clarity: very clear\n 2.5 Exposure: overexposed \n 2.6 Saturation: medium saturation \n"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/realqa/s2-b9b3ec03dcbe0969219ee7de7738da83_2048_2048_80.jpg",
+          "alt": "source_data/our_train_data/9502_4300/b9b3ec03dcbe0969219ee7de7738da83_2048_2048_80.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 4",
-      "subtitle": "Raw",
+      "subtitle": "images, messages",
       "text_fields": [
         {
-          "label": "Raw",
-          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': 'The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/8fd1cbb2d625696418326c8cdeaf9a76_2048_2048_80.jpg']\"}"
+          "label": "Image",
+          "value": "source_data/our_train_data/9502_4300/8fd1cbb2d625696418326c8cdeaf9a76_2048_2048_80.jpg"
+        },
+        {
+          "label": "User prompt",
+          "value": "<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn."
+        },
+        {
+          "label": "Assistant answer",
+          "value": "The detailed analysis of the image is as follows:\n1. Composition and Eye-Catching Analysis:\n 1.1 Reason for Composition Score: The photo mainly features dark tulips that take up most of the frame, but they feel a bit crowded and lack some sense of space.\n 1.2 Composition Score: 6\n 1.3 Reason for Eye-Catching Score: The unique color of the dark tulips contrasts with the colorful flowers in the background, making it visually appealing.\n 1.4 Eye-Catching Score: 7\n2. Aesthetic Features and Quality Analysis:\n 2.1 Subject: Purple tulips, Subject Integrity: partially complete (slightly cut off or slightly obscured), Subject Clutter: uncluttered\n 2.2 Background: Multicolored tulips, trees, and grass, Background Clutter:moderately cluttered\n 2.3 Level Shot: yes\n 2.4 Image clarity: very clear\n 2.5 Exposure: properly exposed \n 2.6 Saturation: high saturation \n"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/realqa/s3-8fd1cbb2d625696418326c8cdeaf9a76_2048_2048_80.jpg",
+          "alt": "source_data/our_train_data/9502_4300/8fd1cbb2d625696418326c8cdeaf9a76_2048_2048_80.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 5",
-      "subtitle": "Raw",
+      "subtitle": "images, messages",
       "text_fields": [
         {
-          "label": "Raw",
-          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': \\\"The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/d5f77392a1384a4fda0d0fd5e0037bea_2048_2048_80.jpg']\"}"
+          "label": "Image",
+          "value": "source_data/our_train_data/9502_4300/d5f77392a1384a4fda0d0fd5e0037bea_2048_2048_80.jpg"
+        },
+        {
+          "label": "User prompt",
+          "value": "<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn."
+        },
+        {
+          "label": "Assistant answer",
+          "value": "The detailed analysis of the image is as follows:\n1. Composition and Eye-Catching Analysis:\n 1.1 Reason for Composition Score: The photo's composition is quite basic, focusing mainly on a corner of the room without a clear visual focal point.\n 1.2 Composition Score: 5\n 1.3 Reason for Eye-Catching Score: The soft pink wall and green double doors create a nice color contrast, making it somewhat visually appealing.\n 1.4 Eye-Catching Score: 6\n2. Aesthetic Features and Quality Analysis:\n 2.1 Subject: Glass door, Subject Integrity: fully complete (no cuts or obstructions at all), Subject Clutter: uncluttered\n 2.2 Background: Pink wall, Background Clutter:uncluttered\n 2.3 Level Shot: no\n 2.4 Image clarity: very clear\n 2.5 Exposure: properly exposed \n 2.6 Saturation: medium saturation \n"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/realqa/s4-d5f77392a1384a4fda0d0fd5e0037bea_2048_2048_80.jpg",
+          "alt": "source_data/our_train_data/9502_4300/d5f77392a1384a4fda0d0fd5e0037bea_2048_2048_80.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 6",
-      "subtitle": "Raw",
+      "subtitle": "images, messages",
       "text_fields": [
         {
-          "label": "Raw",
-          "value": "{\"messages\": \"[{'content': '<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn.', 'role': 'user'}, {'content': \\\"The detailed analysis of the image is as follows:\\\\n1. Composition and Eye-Catching Analysis:\\\\n 1.1 Reason for Composition\", \"images\": \"['source_data/our_train_data/9502_4300/a0af1452ea63531759e048ade11c2d9b_2048_2048_80.jpg']\"}"
+          "label": "Image",
+          "value": "source_data/our_train_data/9502_4300/a0af1452ea63531759e048ade11c2d9b_2048_2048_80.jpg"
+        },
+        {
+          "label": "User prompt",
+          "value": "<image>Please analyze and directly give the aesthetic attributes of high level, middle level, and low level of this picture in turn."
+        },
+        {
+          "label": "Assistant answer",
+          "value": "The detailed analysis of the image is as follows:\n1. Composition and Eye-Catching Analysis:\n 1.1 Reason for Composition Score: The branches in the foreground add depth and layers to the image, skillfully guiding the viewer's eye toward the colorful lake and distant mountains.\n 1.2 Composition Score: 7\n 1.3 Reason for Eye-Catching Score: The lake's captivating colors and unique shape are very striking.\n 1.4 Eye-Catching Score: 8\n2. Aesthetic Features and Quality Analysis:\n 2.1 Subject: Branches, Subject Integrity: partially complete (slightly cut off or slightly obscured), Subject Clutter: uncluttered\n 2.2 Background: Mountains and lakes, Background Clutter:moderately cluttered\n 2.3 Level Shot: yes\n 2.4 Image clarity: very clear\n 2.5 Exposure: properly exposed \n 2.6 Saturation: medium saturation \n"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/realqa/s5-a0af1452ea63531759e048ade11c2d9b_2048_2048_80.jpg",
+          "alt": "source_data/our_train_data/9502_4300/a0af1452ea63531759e048ade11c2d9b_2048_2048_80.jpg"
+        }
+      ]
     }
   ],
   "total_files": 476377,

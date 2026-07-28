@@ -34,7 +34,13 @@
           "value": "benchmark/VQA/IAA/image/0_849.jpg"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/unipercept-bench/s0-0_849.jpg",
+          "alt": "benchmark/VQA/IAA/image/0_849.jpg"
+        }
+      ]
     },
     {
       "title": "2",
@@ -65,7 +71,13 @@
           "value": "benchmark/VQA/IAA/image/0_312.jpg"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/unipercept-bench/s1-0_312.jpg",
+          "alt": "benchmark/VQA/IAA/image/0_312.jpg"
+        }
+      ]
     },
     {
       "title": "3",
@@ -96,7 +108,13 @@
           "value": "benchmark/VQA/IAA/image/1_378.jpg"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/unipercept-bench/s2-1_378.jpg",
+          "alt": "benchmark/VQA/IAA/image/1_378.jpg"
+        }
+      ]
     },
     {
       "title": "4",
@@ -127,7 +145,13 @@
           "value": "benchmark/VQA/IAA/image/12_714.jpg"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/unipercept-bench/s3-12_714.jpg",
+          "alt": "benchmark/VQA/IAA/image/12_714.jpg"
+        }
+      ]
     },
     {
       "title": "5",
@@ -158,7 +182,13 @@
           "value": "benchmark/VQA/IAA/image/0_207.jpg"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/unipercept-bench/s4-0_207.jpg",
+          "alt": "benchmark/VQA/IAA/image/0_207.jpg"
+        }
+      ]
     },
     {
       "title": "6",
@@ -189,7 +219,13 @@
           "value": "benchmark/VQA/IAA/image/12_424.jpg"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/unipercept-bench/s5-12_424.jpg",
+          "alt": "benchmark/VQA/IAA/image/12_424.jpg"
+        }
+      ]
     }
   ],
   "total_files": 11093,
