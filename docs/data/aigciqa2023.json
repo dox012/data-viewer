@@ -1,15 +1,117 @@
 {
   "name": "AIGCIQA2023",
   "slug": "aigciqa2023",
-  "kind": "unpreviewable",
-  "data_label": "n/a",
+  "kind": "image folder",
+  "data_label": "image files",
   "warnings": [
-    "No previewable data file found.",
-    "No samples could be extracted."
+    "未找到结构化标注文件，仅展示目录中的代表性图片供检查。"
   ],
-  "samples": [],
+  "samples": [
+    {
+      "title": "000-1.png",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Image/Controlnet/000-1.png"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aigciqa2023/s0-000-1.jpg",
+          "alt": "000-1.png"
+        }
+      ]
+    },
+    {
+      "title": "000-2.png",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Image/Controlnet/000-2.png"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aigciqa2023/s1-000-2.jpg",
+          "alt": "000-2.png"
+        }
+      ]
+    },
+    {
+      "title": "000-3.png",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Image/Controlnet/000-3.png"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aigciqa2023/s2-000-3.jpg",
+          "alt": "000-3.png"
+        }
+      ]
+    },
+    {
+      "title": "000-4.png",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Image/Controlnet/000-4.png"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aigciqa2023/s3-000-4.jpg",
+          "alt": "000-4.png"
+        }
+      ]
+    },
+    {
+      "title": "001-1.png",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Image/Controlnet/001-1.png"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aigciqa2023/s4-001-1.jpg",
+          "alt": "001-1.png"
+        }
+      ]
+    },
+    {
+      "title": "001-2.png",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "Image/Controlnet/001-2.png"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/aigciqa2023/s5-001-2.jpg",
+          "alt": "001-2.png"
+        }
+      ]
+    }
+  ],
   "total_files": 4806,
-  "sample_count": 0,
+  "sample_count": 6,
   "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/AIGCIQA2023",
-  "summary": "0 preview sample(s) extracted from n/a; warnings are shown on the page if anything could not be resolved."
+  "summary": "6 条预览样本来自图片目录；未找到结构化标注文件。"
 }

@@ -1,15 +1,117 @@
 {
   "name": "AGIQA-1K",
   "slug": "agiqa-1k",
-  "kind": "unpreviewable",
-  "data_label": "n/a",
+  "kind": "image folder",
+  "data_label": "image files",
   "warnings": [
-    "No previewable data file found.",
-    "No samples could be extracted."
+    "未找到结构化标注文件，仅展示目录中的代表性图片供检查。"
   ],
-  "samples": [],
+  "samples": [
+    {
+      "title": "deepai_0_0_0_0.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "deepai_0_0_0_0.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-1k/s0-deepai_0_0_0_0.jpg",
+          "alt": "deepai_0_0_0_0.jpg"
+        }
+      ]
+    },
+    {
+      "title": "deepai_0_0_0_1.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "deepai_0_0_0_1.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-1k/s1-deepai_0_0_0_1.jpg",
+          "alt": "deepai_0_0_0_1.jpg"
+        }
+      ]
+    },
+    {
+      "title": "deepai_0_0_1_0.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "deepai_0_0_1_0.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-1k/s2-deepai_0_0_1_0.jpg",
+          "alt": "deepai_0_0_1_0.jpg"
+        }
+      ]
+    },
+    {
+      "title": "deepai_0_0_1_1.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "deepai_0_0_1_1.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-1k/s3-deepai_0_0_1_1.jpg",
+          "alt": "deepai_0_0_1_1.jpg"
+        }
+      ]
+    },
+    {
+      "title": "deepai_0_10_0_0.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "deepai_0_10_0_0.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-1k/s4-deepai_0_10_0_0.jpg",
+          "alt": "deepai_0_10_0_0.jpg"
+        }
+      ]
+    },
+    {
+      "title": "deepai_0_10_0_1.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "deepai_0_10_0_1.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-1k/s5-deepai_0_10_0_1.jpg",
+          "alt": "deepai_0_10_0_1.jpg"
+        }
+      ]
+    }
+  ],
   "total_files": 1080,
-  "sample_count": 0,
+  "sample_count": 6,
   "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/AGIQA-1K",
-  "summary": "0 preview sample(s) extracted from n/a; warnings are shown on the page if anything could not be resolved."
+  "summary": "6 条预览样本来自图片目录；未找到结构化标注文件。"
 }

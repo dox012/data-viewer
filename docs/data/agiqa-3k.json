@@ -1,15 +1,117 @@
 {
   "name": "AGIQA-3K",
   "slug": "agiqa-3k",
-  "kind": "unpreviewable",
-  "data_label": "n/a",
+  "kind": "image folder",
+  "data_label": "image files",
   "warnings": [
-    "No previewable data file found.",
-    "No samples could be extracted."
+    "未找到结构化标注文件，仅展示目录中的代表性图片供检查。"
   ],
-  "samples": [],
+  "samples": [
+    {
+      "title": "AttnGAN_normal_000.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "AttnGAN_normal_000.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-3k/s0-AttnGAN_normal_000.jpg",
+          "alt": "AttnGAN_normal_000.jpg"
+        }
+      ]
+    },
+    {
+      "title": "AttnGAN_normal_001.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "AttnGAN_normal_001.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-3k/s1-AttnGAN_normal_001.jpg",
+          "alt": "AttnGAN_normal_001.jpg"
+        }
+      ]
+    },
+    {
+      "title": "AttnGAN_normal_002.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "AttnGAN_normal_002.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-3k/s2-AttnGAN_normal_002.jpg",
+          "alt": "AttnGAN_normal_002.jpg"
+        }
+      ]
+    },
+    {
+      "title": "AttnGAN_normal_003.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "AttnGAN_normal_003.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-3k/s3-AttnGAN_normal_003.jpg",
+          "alt": "AttnGAN_normal_003.jpg"
+        }
+      ]
+    },
+    {
+      "title": "AttnGAN_normal_004.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "AttnGAN_normal_004.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-3k/s4-AttnGAN_normal_004.jpg",
+          "alt": "AttnGAN_normal_004.jpg"
+        }
+      ]
+    },
+    {
+      "title": "AttnGAN_normal_005.jpg",
+      "subtitle": "图片目录预览",
+      "text_fields": [
+        {
+          "label": "File",
+          "value": "AttnGAN_normal_005.jpg"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/agiqa-3k/s5-AttnGAN_normal_005.jpg",
+          "alt": "AttnGAN_normal_005.jpg"
+        }
+      ]
+    }
+  ],
   "total_files": 2982,
-  "sample_count": 0,
+  "sample_count": 6,
   "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition2/AGIQA-3K",
-  "summary": "0 preview sample(s) extracted from n/a; warnings are shown on the page if anything could not be resolved."
+  "summary": "6 条预览样本来自图片目录；未找到结构化标注文件。"
 }
