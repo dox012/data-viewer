@@ -1,0 +1,198 @@
+{
+  "name": "AesMMIT",
+  "slug": "composition-aesmmit",
+  "kind": "json",
+  "data_label": "AesMMIT_labels (For LLaVA_1.5).json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "AesMMIT_labels (For LLaVA_1.5).json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AesMMIT_labels (For LLaVA_1.5).json"
+        },
+        {
+          "label": "id",
+          "value": "0033"
+        },
+        {
+          "label": "image",
+          "value": "baid_95698.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"This is an image with low aesthetics, please explain the reasons that are related to the aesthetic quality.\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"Reason: The composition follows the rule of thirds, positioning the donut-shaped porcelain piece along the intersecting lines which can attract the viewer's attention. The lighting appears soft and indirect, resulting in shadows that can be seen under the objects, therefore not all details are sharply defined. The predominant color palette is limited, mainly consisting of hues of blue and brown with a lack of vibrancy, contributing to a subdued and uniform look with minimal contrast. This color scheme can make the image appear somewhat flat and less dynamic, lacking strong three-dimensional cues.\"\n  }\n]"
+        },
+        {
+          "label": "type",
+          "value": "human_q2"
+        },
+        {
+          "label": "qtype",
+          "value": "vqa"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "AesMMIT_labels (For LLaVA_1.5).json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AesMMIT_labels (For LLaVA_1.5).json"
+        },
+        {
+          "label": "id",
+          "value": "0033"
+        },
+        {
+          "label": "image",
+          "value": "para_iaa_pub22358_.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"This is an image with low aesthetics, please explain the reasons that are related to the aesthetic quality.\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"The image is overly zoomed in on the subject, leading to a restricted view that prevents a full understanding of the dish. The focus is soft, resulting in a lack of sharpness that obscures fine details. Additionally, the yellowish lighting casts a warm tone that suppresses color vibrancy, contributing to a muted and monochromatic appearance.\"\n  }\n]"
+        },
+        {
+          "label": "type",
+          "value": "human_q2"
+        },
+        {
+          "label": "qtype",
+          "value": "vqa"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "AesMMIT_labels (For LLaVA_1.5).json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AesMMIT_labels (For LLaVA_1.5).json"
+        },
+        {
+          "label": "id",
+          "value": "0047"
+        },
+        {
+          "label": "image",
+          "value": "sd1.5_lowstep_158.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"What is the visibility condition of the image?\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"dim\"\n  }\n]"
+        },
+        {
+          "label": "type",
+          "value": "gpt_q2"
+        },
+        {
+          "label": "qtype",
+          "value": "vqa"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "AesMMIT_labels (For LLaVA_1.5).json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AesMMIT_labels (For LLaVA_1.5).json"
+        },
+        {
+          "label": "id",
+          "value": "0049"
+        },
+        {
+          "label": "image",
+          "value": "para_iaa_pub23806_.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"Why might the subjects in the image appear fatigued?\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"Haste\"\n  }\n]"
+        },
+        {
+          "label": "type",
+          "value": "gpt_q3"
+        },
+        {
+          "label": "qtype",
+          "value": "vqa"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "AesMMIT_labels (For LLaVA_1.5).json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AesMMIT_labels (For LLaVA_1.5).json"
+        },
+        {
+          "label": "id",
+          "value": "0020"
+        },
+        {
+          "label": "image",
+          "value": "TAD66K_fraying8316640156.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"How is the aesthetic quality of this image? Choose one from the following options: A) High B) Medium C) Low.\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"A)\"\n  }\n]"
+        },
+        {
+          "label": "type",
+          "value": "gpt_q1"
+        },
+        {
+          "label": "qtype",
+          "value": "mcq"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "AesMMIT_labels (For LLaVA_1.5).json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AesMMIT_labels (For LLaVA_1.5).json"
+        },
+        {
+          "label": "id",
+          "value": "0017"
+        },
+        {
+          "label": "image",
+          "value": "artemis_pierre-puvis-de-chavannes_life-of-st-genevieve.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"What can be said about the clarity of this image? Choose one from the following options: A) Blurry\\nB) Relatively clear\\nC) Out of focus\\nD) Distorted\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"B)\"\n  }\n]"
+        },
+        {
+          "label": "type",
+          "value": "gpt_q2"
+        },
+        {
+          "label": "qtype",
+          "value": "mcq"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AesMMIT"
+}

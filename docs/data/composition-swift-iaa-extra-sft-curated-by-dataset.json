@@ -1,0 +1,282 @@
+{
+  "name": "swift_iaa_extra_sft_curated_by_dataset",
+  "slug": "composition-swift-iaa-extra-sft-curated-by-dataset",
+  "kind": "jsonl",
+  "data_label": "Flickr-AES/val.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Flickr-AES/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Flickr-AES/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.81.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm1_27_96361207_c200595017.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Flickr-AES"
+        },
+        {
+          "label": "channel",
+          "value": "Flickr-AES_test_ArtiMuse_4737"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.805486"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.627154"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-by-dataset/s0-farm1_27_96361207_c200595017.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm1_27_96361207_c200595017.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Flickr-AES/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Flickr-AES/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 4.86.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm9_8257_10242112923_e28dbbb8b5.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Flickr-AES"
+        },
+        {
+          "label": "channel",
+          "value": "Flickr-AES_test_ArtiMuse_4737"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "4.857137"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.542857"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-by-dataset/s1-farm9_8257_10242112923_e28dbbb8b5.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm9_8257_10242112923_e28dbbb8b5.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Flickr-AES/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Flickr-AES/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 6.21.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm9_8120_8660284278_4889403113.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Flickr-AES"
+        },
+        {
+          "label": "channel",
+          "value": "Flickr-AES_test_ArtiMuse_4737"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.21447"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.663508"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-by-dataset/s2-farm9_8120_8660284278_4889403113.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm9_8120_8660284278_4889403113.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Flickr-AES/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Flickr-AES/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 6.72.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm3_2883_10242111223_02f6db5bd9.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Flickr-AES"
+        },
+        {
+          "label": "channel",
+          "value": "Flickr-AES_test_ArtiMuse_4737"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.716119"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.708099"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-by-dataset/s3-farm3_2883_10242111223_02f6db5bd9.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm3_2883_10242111223_02f6db5bd9.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Flickr-AES/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Flickr-AES/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.57.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm4_3289_2692130376_ed293af7a1.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Flickr-AES"
+        },
+        {
+          "label": "channel",
+          "value": "Flickr-AES_test_ArtiMuse_4737"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.56519"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.605795"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-by-dataset/s4-farm4_3289_2692130376_ed293af7a1.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm4_3289_2692130376_ed293af7a1.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Flickr-AES/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Flickr-AES/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 7.71.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm6_5335_8750148863_503bd61ab4.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Flickr-AES"
+        },
+        {
+          "label": "channel",
+          "value": "Flickr-AES_test_ArtiMuse_4737"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "7.713474"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.796753"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-by-dataset/s5-farm6_5335_8750148863_503bd61ab4.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES/40K/farm6_5335_8750148863_503bd61ab4.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 10,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/swift_iaa_extra_sft_curated_by_dataset"
+}

@@ -1,0 +1,264 @@
+{
+  "name": "swift_iaa_extra_sft_curated_split_structured_by_dataset",
+  "slug": "composition-swift-iaa-extra-sft-curated-split-structured-by-dataset",
+  "kind": "jsonl",
+  "data_label": "PortraitCraft/train.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "PortraitCraft/train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "PortraitCraft/train.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.77.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00010_67dcd75a09e4.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "PortraitCraft"
+        },
+        {
+          "label": "channel",
+          "value": "PortraitCraft_track1_holistic"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.77"
+        },
+        {
+          "label": "raw_score",
+          "value": "53.0"
+        },
+        {
+          "label": "aesthetic_target",
+          "value": "holistic"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-split-structured-by-dataset/s0-unsplash_people_00010_67dcd75a09e4.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00010_67dcd75a09e4.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "PortraitCraft/train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "PortraitCraft/train.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nEvaluate this portrait on all of the following 13 criteria:\\n1. Color Harmony\\n2. Visual Style Consistency\\n3. Sharpness\\n4. Light and Shadow Modeling\\n5. Creativity and Originality\\n6. Exposure Control\\n7. Application of Classical Composition Principles\\n8. Depth of Field and Layering\\n9. Visual Center Stability\\n10. Visual Flow Guidance\\n11. Structural Support Stability\\n12. Appropriateness of Negative Space\\n13. Subject Integrity\\nFor each criterion, provide a score from 1.0 to 10.0 and a supporting reason. Cover all 13 criteria in the listed order.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"Detailed criteria:\\n1. Color Harmony\\n   Score: 7.0/10\\n   Reason: The vibrant colors of the mural and the subjects' clothing create a lively and energetic mood, though the extreme colorfulness makes the image slightly busy.\\n\\n2. Visual Style Consistency\\n   Score: 7.5/10\\n   Reason: The overall aesthetic—bright, casual, vibrant, and sunny—is consistently maintained throughout the image, fitting the intended lifestyle mood.\\n\\n3. Sharpness\\n   Score: 7.6/10\\n   Reason: The overall image is clear, with key details like facial features, hair, and clothing of the main subjects well-defined and sharp.\\n\\n4. Light and Shadow Modeling\\n   Score: 5.4/10\\n   Reason: The hard directional sunlight creates harsh shadows under chins and noses, which is not particularly flattering for portraiture and lacks refined tonal transitions.\\n\\n5. Creativity and Originality\\n   Score: 6.2/10\\n   Reason: The image feels like a very conventional li\n... [truncated]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00010_67dcd75a09e4.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "PortraitCraft"
+        },
+        {
+          "label": "channel",
+          "value": "PortraitCraft_track1_criteria"
+        },
+        {
+          "label": "criteria_count",
+          "value": "13"
+        },
+        {
+          "label": "aesthetic_target",
+          "value": "attributes"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "PortraitCraft/train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "PortraitCraft/train.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 7.39.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00021_0690acddd927.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "PortraitCraft"
+        },
+        {
+          "label": "channel",
+          "value": "PortraitCraft_track1_holistic"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "7.39"
+        },
+        {
+          "label": "raw_score",
+          "value": "71.0"
+        },
+        {
+          "label": "aesthetic_target",
+          "value": "holistic"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-split-structured-by-dataset/s2-unsplash_people_00021_0690acddd927.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00021_0690acddd927.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "PortraitCraft/train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "PortraitCraft/train.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nEvaluate this portrait on all of the following 13 criteria:\\n1. Color Harmony\\n2. Visual Style Consistency\\n3. Sharpness\\n4. Light and Shadow Modeling\\n5. Creativity and Originality\\n6. Exposure Control\\n7. Application of Classical Composition Principles\\n8. Depth of Field and Layering\\n9. Visual Center Stability\\n10. Visual Flow Guidance\\n11. Structural Support Stability\\n12. Appropriateness of Negative Space\\n13. Subject Integrity\\nFor each criterion, provide a score from 1.0 to 10.0 and a supporting reason. Cover all 13 criteria in the listed order.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"Detailed criteria:\\n1. Color Harmony\\n   Score: 8.0/10\\n   Reason: There is a striking and effective color contrast between the warm auburn hair and skin tones against the vibrant, cool cyan structural elements in the background, creating a visually engaging harmony.\\n\\n2. Visual Style Consistency\\n   Score: 7.5/10\\n   Reason: The image maintains a consistent modern, vibrant, and clean aesthetic. The bright colors, sharp details, and soft lighting all work together cohesively.\\n\\n3. Sharpness\\n   Score: 7.8/10\\n   Reason: The image is exceptionally sharp, particularly on the subject's eyes, facial features, and hair strands. Focus is highly accurate with no noticeable blur or softness.\\n\\n4. Light and Shadow Modeling\\n   Score: 6.2/10\\n   Reason: The lighting is soft and even, which is very flattering for the subject and provides gentle modeling of the facial features, though it lacks dramatic depth or strong directional shad\n... [truncated]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00021_0690acddd927.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "PortraitCraft"
+        },
+        {
+          "label": "channel",
+          "value": "PortraitCraft_track1_criteria"
+        },
+        {
+          "label": "criteria_count",
+          "value": "13"
+        },
+        {
+          "label": "aesthetic_target",
+          "value": "attributes"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "PortraitCraft/train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "PortraitCraft/train.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 6.76.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00036_a195464ac346.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "PortraitCraft"
+        },
+        {
+          "label": "channel",
+          "value": "PortraitCraft_track1_holistic"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.76"
+        },
+        {
+          "label": "raw_score",
+          "value": "64.0"
+        },
+        {
+          "label": "aesthetic_target",
+          "value": "holistic"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-extra-sft-curated-split-structured-by-dataset/s4-unsplash_people_00036_a195464ac346.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00036_a195464ac346.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "PortraitCraft/train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "PortraitCraft/train.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nEvaluate this portrait on all of the following 13 criteria:\\n1. Color Harmony\\n2. Visual Style Consistency\\n3. Sharpness\\n4. Light and Shadow Modeling\\n5. Creativity and Originality\\n6. Exposure Control\\n7. Application of Classical Composition Principles\\n8. Depth of Field and Layering\\n9. Visual Center Stability\\n10. Visual Flow Guidance\\n11. Structural Support Stability\\n12. Appropriateness of Negative Space\\n13. Subject Integrity\\nFor each criterion, provide a score from 1.0 to 10.0 and a supporting reason. Cover all 13 criteria in the listed order.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"Detailed criteria:\\n1. Color Harmony\\n   Score: 5.5/10\\n   Reason: The image features a stylized color palette with muted, desaturated background tones. While it separates the subject well, the skin tones appear slightly heavily processed with a warm, almost yellowish tint.\\n\\n2. Visual Style Consistency\\n   Score: 6.0/10\\n   Reason: The image maintains a consistent aesthetic characterized by high contrast, sharp central focus, and a slightly desaturated, modern urban color grade.\\n\\n3. Sharpness\\n   Score: 6.8/10\\n   Reason: The focal point on the subject's face is sharp, with good details retained in the eyes, facial hair, and skin texture, though slight softness exists toward the edges of the frame.\\n\\n4. Light and Shadow Modeling\\n   Score: 4.6/10\\n   Reason: The strong directional sunlight creates significant dimensionality, but the resulting harsh shadows (such as 'raccoon eyes' and a strong nose shadow) are somewhat un\n... [truncated]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_00/unsplash_people_00036_a195464ac346.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "PortraitCraft"
+        },
+        {
+          "label": "channel",
+          "value": "PortraitCraft_track1_criteria"
+        },
+        {
+          "label": "criteria_count",
+          "value": "13"
+        },
+        {
+          "label": "aesthetic_target",
+          "value": "attributes"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 2,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/swift_iaa_extra_sft_curated_split_structured_by_dataset"
+}

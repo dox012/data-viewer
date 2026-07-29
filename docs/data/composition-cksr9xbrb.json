@@ -1,0 +1,174 @@
+{
+  "name": "数据堂",
+  "slug": "composition-cksr9xbrb",
+  "kind": "json",
+  "data_label": "2025.12.23-1009张/常见动物/常见动物44/常见动物44/labels_json/012452+中景+俯拍+白天+顺光+野生鹤.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "2025.12.23-1009张/常见动物/常见动物44/常见动物44/labels_json/012452+中景+俯拍+白天+顺光+野生鹤.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025.12.23-1009张/常见动物/常见动物44/常见动物44/labels_json/012452+中景+俯拍+白天+顺光+野生鹤.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  1072,\n  1575,\n  4474,\n  4126\n]"
+        },
+        {
+          "label": "score",
+          "value": "3分"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "将前景的鸟作为主体，前景的鸟位于画面中央，符合中心构图，背景简洁，主次分明。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "2025.12.23-1009张/常见家庭宠物/常见家庭宠物84/常见家庭宠物84/labels_json/012789+中景+俯拍+白天+顺光+宠物狗.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025.12.23-1009张/常见家庭宠物/常见家庭宠物84/常见家庭宠物84/labels_json/012789+中景+俯拍+白天+顺光+宠物狗.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  115,\n  276,\n  2932,\n  4032\n]"
+        },
+        {
+          "label": "score",
+          "value": "3分"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "以小狗作为画面主体位于画面中心，符合中心构图，背景干净整洁无干扰物，主体突出。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "2025.12.23-1009张/常见家庭宠物/常见家庭宠物84/常见家庭宠物84/labels_json/012720+中景+俯拍+白天+顺光+宠物猫.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025.12.23-1009张/常见家庭宠物/常见家庭宠物84/常见家庭宠物84/labels_json/012720+中景+俯拍+白天+顺光+宠物猫.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  219,\n  545,\n  2834,\n  4032\n]"
+        },
+        {
+          "label": "score",
+          "value": "2分"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "猫作为主体，符合中心构图，但左上角的家具和布料作为干扰物破坏了画面的平衡与简洁性。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "2025.12.23-1009张/常见家庭宠物/常见家庭宠物84/常见家庭宠物84/labels_json/008001+近景+俯拍+白天+顺光+宠物猫.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025.12.23-1009张/常见家庭宠物/常见家庭宠物84/常见家庭宠物84/labels_json/008001+近景+俯拍+白天+顺光+宠物猫.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  258,\n  314,\n  2973,\n  3934\n]"
+        },
+        {
+          "label": "score",
+          "value": "3分"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "俯卧的猫作为主体位于画面中心，符合中心法原则，背景无干扰物，画面干净简洁，主体突出。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "2025.12.23-1009张/常见动物/常见动物44/常见动物44/labels_json/012526+中景+俯拍+白天+顺光+野生熊猫.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025.12.23-1009张/常见动物/常见动物44/常见动物44/labels_json/012526+中景+俯拍+白天+顺光+野生熊猫.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  335,\n  1095,\n  2538,\n  4032\n]"
+        },
+        {
+          "label": "score",
+          "value": "2分"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "以大熊猫为主体，其整体位于画面中央，符合中心构图原则，背景元素杂乱，产生视觉干扰。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "2025.12.23-1009张/云&晚霞/云&晚霞57/云&晚霞57/labels_json/011708+远景+仰拍+白天+顺光+云.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025.12.23-1009张/云&晚霞/云&晚霞57/云&晚霞57/labels_json/011708+远景+仰拍+白天+顺光+云.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  227,\n  171,\n  3871,\n  2904\n]"
+        },
+        {
+          "label": "score",
+          "value": "3分"
+        },
+        {
+          "label": "构图方法",
+          "value": "三分法构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "天空与云层作为主体，遵循了三分法构图，将地景放置在画面下三分之一处，突出了天空的层次感。"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 5804,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/数据堂"
+}

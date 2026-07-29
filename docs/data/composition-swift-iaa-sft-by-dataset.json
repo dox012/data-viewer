@@ -1,0 +1,282 @@
+{
+  "name": "swift_iaa_sft_by_dataset",
+  "slug": "composition-swift-iaa-sft-by-dataset",
+  "kind": "jsonl",
+  "data_label": "ICKK17K/val.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 6.45.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_violet/manbok39199603935.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/orange_violet"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.449359"
+        },
+        {
+          "label": "raw_score",
+          "value": "6.449359"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-by-dataset/s0-manbok39199603935.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_violet/manbok39199603935.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 5.02.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/monochromatic/blue/121476474@N0427349338041.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/monochromatic/blue"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.0157"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.0157"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-by-dataset/s1-121476474@N0427349338041.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/monochromatic/blue/121476474@N0427349338041.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 5.65.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/yellow_violet/31611680@N0834296152563.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/yellow_violet"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.654606"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.654606"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-by-dataset/s2-31611680@N0834296152563.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/yellow_violet/31611680@N0834296152563.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 5.06.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/blue_violet/kandyzone19389484446.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/blue_violet"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.056411"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.056411"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-by-dataset/s3-kandyzone19389484446.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/blue_violet/kandyzone19389484446.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 6.56.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_yellow/78404550@N0329614605712.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/orange_yellow"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.561208"
+        },
+        {
+          "label": "raw_score",
+          "value": "6.561208"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-by-dataset/s4-78404550@N0329614605712.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_yellow/78404550@N0329614605712.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 6.19.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/monochromatic/red/studioferullo37637400471.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/monochromatic/red"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.186881"
+        },
+        {
+          "label": "raw_score",
+          "value": "6.186881"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-by-dataset/s5-studioferullo37637400471.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/monochromatic/red/studioferullo37637400471.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 11,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/swift_iaa_sft_by_dataset"
+}

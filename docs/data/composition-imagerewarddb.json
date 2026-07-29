@@ -1,0 +1,294 @@
+{
+  "name": "ImageRewardDB",
+  "slug": "composition-imagerewarddb",
+  "kind": "parquet",
+  "data_label": "metadata-validation.parquet",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "metadata-validation.parquet",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "metadata-validation.parquet"
+        },
+        {
+          "label": "image_path",
+          "value": "images/validation/validation_1/b3682ff9-e89e-4733-b3cd-3b8cfbd0f0ea.webp"
+        },
+        {
+          "label": "prompt_id",
+          "value": "001667-0100"
+        },
+        {
+          "label": "prompt",
+          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+        },
+        {
+          "label": "classification",
+          "value": "People"
+        },
+        {
+          "label": "image_amount_in_total",
+          "value": "6"
+        },
+        {
+          "label": "rank",
+          "value": "2"
+        },
+        {
+          "label": "overall_rating",
+          "value": "6"
+        },
+        {
+          "label": "image_text_alignment_rating",
+          "value": "6"
+        },
+        {
+          "label": "fidelity_rating",
+          "value": "6"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "metadata-validation.parquet",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "metadata-validation.parquet"
+        },
+        {
+          "label": "image_path",
+          "value": "images/validation/validation_1/e40ab1ef-eb83-4bb3-a54c-d707b1d4b7ff.webp"
+        },
+        {
+          "label": "prompt_id",
+          "value": "001667-0100"
+        },
+        {
+          "label": "prompt",
+          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+        },
+        {
+          "label": "classification",
+          "value": "People"
+        },
+        {
+          "label": "image_amount_in_total",
+          "value": "6"
+        },
+        {
+          "label": "rank",
+          "value": "2"
+        },
+        {
+          "label": "overall_rating",
+          "value": "6"
+        },
+        {
+          "label": "image_text_alignment_rating",
+          "value": "6"
+        },
+        {
+          "label": "fidelity_rating",
+          "value": "6"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "metadata-validation.parquet",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "metadata-validation.parquet"
+        },
+        {
+          "label": "image_path",
+          "value": "images/validation/validation_1/4e46207a-522f-4db9-bf93-81f21d26cc5e.webp"
+        },
+        {
+          "label": "prompt_id",
+          "value": "001667-0100"
+        },
+        {
+          "label": "prompt",
+          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+        },
+        {
+          "label": "classification",
+          "value": "People"
+        },
+        {
+          "label": "image_amount_in_total",
+          "value": "6"
+        },
+        {
+          "label": "rank",
+          "value": "4"
+        },
+        {
+          "label": "overall_rating",
+          "value": "4"
+        },
+        {
+          "label": "image_text_alignment_rating",
+          "value": "4"
+        },
+        {
+          "label": "fidelity_rating",
+          "value": "5"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "metadata-validation.parquet",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "metadata-validation.parquet"
+        },
+        {
+          "label": "image_path",
+          "value": "images/validation/validation_1/20908a9e-58c8-4508-9659-f7c43b3e05aa.webp"
+        },
+        {
+          "label": "prompt_id",
+          "value": "001667-0100"
+        },
+        {
+          "label": "prompt",
+          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+        },
+        {
+          "label": "classification",
+          "value": "People"
+        },
+        {
+          "label": "image_amount_in_total",
+          "value": "6"
+        },
+        {
+          "label": "rank",
+          "value": "4"
+        },
+        {
+          "label": "overall_rating",
+          "value": "4"
+        },
+        {
+          "label": "image_text_alignment_rating",
+          "value": "4"
+        },
+        {
+          "label": "fidelity_rating",
+          "value": "5"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "metadata-validation.parquet",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "metadata-validation.parquet"
+        },
+        {
+          "label": "image_path",
+          "value": "images/validation/validation_1/b6475b54-feb8-406e-b905-fbc336a66743.webp"
+        },
+        {
+          "label": "prompt_id",
+          "value": "001667-0100"
+        },
+        {
+          "label": "prompt",
+          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+        },
+        {
+          "label": "classification",
+          "value": "People"
+        },
+        {
+          "label": "image_amount_in_total",
+          "value": "6"
+        },
+        {
+          "label": "rank",
+          "value": "5"
+        },
+        {
+          "label": "overall_rating",
+          "value": "3"
+        },
+        {
+          "label": "image_text_alignment_rating",
+          "value": "3"
+        },
+        {
+          "label": "fidelity_rating",
+          "value": "4"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "metadata-validation.parquet",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "metadata-validation.parquet"
+        },
+        {
+          "label": "image_path",
+          "value": "images/validation/validation_1/d6397e81-b115-4075-9387-a53acfe79d36.webp"
+        },
+        {
+          "label": "prompt_id",
+          "value": "001667-0100"
+        },
+        {
+          "label": "prompt",
+          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+        },
+        {
+          "label": "classification",
+          "value": "People"
+        },
+        {
+          "label": "image_amount_in_total",
+          "value": "6"
+        },
+        {
+          "label": "rank",
+          "value": "5"
+        },
+        {
+          "label": "overall_rating",
+          "value": "4"
+        },
+        {
+          "label": "image_text_alignment_rating",
+          "value": "4"
+        },
+        {
+          "label": "fidelity_rating",
+          "value": "5"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ImageRewardDB"
+}

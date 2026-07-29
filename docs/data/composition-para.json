@@ -1,0 +1,1038 @@
+{
+  "name": "PARA",
+  "slug": "composition-para",
+  "kind": "csv",
+  "data_label": "annotation/PARA-GiaaTest.csv",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "annotation/PARA-GiaaTest.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "annotation/PARA-GiaaTest.csv"
+        },
+        {
+          "label": "imageName",
+          "value": "iaa_pub10022_.jpg"
+        },
+        {
+          "label": "sessionId",
+          "value": "session144"
+        },
+        {
+          "label": "semantic",
+          "value": "plant"
+        },
+        {
+          "label": "aestheticScore_1.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_1.5",
+          "value": "3"
+        },
+        {
+          "label": "aestheticScore_2.0",
+          "value": "2"
+        },
+        {
+          "label": "aestheticScore_2.5",
+          "value": "1"
+        },
+        {
+          "label": "aestheticScore_3.0",
+          "value": "7"
+        },
+        {
+          "label": "aestheticScore_3.5",
+          "value": "8"
+        },
+        {
+          "label": "aestheticScore_4.0",
+          "value": "4"
+        },
+        {
+          "label": "aestheticScore_4.5",
+          "value": "2"
+        },
+        {
+          "label": "aestheticScore_5.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_mean",
+          "value": "3.148148148"
+        },
+        {
+          "label": "aestheticScore_std",
+          "value": "0.836823965"
+        },
+        {
+          "label": "qualityScore_mean",
+          "value": "3.162962963"
+        },
+        {
+          "label": "qualityScore_std",
+          "value": "0.821086971"
+        },
+        {
+          "label": "compositionScore_1",
+          "value": "1"
+        },
+        {
+          "label": "compositionScore_2",
+          "value": "3"
+        },
+        {
+          "label": "compositionScore_3",
+          "value": "12"
+        },
+        {
+          "label": "compositionScore_4",
+          "value": "10"
+        },
+        {
+          "label": "compositionScore_5",
+          "value": "1"
+        },
+        {
+          "label": "compositionScore_mean",
+          "value": "3.259259259"
+        },
+        {
+          "label": "compositionScore_std",
+          "value": "0.842948643"
+        },
+        {
+          "label": "colorScore_1",
+          "value": "2"
+        },
+        {
+          "label": "colorScore_2",
+          "value": "6"
+        },
+        {
+          "label": "colorScore_3",
+          "value": "12"
+        },
+        {
+          "label": "colorScore_4",
+          "value": "6"
+        },
+        {
+          "label": "colorScore_5",
+          "value": "1"
+        },
+        {
+          "label": "colorScore_mean",
+          "value": "2.925925926"
+        },
+        {
+          "label": "colorScore_std",
+          "value": "0.939894633"
+        },
+        {
+          "label": "dofScore_1",
+          "value": "2"
+        },
+        {
+          "label": "dofScore_2",
+          "value": "2"
+        },
+        {
+          "label": "dofScore_3",
+          "value": "10"
+        },
+        {
+          "label": "dofScore_4",
+          "value": "9"
+        },
+        {
+          "label": "dofScore_5",
+          "value": "4"
+        },
+        {
+          "label": "dofScore_mean",
+          "value": "3.407407407"
+        },
+        {
+          "label": "dofScore_std",
+          "value": "1.06316297"
+        },
+        {
+          "label": "lightScore_1",
+          "value": "2"
+        },
+        {
+          "label": "lightScore_2",
+          "value": "6"
+        },
+        {
+          "label": "lightScore_3",
+          "value": "10"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "annotation/PARA-GiaaTest.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "annotation/PARA-GiaaTest.csv"
+        },
+        {
+          "label": "imageName",
+          "value": "iaa_pub10043_.jpg"
+        },
+        {
+          "label": "sessionId",
+          "value": "session144"
+        },
+        {
+          "label": "semantic",
+          "value": "nightScene"
+        },
+        {
+          "label": "aestheticScore_1.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_1.5",
+          "value": "2"
+        },
+        {
+          "label": "aestheticScore_2.0",
+          "value": "7"
+        },
+        {
+          "label": "aestheticScore_2.5",
+          "value": "4"
+        },
+        {
+          "label": "aestheticScore_3.0",
+          "value": "8"
+        },
+        {
+          "label": "aestheticScore_3.5",
+          "value": "4"
+        },
+        {
+          "label": "aestheticScore_4.0",
+          "value": "2"
+        },
+        {
+          "label": "aestheticScore_4.5",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_5.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_mean",
+          "value": "2.703703704"
+        },
+        {
+          "label": "aestheticScore_std",
+          "value": "0.697339644"
+        },
+        {
+          "label": "qualityScore_mean",
+          "value": "2.907407407"
+        },
+        {
+          "label": "qualityScore_std",
+          "value": "0.629477106"
+        },
+        {
+          "label": "compositionScore_1",
+          "value": "3"
+        },
+        {
+          "label": "compositionScore_2",
+          "value": "4"
+        },
+        {
+          "label": "compositionScore_3",
+          "value": "16"
+        },
+        {
+          "label": "compositionScore_4",
+          "value": "4"
+        },
+        {
+          "label": "compositionScore_5",
+          "value": "0"
+        },
+        {
+          "label": "compositionScore_mean",
+          "value": "2.777777778"
+        },
+        {
+          "label": "compositionScore_std",
+          "value": "0.831479419"
+        },
+        {
+          "label": "colorScore_1",
+          "value": "2"
+        },
+        {
+          "label": "colorScore_2",
+          "value": "10"
+        },
+        {
+          "label": "colorScore_3",
+          "value": "12"
+        },
+        {
+          "label": "colorScore_4",
+          "value": "3"
+        },
+        {
+          "label": "colorScore_5",
+          "value": "0"
+        },
+        {
+          "label": "colorScore_mean",
+          "value": "2.592592593"
+        },
+        {
+          "label": "colorScore_std",
+          "value": "0.782174522"
+        },
+        {
+          "label": "dofScore_1",
+          "value": "0"
+        },
+        {
+          "label": "dofScore_2",
+          "value": "8"
+        },
+        {
+          "label": "dofScore_3",
+          "value": "12"
+        },
+        {
+          "label": "dofScore_4",
+          "value": "5"
+        },
+        {
+          "label": "dofScore_5",
+          "value": "2"
+        },
+        {
+          "label": "dofScore_mean",
+          "value": "3.037037037"
+        },
+        {
+          "label": "dofScore_std",
+          "value": "0.881139056"
+        },
+        {
+          "label": "lightScore_1",
+          "value": "1"
+        },
+        {
+          "label": "lightScore_2",
+          "value": "9"
+        },
+        {
+          "label": "lightScore_3",
+          "value": "12"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "annotation/PARA-GiaaTest.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "annotation/PARA-GiaaTest.csv"
+        },
+        {
+          "label": "imageName",
+          "value": "iaa_pub10074_.jpg"
+        },
+        {
+          "label": "sessionId",
+          "value": "session144"
+        },
+        {
+          "label": "semantic",
+          "value": "stilllife"
+        },
+        {
+          "label": "aestheticScore_1.0",
+          "value": "2"
+        },
+        {
+          "label": "aestheticScore_1.5",
+          "value": "9"
+        },
+        {
+          "label": "aestheticScore_2.0",
+          "value": "10"
+        },
+        {
+          "label": "aestheticScore_2.5",
+          "value": "4"
+        },
+        {
+          "label": "aestheticScore_3.0",
+          "value": "1"
+        },
+        {
+          "label": "aestheticScore_3.5",
+          "value": "1"
+        },
+        {
+          "label": "aestheticScore_4.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_4.5",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_5.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_mean",
+          "value": "1.925925926"
+        },
+        {
+          "label": "aestheticScore_std",
+          "value": "0.556172497"
+        },
+        {
+          "label": "qualityScore_mean",
+          "value": "1.959259259"
+        },
+        {
+          "label": "qualityScore_std",
+          "value": "0.507907296"
+        },
+        {
+          "label": "compositionScore_1",
+          "value": "5"
+        },
+        {
+          "label": "compositionScore_2",
+          "value": "13"
+        },
+        {
+          "label": "compositionScore_3",
+          "value": "8"
+        },
+        {
+          "label": "compositionScore_4",
+          "value": "1"
+        },
+        {
+          "label": "compositionScore_5",
+          "value": "0"
+        },
+        {
+          "label": "compositionScore_mean",
+          "value": "2.185185185"
+        },
+        {
+          "label": "compositionScore_std",
+          "value": "0.771580247"
+        },
+        {
+          "label": "colorScore_1",
+          "value": "4"
+        },
+        {
+          "label": "colorScore_2",
+          "value": "18"
+        },
+        {
+          "label": "colorScore_3",
+          "value": "5"
+        },
+        {
+          "label": "colorScore_4",
+          "value": "0"
+        },
+        {
+          "label": "colorScore_5",
+          "value": "0"
+        },
+        {
+          "label": "colorScore_mean",
+          "value": "2.037037037"
+        },
+        {
+          "label": "colorScore_std",
+          "value": "0.576161081"
+        },
+        {
+          "label": "dofScore_1",
+          "value": "4"
+        },
+        {
+          "label": "dofScore_2",
+          "value": "16"
+        },
+        {
+          "label": "dofScore_3",
+          "value": "5"
+        },
+        {
+          "label": "dofScore_4",
+          "value": "0"
+        },
+        {
+          "label": "dofScore_5",
+          "value": "2"
+        },
+        {
+          "label": "dofScore_mean",
+          "value": "2.259259259"
+        },
+        {
+          "label": "dofScore_std",
+          "value": "0.965807764"
+        },
+        {
+          "label": "lightScore_1",
+          "value": "6"
+        },
+        {
+          "label": "lightScore_2",
+          "value": "8"
+        },
+        {
+          "label": "lightScore_3",
+          "value": "13"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "annotation/PARA-GiaaTest.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "annotation/PARA-GiaaTest.csv"
+        },
+        {
+          "label": "imageName",
+          "value": "iaa_pub10077_.jpg"
+        },
+        {
+          "label": "sessionId",
+          "value": "session144"
+        },
+        {
+          "label": "semantic",
+          "value": "scene"
+        },
+        {
+          "label": "aestheticScore_1.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_1.5",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_2.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_2.5",
+          "value": "2"
+        },
+        {
+          "label": "aestheticScore_3.0",
+          "value": "7"
+        },
+        {
+          "label": "aestheticScore_3.5",
+          "value": "7"
+        },
+        {
+          "label": "aestheticScore_4.0",
+          "value": "10"
+        },
+        {
+          "label": "aestheticScore_4.5",
+          "value": "1"
+        },
+        {
+          "label": "aestheticScore_5.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_mean",
+          "value": "3.518518519"
+        },
+        {
+          "label": "aestheticScore_std",
+          "value": "0.517856721"
+        },
+        {
+          "label": "qualityScore_mean",
+          "value": "3.625925926"
+        },
+        {
+          "label": "qualityScore_std",
+          "value": "0.492606516"
+        },
+        {
+          "label": "compositionScore_1",
+          "value": "0"
+        },
+        {
+          "label": "compositionScore_2",
+          "value": "1"
+        },
+        {
+          "label": "compositionScore_3",
+          "value": "8"
+        },
+        {
+          "label": "compositionScore_4",
+          "value": "16"
+        },
+        {
+          "label": "compositionScore_5",
+          "value": "2"
+        },
+        {
+          "label": "compositionScore_mean",
+          "value": "3.703703704"
+        },
+        {
+          "label": "compositionScore_std",
+          "value": "0.656297968"
+        },
+        {
+          "label": "colorScore_1",
+          "value": "1"
+        },
+        {
+          "label": "colorScore_2",
+          "value": "6"
+        },
+        {
+          "label": "colorScore_3",
+          "value": "13"
+        },
+        {
+          "label": "colorScore_4",
+          "value": "6"
+        },
+        {
+          "label": "colorScore_5",
+          "value": "1"
+        },
+        {
+          "label": "colorScore_mean",
+          "value": "3"
+        },
+        {
+          "label": "colorScore_std",
+          "value": "0.860662966"
+        },
+        {
+          "label": "dofScore_1",
+          "value": "0"
+        },
+        {
+          "label": "dofScore_2",
+          "value": "3"
+        },
+        {
+          "label": "dofScore_3",
+          "value": "10"
+        },
+        {
+          "label": "dofScore_4",
+          "value": "10"
+        },
+        {
+          "label": "dofScore_5",
+          "value": "4"
+        },
+        {
+          "label": "dofScore_mean",
+          "value": "3.555555556"
+        },
+        {
+          "label": "dofScore_std",
+          "value": "0.874889764"
+        },
+        {
+          "label": "lightScore_1",
+          "value": "0"
+        },
+        {
+          "label": "lightScore_2",
+          "value": "2"
+        },
+        {
+          "label": "lightScore_3",
+          "value": "17"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "annotation/PARA-GiaaTest.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "annotation/PARA-GiaaTest.csv"
+        },
+        {
+          "label": "imageName",
+          "value": "iaa_pub10079_.jpg"
+        },
+        {
+          "label": "sessionId",
+          "value": "session144"
+        },
+        {
+          "label": "semantic",
+          "value": "indoor"
+        },
+        {
+          "label": "aestheticScore_1.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_1.5",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_2.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_2.5",
+          "value": "5"
+        },
+        {
+          "label": "aestheticScore_3.0",
+          "value": "9"
+        },
+        {
+          "label": "aestheticScore_3.5",
+          "value": "10"
+        },
+        {
+          "label": "aestheticScore_4.0",
+          "value": "3"
+        },
+        {
+          "label": "aestheticScore_4.5",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_5.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_mean",
+          "value": "3.203703704"
+        },
+        {
+          "label": "aestheticScore_std",
+          "value": "0.456623259"
+        },
+        {
+          "label": "qualityScore_mean",
+          "value": "3.388888889"
+        },
+        {
+          "label": "qualityScore_std",
+          "value": "0.56196305"
+        },
+        {
+          "label": "compositionScore_1",
+          "value": "1"
+        },
+        {
+          "label": "compositionScore_2",
+          "value": "3"
+        },
+        {
+          "label": "compositionScore_3",
+          "value": "12"
+        },
+        {
+          "label": "compositionScore_4",
+          "value": "10"
+        },
+        {
+          "label": "compositionScore_5",
+          "value": "1"
+        },
+        {
+          "label": "compositionScore_mean",
+          "value": "3.259259259"
+        },
+        {
+          "label": "compositionScore_std",
+          "value": "0.842948643"
+        },
+        {
+          "label": "colorScore_1",
+          "value": "1"
+        },
+        {
+          "label": "colorScore_2",
+          "value": "8"
+        },
+        {
+          "label": "colorScore_3",
+          "value": "13"
+        },
+        {
+          "label": "colorScore_4",
+          "value": "4"
+        },
+        {
+          "label": "colorScore_5",
+          "value": "1"
+        },
+        {
+          "label": "colorScore_mean",
+          "value": "2.851851852"
+        },
+        {
+          "label": "colorScore_std",
+          "value": "0.847816529"
+        },
+        {
+          "label": "dofScore_1",
+          "value": "1"
+        },
+        {
+          "label": "dofScore_2",
+          "value": "3"
+        },
+        {
+          "label": "dofScore_3",
+          "value": "11"
+        },
+        {
+          "label": "dofScore_4",
+          "value": "9"
+        },
+        {
+          "label": "dofScore_5",
+          "value": "3"
+        },
+        {
+          "label": "dofScore_mean",
+          "value": "3.37037037"
+        },
+        {
+          "label": "dofScore_std",
+          "value": "0.948610998"
+        },
+        {
+          "label": "lightScore_1",
+          "value": "0"
+        },
+        {
+          "label": "lightScore_2",
+          "value": "5"
+        },
+        {
+          "label": "lightScore_3",
+          "value": "14"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "annotation/PARA-GiaaTest.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "annotation/PARA-GiaaTest.csv"
+        },
+        {
+          "label": "imageName",
+          "value": "iaa_pub10080_.jpg"
+        },
+        {
+          "label": "sessionId",
+          "value": "session144"
+        },
+        {
+          "label": "semantic",
+          "value": "animal"
+        },
+        {
+          "label": "aestheticScore_1.0",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_1.5",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_2.0",
+          "value": "1"
+        },
+        {
+          "label": "aestheticScore_2.5",
+          "value": "0"
+        },
+        {
+          "label": "aestheticScore_3.0",
+          "value": "5"
+        },
+        {
+          "label": "aestheticScore_3.5",
+          "value": "10"
+        },
+        {
+          "label": "aestheticScore_4.0",
+          "value": "8"
+        },
+        {
+          "label": "aestheticScore_4.5",
+          "value": "2"
+        },
+        {
+          "label": "aestheticScore_5.0",
+          "value": "1"
+        },
+        {
+          "label": "aestheticScore_mean",
+          "value": "3.62962963"
+        },
+        {
+          "label": "aestheticScore_std",
+          "value": "0.586777019"
+        },
+        {
+          "label": "qualityScore_mean",
+          "value": "3.633333333"
+        },
+        {
+          "label": "qualityScore_std",
+          "value": "0.648645312"
+        },
+        {
+          "label": "compositionScore_1",
+          "value": "0"
+        },
+        {
+          "label": "compositionScore_2",
+          "value": "1"
+        },
+        {
+          "label": "compositionScore_3",
+          "value": "9"
+        },
+        {
+          "label": "compositionScore_4",
+          "value": "12"
+        },
+        {
+          "label": "compositionScore_5",
+          "value": "5"
+        },
+        {
+          "label": "compositionScore_mean",
+          "value": "3.777777778"
+        },
+        {
+          "label": "compositionScore_std",
+          "value": "0.785674201"
+        },
+        {
+          "label": "colorScore_1",
+          "value": "1"
+        },
+        {
+          "label": "colorScore_2",
+          "value": "5"
+        },
+        {
+          "label": "colorScore_3",
+          "value": "11"
+        },
+        {
+          "label": "colorScore_4",
+          "value": "6"
+        },
+        {
+          "label": "colorScore_5",
+          "value": "4"
+        },
+        {
+          "label": "colorScore_mean",
+          "value": "3.259259259"
+        },
+        {
+          "label": "colorScore_std",
+          "value": "1.039679174"
+        },
+        {
+          "label": "dofScore_1",
+          "value": "0"
+        },
+        {
+          "label": "dofScore_2",
+          "value": "1"
+        },
+        {
+          "label": "dofScore_3",
+          "value": "7"
+        },
+        {
+          "label": "dofScore_4",
+          "value": "14"
+        },
+        {
+          "label": "dofScore_5",
+          "value": "5"
+        },
+        {
+          "label": "dofScore_mean",
+          "value": "3.851851852"
+        },
+        {
+          "label": "dofScore_std",
+          "value": "0.755410298"
+        },
+        {
+          "label": "lightScore_1",
+          "value": "0"
+        },
+        {
+          "label": "lightScore_2",
+          "value": "3"
+        },
+        {
+          "label": "lightScore_3",
+          "value": "15"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PARA"
+}

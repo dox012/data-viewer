@@ -1,0 +1,166 @@
+{
+  "name": "景联文",
+  "slug": "composition-7dv0tp53d",
+  "kind": "json",
+  "data_label": "2025-12-10-交付394张/单体建筑/单体建筑/单体建筑/labels_json/0011-近景-仰拍-白天-顺光.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "2025-12-10-交付394张/单体建筑/单体建筑/单体建筑/labels_json/0011-近景-仰拍-白天-顺光.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025-12-10-交付394张/单体建筑/单体建筑/单体建筑/labels_json/0011-近景-仰拍-白天-顺光.json"
+        },
+        {
+          "label": "images",
+          "value": "0011-近景-仰拍-白天-顺光.jpg"
+        },
+        {
+          "label": "annotations",
+          "value": "null"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0057-近景-俯拍-白天-顺光-小.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0057-近景-俯拍-白天-顺光-小.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  0,\n  316,\n  2596,\n  3764\n]"
+        },
+        {
+          "label": "score",
+          "value": "null"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "杠铃片居于画面中心，主体形态可辨。背景货架元素杂乱。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0068-近景-俯拍-白天-顺光-小.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0068-近景-俯拍-白天-顺光-小.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  131,\n  350,\n  2119,\n  3000\n]"
+        },
+        {
+          "label": "score",
+          "value": "null"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "咖喱餐食居于画面中心，食材品类清晰，容器标识元素突出。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0093-近景-俯拍-白天-顺光-小.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0093-近景-俯拍-白天-顺光-小.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  291,\n  99,\n  2882,\n  3554\n]"
+        },
+        {
+          "label": "score",
+          "value": "null"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "金刚菩提串居于画面中心，珠串纹理清晰，背景衬物风格统一。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0074-中景-俯拍-白天-顺光-小.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0074-中景-俯拍-白天-顺光-小.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  583,\n  683,\n  3009,\n  3917\n]"
+        },
+        {
+          "label": "score",
+          "value": "null"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "麦当劳餐食集中于画面中心，餐品种类清晰，包装标识元素突出。"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0164-近景-俯拍-白天-顺光-小.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "2025-12-05-交付100张/菜品合照/菜品合照/labels_json/0164-近景-俯拍-白天-顺光-小.json"
+        },
+        {
+          "label": "bbox_2d",
+          "value": "[\n  205,\n  212,\n  2912,\n  3820\n]"
+        },
+        {
+          "label": "score",
+          "value": "null"
+        },
+        {
+          "label": "构图方法",
+          "value": "中心构图"
+        },
+        {
+          "label": "构图描述",
+          "value": "石狮造型摆件居于画面中心，雕刻纹理清晰，装饰物件风格突出。"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 17646,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/景联文"
+}

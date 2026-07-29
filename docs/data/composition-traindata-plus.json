@@ -1,0 +1,126 @@
+{
+  "name": "traindata_plus",
+  "slug": "composition-traindata-plus",
+  "kind": "txt",
+  "data_label": "ai/动物/labels/IMG_20260325_193050_mod_camera_shift_dis_id_a1b02a94-de08-49fa-a36b-8991a9dbe719.txt",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "ai/动物/labels/IMG_20260325_193050_mod_camera_shift_dis_id_a1b02a94-de08-49fa-a36b-8991a9dbe719.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/动物/labels/IMG_20260325_193050_mod_camera_shift_dis_id_a1b02a94-de08-49fa-a36b-8991a9dbe719.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "106 0 807 939"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "ai/双人人像/labels/IMG_20260325_145821_mod_camera_shift_dis_id_864c01d0-7d0b-40bf-98c9-5f11a994d7f5.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/双人人像/labels/IMG_20260325_145821_mod_camera_shift_dis_id_864c01d0-7d0b-40bf-98c9-5f11a994d7f5.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "28 132 981 843"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "ai/双人人像/labels/IMG_20260325_145821_ref_c3da5859-c4cb-4048-bf46-a104d4e7f739.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/双人人像/labels/IMG_20260325_145821_ref_c3da5859-c4cb-4048-bf46-a104d4e7f739.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "64 167 967 840"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "ai/地标人像/labels/IMG_20260305_153316_mod_mix_id_96d842ab-3262-461f-b544-9820ff8f430f.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/地标人像/labels/IMG_20260305_153316_mod_mix_id_96d842ab-3262-461f-b544-9820ff8f430f.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "1 128 770 1158"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "ai/地标人像/labels/IMG_20260325_163048_ref_de145ec8-9310-473f-9169-cebee95e629b.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/地标人像/labels/IMG_20260325_163048_ref_de145ec8-9310-473f-9169-cebee95e629b.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "90 81 818 1056"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "ai/动物/labels/IMG_20260325_193050_mod_camera_shift_dis_id_02bfa38a-9089-4d0d-80ed-4380ab216c17.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/动物/labels/IMG_20260325_193050_mod_camera_shift_dis_id_02bfa38a-9089-4d0d-80ed-4380ab216c17.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "195 173 707 856"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/traindata_plus"
+}

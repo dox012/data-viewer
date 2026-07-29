@@ -1,0 +1,468 @@
+{
+  "name": "swift_iaa_sft_labels_enhanced_split_structured_by_dataset_official",
+  "slug": "composition-swift-iaa-sft-labels-enhanced-split-structured-by-dataset-official",
+  "kind": "jsonl",
+  "data_label": "ICKK17K/val.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 5.64.\",\n    \"loss_scale\": 0.960752231432742\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/juiedesai19391601268.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/orange_blue/color"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.637041"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.637041"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  5.637041\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  5.637041\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"5.64\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        },
+        {
+          "label": "icaa_target",
+          "value": "color"
+        },
+        {
+          "label": "annotation_confidence",
+          "value": "0.693551064"
+        },
+        {
+          "label": "confidence_normalization_mean",
+          "value": "0.721883375"
+        },
+        {
+          "label": "confidence_loss_weight",
+          "value": "0.960752231"
+        },
+        {
+          "label": "confidence_loss_weight_applied",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-structured-by-dataset-official/s0-juiedesai19391601268.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/juiedesai19391601268.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 6.72.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/juiedesai19391601268.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/orange_blue/holistic"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.720343"
+        },
+        {
+          "label": "raw_score",
+          "value": "6.720343"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  6.720343\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  6.720343\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"6.72\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        },
+        {
+          "label": "icaa_target",
+          "value": "holistic"
+        },
+        {
+          "label": "annotation_confidence",
+          "value": "0.693551064"
+        },
+        {
+          "label": "confidence_normalization_mean",
+          "value": "0.721883375"
+        },
+        {
+          "label": "confidence_loss_weight_applied",
+          "value": "false"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 6.26.\",\n    \"loss_scale\": 0.8656376568151825\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/162814817@N0627431714937.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/orange_blue/color"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.263246"
+        },
+        {
+          "label": "raw_score",
+          "value": "6.263246"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  6.263246\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  6.263246\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"6.26\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        },
+        {
+          "label": "icaa_target",
+          "value": "color"
+        },
+        {
+          "label": "annotation_confidence",
+          "value": "0.624889433"
+        },
+        {
+          "label": "confidence_normalization_mean",
+          "value": "0.721883375"
+        },
+        {
+          "label": "confidence_loss_weight",
+          "value": "0.865637657"
+        },
+        {
+          "label": "confidence_loss_weight_applied",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-structured-by-dataset-official/s2-162814817@N0627431714937.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/162814817@N0627431714937.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 4.28.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/162814817@N0627431714937.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/orange_blue/holistic"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "4.283256"
+        },
+        {
+          "label": "raw_score",
+          "value": "4.283256"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  4.283256\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  4.283256\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"4.28\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        },
+        {
+          "label": "icaa_target",
+          "value": "holistic"
+        },
+        {
+          "label": "annotation_confidence",
+          "value": "0.624889433"
+        },
+        {
+          "label": "confidence_normalization_mean",
+          "value": "0.721883375"
+        },
+        {
+          "label": "confidence_loss_weight_applied",
+          "value": "false"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The color aesthetic score of the image is 6.64.\",\n    \"loss_scale\": 0.9924315210047964\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/148560147@N0337039646742.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/orange_blue/color"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.636279"
+        },
+        {
+          "label": "raw_score",
+          "value": "6.636279"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  6.636279\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  6.636279\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"6.64\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        },
+        {
+          "label": "icaa_target",
+          "value": "color"
+        },
+        {
+          "label": "annotation_confidence",
+          "value": "0.716419816"
+        },
+        {
+          "label": "confidence_normalization_mean",
+          "value": "0.721883375"
+        },
+        {
+          "label": "confidence_loss_weight",
+          "value": "0.992431521"
+        },
+        {
+          "label": "confidence_loss_weight_applied",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-structured-by-dataset-official/s4-148560147@N0337039646742.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/148560147@N0337039646742.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "ICKK17K/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICKK17K/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.57.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/148560147@N0337039646742.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "channel",
+          "value": "ICKK17K/complementary/orange_blue/holistic"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.573207"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.573207"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  5.573207\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  5.573207\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"5.57\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        },
+        {
+          "label": "icaa_target",
+          "value": "holistic"
+        },
+        {
+          "label": "annotation_confidence",
+          "value": "0.716419816"
+        },
+        {
+          "label": "confidence_normalization_mean",
+          "value": "0.721883375"
+        },
+        {
+          "label": "confidence_loss_weight_applied",
+          "value": "false"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 11,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/swift_iaa_sft_labels_enhanced_split_structured_by_dataset_official"
+}

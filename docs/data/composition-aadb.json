@@ -1,0 +1,126 @@
+{
+  "name": "AADB",
+  "slug": "composition-aadb",
+  "kind": "txt",
+  "data_label": "imgListFiles_label/imgListValidationRegression_Repetition.txt",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "imgListFiles_label/imgListValidationRegression_Repetition.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "imgListFiles_label/imgListValidationRegression_Repetition.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "farm1_366_19368111544_fd2446d472_b.jpg 0.000"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "imgListFiles_label/imgListValidationRegression_Repetition.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "imgListFiles_label/imgListValidationRegression_Repetition.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "2"
+        },
+        {
+          "label": "text",
+          "value": "farm1_279_20001508499_e1ed162d91_b.jpg 0.000"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "imgListFiles_label/imgListValidationRegression_Repetition.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "imgListFiles_label/imgListValidationRegression_Repetition.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "3"
+        },
+        {
+          "label": "text",
+          "value": "farm1_281_19946073060_69947c6b9b_b.jpg 0.000"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "imgListFiles_label/imgListValidationRegression_Repetition.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "imgListFiles_label/imgListValidationRegression_Repetition.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "4"
+        },
+        {
+          "label": "text",
+          "value": "farm1_329_20178187626_b09d2dbb9f_b.jpg 0.000"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "imgListFiles_label/imgListValidationRegression_Repetition.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "imgListFiles_label/imgListValidationRegression_Repetition.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "5"
+        },
+        {
+          "label": "text",
+          "value": "farm1_273_19932079629_5c2d0262bb_b.jpg 1.000"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "imgListFiles_label/imgListValidationRegression_Repetition.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "imgListFiles_label/imgListValidationRegression_Repetition.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "6"
+        },
+        {
+          "label": "text",
+          "value": "farm1_301_19659786384_c86c7e1f30_b.jpg 0.000"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 11011,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB"
+}

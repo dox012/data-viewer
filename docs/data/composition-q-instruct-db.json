@@ -1,0 +1,202 @@
+{
+  "name": "Q-Instruct-DB",
+  "slug": "composition-q-instruct-db",
+  "kind": "json",
+  "data_label": "cleaned_labels.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "cleaned_labels.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "cleaned_labels.json"
+        },
+        {
+          "label": "id",
+          "value": "8427827661_cauchy"
+        },
+        {
+          "label": "image",
+          "value": "spaq_koniq/8427827661.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"Discuss and assess the quality of the picture, and form conclusions based on your evaluation.\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"The lighting in this picture is average, with an overall dark color tone. The focus is on the people and children in the foreground, and the features of their clothes on the snowy ground are clear. The features of the person on the left and the cat on the right are difficult to discern due to underexposure. The features of the distant snowy ground, trees, vehicles, and some buildings are relatively blurry. The overall quality of the image is considered average.\"\n  }\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-q-instruct-db/s0-8427827661.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Q-Instruct-DB/spaq_koniq/8427827661.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "cleaned_labels.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "cleaned_labels.json"
+        },
+        {
+          "label": "id",
+          "value": "08615_zheng"
+        },
+        {
+          "label": "image",
+          "value": "spaq_koniq/08615.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"Inspect the image closely and offer an evaluation rooted in your analysis.\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"The overall clarity of this image is very low, there are serious focusing issues, and there is severe motion blur. The lighting is sufficient, but the colors are monotonous. The subject, which is a dog, is very blurry and lacks all texture details. The composition is tilted, and the background is very blurry. Therefore, the quality of this image is very poor.\"\n  }\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-q-instruct-db/s1-08615.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Q-Instruct-DB/spaq_koniq/08615.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "cleaned_labels.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "cleaned_labels.json"
+        },
+        {
+          "label": "image",
+          "value": "spaq_koniq/02091.jpg"
+        },
+        {
+          "label": "id",
+          "value": "spaq_koniq/02091.jpg_ee16493f-4a79-4d36-a436-d7560052daf2"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"Is the composition of the image skewed?\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"No\"\n  }\n]"
+        },
+        {
+          "label": "type",
+          "value": "what/how"
+        },
+        {
+          "label": "qtype",
+          "value": "vqa"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-q-instruct-db/s2-02091.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Q-Instruct-DB/spaq_koniq/02091.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "cleaned_labels.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "cleaned_labels.json"
+        },
+        {
+          "label": "id",
+          "value": "04159_diaoshengjia"
+        },
+        {
+          "label": "image",
+          "value": "spaq_koniq/04159.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"Examine the image's quality and provide an evaluation based on your observations.\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"This photo was taken at the entrance of a subway station. The overall image is shaky and blurry, lacking sufficient focus. The lighting is slightly dim, making it difficult to identify many words or picture details. Therefore, the quality of this photo is poor.\"\n  }\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-q-instruct-db/s3-04159.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Q-Instruct-DB/spaq_koniq/04159.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "cleaned_labels.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "cleaned_labels.json"
+        },
+        {
+          "label": "image",
+          "value": "spaq_koniq/09312.jpg"
+        },
+        {
+          "label": "id",
+          "value": "spaq_koniq/09312.jpg_f802d00d-e9c3-427c-8bb9-0f36752179a1"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"Does the main subject lack sharpness?\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"Yes\"\n  }\n]"
+        },
+        {
+          "label": "type",
+          "value": "what/how"
+        },
+        {
+          "label": "qtype",
+          "value": "vqa"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-q-instruct-db/s4-09312.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Q-Instruct-DB/spaq_koniq/09312.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "cleaned_labels.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "cleaned_labels.json"
+        },
+        {
+          "label": "id",
+          "value": "04380_fanyu"
+        },
+        {
+          "label": "image",
+          "value": "spaq_koniq/04380.jpg"
+        },
+        {
+          "label": "conversations",
+          "value": "[\n  {\n    \"from\": \"human\",\n    \"value\": \"Discuss and assess the quality of the picture, and form conclusions based on your evaluation.\\n<image>\"\n  },\n  {\n    \"from\": \"gpt\",\n    \"value\": \"This image has a problem with motion blur, resulting in a very blurry image with almost complete loss of fine details and textures of the photographed subject, plants. The overall clarity is very low, but there is color contrast. Therefore, the quality of this image is poor.\"\n  }\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-q-instruct-db/s5-04380.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Q-Instruct-DB/spaq_koniq/04380.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 19004,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Q-Instruct-DB"
+}

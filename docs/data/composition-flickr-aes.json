@@ -1,0 +1,150 @@
+{
+  "name": "Flickr-AES",
+  "slug": "composition-flickr-aes",
+  "kind": "csv",
+  "data_label": "FLICKR-AES_image_labeled_by_each_worker.csv",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "FLICKR-AES_image_labeled_by_each_worker.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "FLICKR-AES_image_labeled_by_each_worker.csv"
+        },
+        {
+          "label": "worker",
+          "value": "A14W0IW2KGR80K"
+        },
+        {
+          "label": " imagePair",
+          "value": "farm1_176_396297967_94dae8ad97.jpg"
+        },
+        {
+          "label": " score",
+          "value": "2"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "FLICKR-AES_image_labeled_by_each_worker.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "FLICKR-AES_image_labeled_by_each_worker.csv"
+        },
+        {
+          "label": "worker",
+          "value": "A14W0IW2KGR80K"
+        },
+        {
+          "label": " imagePair",
+          "value": "farm1_106_268532564_c273eb23e6.jpg"
+        },
+        {
+          "label": " score",
+          "value": "4"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "FLICKR-AES_image_labeled_by_each_worker.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "FLICKR-AES_image_labeled_by_each_worker.csv"
+        },
+        {
+          "label": "worker",
+          "value": "A14W0IW2KGR80K"
+        },
+        {
+          "label": " imagePair",
+          "value": "farm8_7224_7246491674_540646a594.jpg"
+        },
+        {
+          "label": " score",
+          "value": "4"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "FLICKR-AES_image_labeled_by_each_worker.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "FLICKR-AES_image_labeled_by_each_worker.csv"
+        },
+        {
+          "label": "worker",
+          "value": "A14W0IW2KGR80K"
+        },
+        {
+          "label": " imagePair",
+          "value": "farm3_2643_4041742092_25f170c501.jpg"
+        },
+        {
+          "label": " score",
+          "value": "2"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "FLICKR-AES_image_labeled_by_each_worker.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "FLICKR-AES_image_labeled_by_each_worker.csv"
+        },
+        {
+          "label": "worker",
+          "value": "A14W0IW2KGR80K"
+        },
+        {
+          "label": " imagePair",
+          "value": "farm4_3080_2922825219_1ba9c41b1a.jpg"
+        },
+        {
+          "label": " score",
+          "value": "5"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "FLICKR-AES_image_labeled_by_each_worker.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "FLICKR-AES_image_labeled_by_each_worker.csv"
+        },
+        {
+          "label": "worker",
+          "value": "A14W0IW2KGR80K"
+        },
+        {
+          "label": " imagePair",
+          "value": "farm3_2712_4041348043_7474e05c41.jpg"
+        },
+        {
+          "label": " score",
+          "value": "2"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/Flickr-AES"
+}

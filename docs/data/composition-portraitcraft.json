@@ -1,0 +1,318 @@
+{
+  "name": "PortraitCraft",
+  "slug": "composition-portraitcraft",
+  "kind": "jsonl",
+  "data_label": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
+        },
+        {
+          "label": "image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_10/unsplash_plus_people_18200_6b532cdda99f.jpg"
+        },
+        {
+          "label": "error_type",
+          "value": "OSError"
+        },
+        {
+          "label": "error",
+          "value": "image file is truncated (11 bytes not processed)"
+        },
+        {
+          "label": "row_index",
+          "value": "23367"
+        },
+        {
+          "label": "image_index",
+          "value": "0"
+        },
+        {
+          "label": "source_index",
+          "value": "23367"
+        },
+        {
+          "label": "reward_type",
+          "value": "choice"
+        },
+        {
+          "label": "reward_metric",
+          "value": "depth_of_field_and_layering"
+        },
+        {
+          "label": "data_source",
+          "value": "portrait_composition_choice_depth_of_field_and_layering"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-portraitcraft/s0-unsplash_plus_people_18200_6b532cdda99f.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_10/unsplash_plus_people_18200_6b532cdda99f.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
+        },
+        {
+          "label": "image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_10/unsplash_plus_people_18156_fc03f424052e.jpg"
+        },
+        {
+          "label": "error_type",
+          "value": "OSError"
+        },
+        {
+          "label": "error",
+          "value": "image file is truncated (1 bytes not processed)"
+        },
+        {
+          "label": "row_index",
+          "value": "26590"
+        },
+        {
+          "label": "image_index",
+          "value": "0"
+        },
+        {
+          "label": "source_index",
+          "value": "26590"
+        },
+        {
+          "label": "reward_type",
+          "value": "score_reason"
+        },
+        {
+          "label": "reward_metric",
+          "value": "sharpness"
+        },
+        {
+          "label": "data_source",
+          "value": "portrait_composition_score_reason_sharpness"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-portraitcraft/s1-unsplash_plus_people_18156_fc03f424052e.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_10/unsplash_plus_people_18156_fc03f424052e.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
+        },
+        {
+          "label": "image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_08/unsplash_plus_people_08569_4f071ac5a8df.jpg"
+        },
+        {
+          "label": "error_type",
+          "value": "OSError"
+        },
+        {
+          "label": "error",
+          "value": "image file is truncated (4 bytes not processed)"
+        },
+        {
+          "label": "row_index",
+          "value": "34901"
+        },
+        {
+          "label": "image_index",
+          "value": "0"
+        },
+        {
+          "label": "source_index",
+          "value": "34901"
+        },
+        {
+          "label": "reward_type",
+          "value": "choice"
+        },
+        {
+          "label": "reward_metric",
+          "value": "light_and_shadow_modeling"
+        },
+        {
+          "label": "data_source",
+          "value": "portrait_composition_choice_light_and_shadow_modeling"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-portraitcraft/s2-unsplash_plus_people_08569_4f071ac5a8df.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_08/unsplash_plus_people_08569_4f071ac5a8df.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
+        },
+        {
+          "label": "image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_10/unsplash_plus_people_18156_fc03f424052e.jpg"
+        },
+        {
+          "label": "error_type",
+          "value": "OSError"
+        },
+        {
+          "label": "error",
+          "value": "image file is truncated (1 bytes not processed)"
+        },
+        {
+          "label": "row_index",
+          "value": "46973"
+        },
+        {
+          "label": "image_index",
+          "value": "0"
+        },
+        {
+          "label": "source_index",
+          "value": "46973"
+        },
+        {
+          "label": "reward_type",
+          "value": "overall_0_100"
+        },
+        {
+          "label": "reward_metric",
+          "value": "overall_aesthetic"
+        },
+        {
+          "label": "data_source",
+          "value": "portrait_composition_overall_0_100"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
+        },
+        {
+          "label": "image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_10/unsplash_plus_people_18200_6b532cdda99f.jpg"
+        },
+        {
+          "label": "error_type",
+          "value": "OSError"
+        },
+        {
+          "label": "error",
+          "value": "image file is truncated (11 bytes not processed)"
+        },
+        {
+          "label": "row_index",
+          "value": "48251"
+        },
+        {
+          "label": "image_index",
+          "value": "0"
+        },
+        {
+          "label": "source_index",
+          "value": "48251"
+        },
+        {
+          "label": "reward_type",
+          "value": "score_reason"
+        },
+        {
+          "label": "reward_metric",
+          "value": "appropriateness_of_negative_space"
+        },
+        {
+          "label": "data_source",
+          "value": "portrait_composition_score_reason_appropriateness_of_negative_space"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
+        },
+        {
+          "label": "image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_09/unsplash_plus_people_10898_69525281b725.jpg"
+        },
+        {
+          "label": "error_type",
+          "value": "OSError"
+        },
+        {
+          "label": "error",
+          "value": "image file is truncated (2 bytes not processed)"
+        },
+        {
+          "label": "row_index",
+          "value": "55351"
+        },
+        {
+          "label": "image_index",
+          "value": "0"
+        },
+        {
+          "label": "source_index",
+          "value": "55351"
+        },
+        {
+          "label": "reward_type",
+          "value": "score_reason"
+        },
+        {
+          "label": "reward_metric",
+          "value": "application_of_classical_composition_principles"
+        },
+        {
+          "label": "data_source",
+          "value": "portrait_composition_score_reason_application_of_classical_composition_principles"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-portraitcraft/s5-unsplash_plus_people_10898_69525281b725.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_09/unsplash_plus_people_10898_69525281b725.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft"
+}

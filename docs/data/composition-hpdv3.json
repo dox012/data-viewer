@@ -1,0 +1,528 @@
+{
+  "name": "HPDv3",
+  "slug": "composition-hpdv3",
+  "kind": "json",
+  "data_label": "pickapic_test.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "pickapic_test.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "pickapic_test.json"
+        },
+        {
+          "label": "prompt",
+          "value": "A curious cat exploring a haunted mansion"
+        },
+        {
+          "label": "path1",
+          "value": "pickapic_test_images_sharded/19/19ab2192-6c9d-42f0-b6f8-f7491ddddbc8.jpg"
+        },
+        {
+          "label": "path2",
+          "value": "pickapic_test_images_sharded/a1/a1877ac6-b428-464b-9eb2-c15a15390534.jpg"
+        },
+        {
+          "label": "label_0",
+          "value": "0.0"
+        },
+        {
+          "label": "label_1",
+          "value": "1.0"
+        },
+        {
+          "label": "preferred_uid",
+          "value": "19ab2192-6c9d-42f0-b6f8-f7491ddddbc8"
+        },
+        {
+          "label": "rejected_uid",
+          "value": "a1877ac6-b428-464b-9eb2-c15a15390534"
+        },
+        {
+          "label": "source_parquet",
+          "value": "test_unique-00000-of-00001-c163d5839d8aed9f.parquet"
+        },
+        {
+          "label": "source_row",
+          "value": "0"
+        },
+        {
+          "label": "best_image_uid",
+          "value": "19ab2192-6c9d-42f0-b6f8-f7491ddddbc8"
+        },
+        {
+          "label": "ranking_id",
+          "value": "694474"
+        },
+        {
+          "label": "__index_level_0__",
+          "value": "3"
+        },
+        {
+          "label": "model_0",
+          "value": "DP2.0"
+        },
+        {
+          "label": "model_1",
+          "value": "SDXL-BETA"
+        },
+        {
+          "label": "are_different",
+          "value": "true"
+        },
+        {
+          "label": "has_label",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s0-19ab2192-6c9d-42f0-b6f8-f7491ddddbc8.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/19/19ab2192-6c9d-42f0-b6f8-f7491ddddbc8.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s0-a1877ac6-b428-464b-9eb2-c15a15390534.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/a1/a1877ac6-b428-464b-9eb2-c15a15390534.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "pickapic_test.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "pickapic_test.json"
+        },
+        {
+          "label": "prompt",
+          "value": "a spanish water dog breed as arthur morgan from red dead redemption"
+        },
+        {
+          "label": "path1",
+          "value": "pickapic_test_images_sharded/e3/e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8.jpg"
+        },
+        {
+          "label": "path2",
+          "value": "pickapic_test_images_sharded/e8/e8e73967-570c-46a0-906f-33fca89f3b84.jpg"
+        },
+        {
+          "label": "label_0",
+          "value": "1.0"
+        },
+        {
+          "label": "label_1",
+          "value": "0.0"
+        },
+        {
+          "label": "preferred_uid",
+          "value": "e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8"
+        },
+        {
+          "label": "rejected_uid",
+          "value": "e8e73967-570c-46a0-906f-33fca89f3b84"
+        },
+        {
+          "label": "source_parquet",
+          "value": "test_unique-00000-of-00001-c163d5839d8aed9f.parquet"
+        },
+        {
+          "label": "source_row",
+          "value": "1"
+        },
+        {
+          "label": "best_image_uid",
+          "value": "e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8"
+        },
+        {
+          "label": "ranking_id",
+          "value": "556299"
+        },
+        {
+          "label": "__index_level_0__",
+          "value": "19"
+        },
+        {
+          "label": "model_0",
+          "value": "SDXL-ALPHA"
+        },
+        {
+          "label": "model_1",
+          "value": "DP2.0"
+        },
+        {
+          "label": "are_different",
+          "value": "true"
+        },
+        {
+          "label": "has_label",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s1-e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/e3/e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s1-e8e73967-570c-46a0-906f-33fca89f3b84.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/e8/e8e73967-570c-46a0-906f-33fca89f3b84.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "pickapic_test.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "pickapic_test.json"
+        },
+        {
+          "label": "prompt",
+          "value": "Portrait of a 26yr white woman, hyper-detailed, extremely ashamed, soft skin"
+        },
+        {
+          "label": "path1",
+          "value": "pickapic_test_images_sharded/56/569e85b3-8db0-468d-bc68-88f12ce6c440.jpg"
+        },
+        {
+          "label": "path2",
+          "value": "pickapic_test_images_sharded/d0/d03083e2-161b-40c4-88e6-f8c5bc21502d.jpg"
+        },
+        {
+          "label": "label_0",
+          "value": "1.0"
+        },
+        {
+          "label": "label_1",
+          "value": "0.0"
+        },
+        {
+          "label": "preferred_uid",
+          "value": "569e85b3-8db0-468d-bc68-88f12ce6c440"
+        },
+        {
+          "label": "rejected_uid",
+          "value": "d03083e2-161b-40c4-88e6-f8c5bc21502d"
+        },
+        {
+          "label": "source_parquet",
+          "value": "test_unique-00000-of-00001-c163d5839d8aed9f.parquet"
+        },
+        {
+          "label": "source_row",
+          "value": "2"
+        },
+        {
+          "label": "best_image_uid",
+          "value": "569e85b3-8db0-468d-bc68-88f12ce6c440"
+        },
+        {
+          "label": "ranking_id",
+          "value": "542274"
+        },
+        {
+          "label": "__index_level_0__",
+          "value": "27"
+        },
+        {
+          "label": "model_0",
+          "value": "DP2.0"
+        },
+        {
+          "label": "model_1",
+          "value": "SDXL-ALPHA"
+        },
+        {
+          "label": "are_different",
+          "value": "true"
+        },
+        {
+          "label": "has_label",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s2-569e85b3-8db0-468d-bc68-88f12ce6c440.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/56/569e85b3-8db0-468d-bc68-88f12ce6c440.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s2-d03083e2-161b-40c4-88e6-f8c5bc21502d.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/d0/d03083e2-161b-40c4-88e6-f8c5bc21502d.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "pickapic_test.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "pickapic_test.json"
+        },
+        {
+          "label": "prompt",
+          "value": "zentai"
+        },
+        {
+          "label": "path1",
+          "value": "pickapic_test_images_sharded/c4/c48730d5-d5d6-40f8-9ee5-bff3acf89b2d.jpg"
+        },
+        {
+          "label": "path2",
+          "value": "pickapic_test_images_sharded/f6/f6a1f780-b9cf-48e5-a233-1c46bbeebeb2.jpg"
+        },
+        {
+          "label": "label_0",
+          "value": "1.0"
+        },
+        {
+          "label": "label_1",
+          "value": "0.0"
+        },
+        {
+          "label": "preferred_uid",
+          "value": "c48730d5-d5d6-40f8-9ee5-bff3acf89b2d"
+        },
+        {
+          "label": "rejected_uid",
+          "value": "f6a1f780-b9cf-48e5-a233-1c46bbeebeb2"
+        },
+        {
+          "label": "source_parquet",
+          "value": "test_unique-00000-of-00001-c163d5839d8aed9f.parquet"
+        },
+        {
+          "label": "source_row",
+          "value": "3"
+        },
+        {
+          "label": "best_image_uid",
+          "value": "c48730d5-d5d6-40f8-9ee5-bff3acf89b2d"
+        },
+        {
+          "label": "ranking_id",
+          "value": "743799"
+        },
+        {
+          "label": "__index_level_0__",
+          "value": "34"
+        },
+        {
+          "label": "model_0",
+          "value": "DP2.0"
+        },
+        {
+          "label": "model_1",
+          "value": "SDXL-BETA"
+        },
+        {
+          "label": "are_different",
+          "value": "true"
+        },
+        {
+          "label": "has_label",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s3-c48730d5-d5d6-40f8-9ee5-bff3acf89b2d.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/c4/c48730d5-d5d6-40f8-9ee5-bff3acf89b2d.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s3-f6a1f780-b9cf-48e5-a233-1c46bbeebeb2.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/f6/f6a1f780-b9cf-48e5-a233-1c46bbeebeb2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "pickapic_test.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "pickapic_test.json"
+        },
+        {
+          "label": "prompt",
+          "value": "A close-up photograph of a fat orange cat with lasagna in its mouth. Shot on Leica M6."
+        },
+        {
+          "label": "path1",
+          "value": "pickapic_test_images_sharded/81/8147e6a5-0107-4ae3-8555-be279f53d22b.jpg"
+        },
+        {
+          "label": "path2",
+          "value": "pickapic_test_images_sharded/15/15ff1b03-8088-47bf-aa73-5bacbf67c77a.jpg"
+        },
+        {
+          "label": "label_0",
+          "value": "1.0"
+        },
+        {
+          "label": "label_1",
+          "value": "0.0"
+        },
+        {
+          "label": "preferred_uid",
+          "value": "8147e6a5-0107-4ae3-8555-be279f53d22b"
+        },
+        {
+          "label": "rejected_uid",
+          "value": "15ff1b03-8088-47bf-aa73-5bacbf67c77a"
+        },
+        {
+          "label": "source_parquet",
+          "value": "test_unique-00000-of-00001-c163d5839d8aed9f.parquet"
+        },
+        {
+          "label": "source_row",
+          "value": "4"
+        },
+        {
+          "label": "best_image_uid",
+          "value": "8147e6a5-0107-4ae3-8555-be279f53d22b"
+        },
+        {
+          "label": "ranking_id",
+          "value": "114098"
+        },
+        {
+          "label": "__index_level_0__",
+          "value": "36"
+        },
+        {
+          "label": "model_0",
+          "value": "DP2.0"
+        },
+        {
+          "label": "model_1",
+          "value": "DP2.0"
+        },
+        {
+          "label": "are_different",
+          "value": "false"
+        },
+        {
+          "label": "has_label",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s4-8147e6a5-0107-4ae3-8555-be279f53d22b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/81/8147e6a5-0107-4ae3-8555-be279f53d22b.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s4-15ff1b03-8088-47bf-aa73-5bacbf67c77a.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/15/15ff1b03-8088-47bf-aa73-5bacbf67c77a.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "pickapic_test.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "pickapic_test.json"
+        },
+        {
+          "label": "prompt",
+          "value": "toilet design toilet in style of dodge charger toilet, black, photo"
+        },
+        {
+          "label": "path1",
+          "value": "pickapic_test_images_sharded/fc/fc3e9f09-b44c-40ac-ba38-3a5b88dc47df.jpg"
+        },
+        {
+          "label": "path2",
+          "value": "pickapic_test_images_sharded/32/328802b0-46ca-43a2-82ab-ef693a3a658f.jpg"
+        },
+        {
+          "label": "label_0",
+          "value": "1.0"
+        },
+        {
+          "label": "label_1",
+          "value": "0.0"
+        },
+        {
+          "label": "preferred_uid",
+          "value": "fc3e9f09-b44c-40ac-ba38-3a5b88dc47df"
+        },
+        {
+          "label": "rejected_uid",
+          "value": "328802b0-46ca-43a2-82ab-ef693a3a658f"
+        },
+        {
+          "label": "source_parquet",
+          "value": "test_unique-00000-of-00001-c163d5839d8aed9f.parquet"
+        },
+        {
+          "label": "source_row",
+          "value": "5"
+        },
+        {
+          "label": "best_image_uid",
+          "value": "fc3e9f09-b44c-40ac-ba38-3a5b88dc47df"
+        },
+        {
+          "label": "ranking_id",
+          "value": "719844"
+        },
+        {
+          "label": "__index_level_0__",
+          "value": "37"
+        },
+        {
+          "label": "model_0",
+          "value": "DP2.0"
+        },
+        {
+          "label": "model_1",
+          "value": "DP2.0"
+        },
+        {
+          "label": "are_different",
+          "value": "false"
+        },
+        {
+          "label": "has_label",
+          "value": "true"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s5-fc3e9f09-b44c-40ac-ba38-3a5b88dc47df.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/fc/fc3e9f09-b44c-40ac-ba38-3a5b88dc47df.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-hpdv3/s5-328802b0-46ca-43a2-82ab-ef693a3a658f.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/32/328802b0-46ca-43a2-82ab-ef693a3a658f.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3"
+}

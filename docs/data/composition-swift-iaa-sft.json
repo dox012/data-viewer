@@ -1,0 +1,282 @@
+{
+  "name": "swift_iaa_sft",
+  "slug": "composition-swift-iaa-sft",
+  "kind": "jsonl",
+  "data_label": "val.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"You are an image aesthetics assessment assistant. Return calibrated continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 6.75.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/954013.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "channel",
+          "value": "AVA"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.75"
+        },
+        {
+          "label": "raw_score",
+          "value": "6.75"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft/s0-954013.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/954013.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"You are an image aesthetics assessment assistant. Return calibrated continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.28.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/953630.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "channel",
+          "value": "AVA"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.282258"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.282258"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft/s1-953630.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/953630.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"You are an image aesthetics assessment assistant. Return calibrated continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.58.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/771289.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "channel",
+          "value": "AVA"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.578947"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.578947"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft/s2-771289.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/771289.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"You are an image aesthetics assessment assistant. Return calibrated continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.25.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/771082.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "channel",
+          "value": "AVA"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.248485"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.248485"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft/s3-771082.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/771082.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"You are an image aesthetics assessment assistant. Return calibrated continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 4.95.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/771392.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "channel",
+          "value": "AVA"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "4.95"
+        },
+        {
+          "label": "raw_score",
+          "value": "4.95"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft/s4-771392.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/771392.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"You are an image aesthetics assessment assistant. Return calibrated continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.76.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/771538.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "channel",
+          "value": "AVA"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.760234"
+        },
+        {
+          "label": "raw_score",
+          "value": "5.760234"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft/s5-771538.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/771538.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 3,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/swift_iaa_sft"
+}

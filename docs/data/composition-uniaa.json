@@ -1,0 +1,43 @@
+{
+  "name": "UNIAA",
+  "slug": "composition-uniaa",
+  "kind": "json",
+  "data_label": "UNIAA_LLaVA/idcp_fallback_images_extracted.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "UNIAA_LLaVA/idcp_fallback_images_extracted.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "UNIAA_LLaVA/idcp_fallback_images_extracted.json"
+        },
+        {
+          "label": "archive",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/UNIAA/UNIAA_LLaVA_IDCP_data.zip"
+        },
+        {
+          "label": "image_root",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/UNIAA/UNIAA_LLaVA/images"
+        },
+        {
+          "label": "images",
+          "value": "4466"
+        },
+        {
+          "label": "newly_extracted",
+          "value": "0"
+        },
+        {
+          "label": "reused",
+          "value": "4466"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 5989,
+  "sample_count": 1,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/UNIAA"
+}

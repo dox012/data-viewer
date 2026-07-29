@@ -1,0 +1,126 @@
+{
+  "name": "AVA",
+  "slug": "composition-ava",
+  "kind": "txt",
+  "data_label": "AVA_dataset/style_image_lists/styles.txt",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/style_image_lists/styles.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "1 Complementary_Colors"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/style_image_lists/styles.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "2"
+        },
+        {
+          "label": "text",
+          "value": "2 Duotones"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/style_image_lists/styles.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "3"
+        },
+        {
+          "label": "text",
+          "value": "3 HDR"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/style_image_lists/styles.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "4"
+        },
+        {
+          "label": "text",
+          "value": "4 Image_Grain"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/style_image_lists/styles.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "5"
+        },
+        {
+          "label": "text",
+          "value": "5 Light_On_White"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/style_image_lists/styles.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "6"
+        },
+        {
+          "label": "text",
+          "value": "6 Long_Exposure"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA"
+}

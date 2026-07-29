@@ -1,0 +1,288 @@
+{
+  "name": "swift_iaa_rank_pairs_structured",
+  "slug": "composition-swift-iaa-rank-pairs-structured",
+  "kind": "jsonl",
+  "data_label": "train.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "train.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "AVA:008442"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "target",
+          "value": "holistic"
+        },
+        {
+          "label": "score_gap",
+          "value": "0.963759"
+        },
+        {
+          "label": "high",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/112371.jpg\"\n  ],\n  \"score\": 6.003759,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 45318\n}"
+        },
+        {
+          "label": "low",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/481472.jpg\"\n  ],\n  \"score\": 5.04,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 111648\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s0-112371.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/112371.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s0-481472.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/481472.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "train.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "ICKK17K:000671"
+        },
+        {
+          "label": "source_dataset",
+          "value": "ICKK17K"
+        },
+        {
+          "label": "target",
+          "value": "color"
+        },
+        {
+          "label": "score_gap",
+          "value": "1.371065"
+        },
+        {
+          "label": "high",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/monochromatic/violet/finlap34521522971.jpg\"\n  ],\n  \"score\": 6.421031,\n  \"answer_prefix\": \"The color aesthetic score of the image is \",\n  \"loss_weight\": 1.042299605,\n  \"source_line\": 14375\n}"
+        },
+        {
+          "label": "low",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the color aesthetics of this image and return a continuous score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/blue_violet/muchlove201637740331852.jpg\"\n  ],\n  \"score\": 5.049966,\n  \"answer_prefix\": \"The color aesthetic score of the image is \",\n  \"loss_weight\": 1.024902475,\n  \"source_line\": 11271\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s1-finlap34521522971.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/monochromatic/violet/finlap34521522971.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s1-muchlove201637740331852.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/blue_violet/muchlove201637740331852.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "train.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "AVA:003465"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "target",
+          "value": "holistic"
+        },
+        {
+          "label": "score_gap",
+          "value": "1.512554"
+        },
+        {
+          "label": "high",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/773957.jpg\"\n  ],\n  \"score\": 6.635135,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 110972\n}"
+        },
+        {
+          "label": "low",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/729379.jpg\"\n  ],\n  \"score\": 5.122581,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 162187\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s2-773957.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/773957.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s2-729379.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/729379.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "train.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "AADB:000235"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AADB"
+        },
+        {
+          "label": "target",
+          "value": "holistic"
+        },
+        {
+          "label": "score_gap",
+          "value": "0.45"
+        },
+        {
+          "label": "high",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/datasetImages_originalSize/farm1_322_20163040015_27af76b61c_b.jpg\"\n  ],\n  \"score\": 1.45,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 5885\n}"
+        },
+        {
+          "label": "low",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/datasetImages_originalSize/farm1_278_19962190606_7e34c06c5d_b.jpg\"\n  ],\n  \"score\": 1.0,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 2737\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s3-farm1_322_20163040015_27af76b61c_b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/datasetImages_originalSize/farm1_322_20163040015_27af76b61c_b.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s3-farm1_278_19962190606_7e34c06c5d_b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/datasetImages_originalSize/farm1_278_19962190606_7e34c06c5d_b.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "train.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "AVA:015658"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "target",
+          "value": "holistic"
+        },
+        {
+          "label": "score_gap",
+          "value": "3.23006"
+        },
+        {
+          "label": "high",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/253043.jpg\"\n  ],\n  \"score\": 6.549708,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 117478\n}"
+        },
+        {
+          "label": "low",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/294706.jpg\"\n  ],\n  \"score\": 3.319648,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 1694\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s4-253043.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/253043.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s4-294706.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/294706.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "train.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "AVA:009145"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AVA"
+        },
+        {
+          "label": "target",
+          "value": "holistic"
+        },
+        {
+          "label": "score_gap",
+          "value": "0.362216"
+        },
+        {
+          "label": "high",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/836139.jpg\"\n  ],\n  \"score\": 5.909091,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 163374\n}"
+        },
+        {
+          "label": "low",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/353511.jpg\"\n  ],\n  \"score\": 5.546875,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 137573\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s5-836139.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/836139.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs-structured/s5-353511.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/353511.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 2,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/swift_iaa_rank_pairs_structured"
+}

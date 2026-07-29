@@ -1,0 +1,126 @@
+{
+  "name": "ai_zoom_classed",
+  "slug": "composition-ai-zoom-classed",
+  "kind": "txt",
+  "data_label": "ai/人像/labels/3fb14117-b76b-46d1-9b74-5fbf5572c3dd.txt",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "ai/人像/labels/3fb14117-b76b-46d1-9b74-5fbf5572c3dd.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/人像/labels/3fb14117-b76b-46d1-9b74-5fbf5572c3dd.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "0 23 1041 801"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "ai/人像/labels/843ea602-ce13-4490-a459-cd5c405cdce6.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/人像/labels/843ea602-ce13-4490-a459-cd5c405cdce6.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "30 6 1079 788"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "ai/人像/labels/f5899e3a-70bd-41b7-a62c-8d566750b646.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/人像/labels/f5899e3a-70bd-41b7-a62c-8d566750b646.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "78 0 1002 688"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "ai/人像/roi/0f31a05d-d98b-450d-8764-72f1c400ec72.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/人像/roi/0f31a05d-d98b-450d-8764-72f1c400ec72.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "67 81 311 316"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "ai/人像/roi/132d5794-f1ab-4fc6-bb34-28a25e7bc537.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/人像/roi/132d5794-f1ab-4fc6-bb34-28a25e7bc537.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "60 49 313 308"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "ai/人像/roi/1392a180-163e-4eb0-b683-2cd1debbda15.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ai/人像/roi/1392a180-163e-4eb0-b683-2cd1debbda15.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "1"
+        },
+        {
+          "label": "text",
+          "value": "42 88 316 295"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed"
+}

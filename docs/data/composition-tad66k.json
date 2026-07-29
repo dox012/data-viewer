@@ -1,0 +1,162 @@
+{
+  "name": "TAD66K",
+  "slug": "composition-tad66k",
+  "kind": "csv",
+  "data_label": "labels/merge/test.csv",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "labels/merge/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "labels/merge/test.csv"
+        },
+        {
+          "label": "image",
+          "value": "hs_yin152947873.jpg"
+        },
+        {
+          "label": "score",
+          "value": "1.9"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-tad66k/s0-hs_yin152947873.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/hs_yin152947873.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "labels/merge/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "labels/merge/test.csv"
+        },
+        {
+          "label": "image",
+          "value": "thegermanfriday6280491840.jpg"
+        },
+        {
+          "label": "score",
+          "value": "2.48"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-tad66k/s1-thegermanfriday6280491840.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/thegermanfriday6280491840.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "labels/merge/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "labels/merge/test.csv"
+        },
+        {
+          "label": "image",
+          "value": "thoseunspokenwords5988966769.jpg"
+        },
+        {
+          "label": "score",
+          "value": "3.0"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-tad66k/s2-thoseunspokenwords5988966769.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/thoseunspokenwords5988966769.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "labels/merge/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "labels/merge/test.csv"
+        },
+        {
+          "label": "image",
+          "value": "holodelic2789945677.jpg"
+        },
+        {
+          "label": "score",
+          "value": "4.54"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-tad66k/s3-holodelic2789945677.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/holodelic2789945677.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "labels/merge/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "labels/merge/test.csv"
+        },
+        {
+          "label": "image",
+          "value": "caroslines59013983.jpg"
+        },
+        {
+          "label": "score",
+          "value": "4.83"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-tad66k/s4-caroslines59013983.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/caroslines59013983.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "labels/merge/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "labels/merge/test.csv"
+        },
+        {
+          "label": "image",
+          "value": "holodelic3313764856.jpg"
+        },
+        {
+          "label": "score",
+          "value": "3.99"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-tad66k/s5-holodelic3313764856.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/holodelic3313764856.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 20000,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K"
+}

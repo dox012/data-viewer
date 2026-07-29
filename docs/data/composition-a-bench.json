@@ -1,0 +1,174 @@
+{
+  "name": "A-Bench",
+  "slug": "composition-a-bench",
+  "kind": "json",
+  "data_label": "Abench.json",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Abench.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Abench.json"
+        },
+        {
+          "label": "img_path",
+          "value": "part1_0000.png"
+        },
+        {
+          "label": "question",
+          "value": "What is the color of the windows in the house in the picture?"
+        },
+        {
+          "label": "answers",
+          "value": "[\n  \"white\",\n  \"yellow\",\n  \"blue\"\n]"
+        },
+        {
+          "label": "category",
+          "value": "part1 -> basic_recognition -> major"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Abench.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Abench.json"
+        },
+        {
+          "label": "img_path",
+          "value": "part1_0001.png"
+        },
+        {
+          "label": "question",
+          "value": "What kind of atmosphere does the image convey?"
+        },
+        {
+          "label": "answers",
+          "value": "[\n  \"Classical\",\n  \"Modern\",\n  \"Bustling\"\n]"
+        },
+        {
+          "label": "category",
+          "value": "part1 -> basic_recognition -> major"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Abench.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Abench.json"
+        },
+        {
+          "label": "img_path",
+          "value": "part1_0002.png"
+        },
+        {
+          "label": "question",
+          "value": "What color is the coral in the top left corner of the picture?"
+        },
+        {
+          "label": "answers",
+          "value": "[\n  \"red\",\n  \"yellow\",\n  \"pink\",\n  \"blue\"\n]"
+        },
+        {
+          "label": "category",
+          "value": "part1 -> basic_recognition -> major"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Abench.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Abench.json"
+        },
+        {
+          "label": "img_path",
+          "value": "part1_0003.png"
+        },
+        {
+          "label": "question",
+          "value": "Is the house in the picture modernized?"
+        },
+        {
+          "label": "answers",
+          "value": "[\n  \"Yes\",\n  \"No\"\n]"
+        },
+        {
+          "label": "category",
+          "value": "part1 -> basic_recognition -> major"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Abench.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Abench.json"
+        },
+        {
+          "label": "img_path",
+          "value": "part1_0004.png"
+        },
+        {
+          "label": "question",
+          "value": "What is the color of the banana?"
+        },
+        {
+          "label": "answers",
+          "value": "[\n  \"Pink\",\n  \"Orange\",\n  \"Red\",\n  \"Yellow\"\n]"
+        },
+        {
+          "label": "category",
+          "value": "part1 -> outside_knowledge -> contradiction overcome"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Abench.json",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Abench.json"
+        },
+        {
+          "label": "img_path",
+          "value": "part1_0005.png"
+        },
+        {
+          "label": "question",
+          "value": "What is being sold at the stall on the right in the picture?"
+        },
+        {
+          "label": "answers",
+          "value": "[\n  \"Souvenirs\",\n  \"Barbecue\",\n  \"Paintings\"\n]"
+        },
+        {
+          "label": "category",
+          "value": "part1 -> basic_recognition -> major"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 2868,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/A-Bench"
+}

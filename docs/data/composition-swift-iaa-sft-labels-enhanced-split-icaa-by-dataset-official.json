@@ -1,0 +1,426 @@
+{
+  "name": "swift_iaa_sft_labels_enhanced_split_icaa_by_dataset_official",
+  "slug": "composition-swift-iaa-sft-labels-enhanced-split-icaa-by-dataset-official",
+  "kind": "jsonl",
+  "data_label": "AADB/val.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "AADB/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AADB/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nRate the aesthetics, color harmony, depth of field, lighting, motion blur, rule of thirds, vivid color, balancing elements, content, object emphasis, repetition, and symmetry of this image. Use continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 6.85. The color harmony score is 9.10, the depth of field score is 8.20, the lighting score is 4.60, the motion blur score is 5.50, the rule of thirds score is 5.50, and the vivid color score is 4.60. The balancing elements score is 5.50, the content score is 8.20, the object emphasis score is 9.10, the repetition score is 5.50, and the symmetry score is 5.50.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_286_20013434330_d99ab6b9a0_b.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AADB"
+        },
+        {
+          "label": "channel",
+          "value": "AADB"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.85"
+        },
+        {
+          "label": "scores",
+          "value": "{\n  \"aesthetic\": 6.85,\n  \"color_harmony\": 9.1,\n  \"depth_of_field\": 8.2,\n  \"lighting\": 4.6,\n  \"motion_blur\": 5.5,\n  \"rule_of_thirds\": 5.5,\n  \"vivid_color\": 4.6,\n  \"balancing_elements\": 5.5,\n  \"content\": 8.2,\n  \"object_emphasis\": 9.1,\n  \"repetition\": 5.5,\n  \"symmetry\": 5.5\n}"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.65"
+        },
+        {
+          "label": "raw_scores",
+          "value": "{\n  \"aesthetic\": 0.65,\n  \"color_harmony\": 0.8,\n  \"depth_of_field\": 0.6,\n  \"lighting\": -0.2,\n  \"motion_blur\": 0.0,\n  \"rule_of_thirds\": 0.0,\n  \"vivid_color\": -0.2,\n  \"balancing_elements\": 0.0,\n  \"content\": 0.6,\n  \"object_emphasis\": 0.8,\n  \"repetition\": 0.0,\n  \"symmetry\": 0.0\n}"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  6.85,\n  9.1,\n  8.2,\n  4.6,\n  5.5,\n  5.5,\n  4.6,\n  5.5,\n  8.2,\n  9.1,\n  5.5,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  6.85,\n  9.1,\n  8.2,\n  4.6,\n  5.5,\n  5.5,\n  4.6,\n  5.5,\n  8.2,\n  9.1,\n  5.5,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"6.85\",\n  \"9.10\",\n  \"8.20\",\n  \"4.60\",\n  \"5.50\",\n  \"5.50\",\n  \"4.60\",\n  \"5.50\",\n  \"8.20\",\n  \"9.10\",\n  \"5.50\",\n  \"5.50\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-icaa-by-dataset-official/s0-farm1_286_20013434330_d99ab6b9a0_b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_286_20013434330_d99ab6b9a0_b.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "AADB/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AADB/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nRate the aesthetics, color harmony, depth of field, lighting, motion blur, rule of thirds, vivid color, balancing elements, content, object emphasis, repetition, and symmetry of this image. Use continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 6.40. The color harmony score is 5.50, the depth of field score is 7.30, the lighting score is 8.20, the motion blur score is 5.50, the rule of thirds score is 6.40, and the vivid color score is 5.50. The balancing elements score is 5.50, the content score is 10.00, the object emphasis score is 5.50, the repetition score is 6.40, and the symmetry score is 5.50.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_273_19900479178_9c64cca006_b.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AADB"
+        },
+        {
+          "label": "channel",
+          "value": "AADB"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "6.4"
+        },
+        {
+          "label": "scores",
+          "value": "{\n  \"aesthetic\": 6.4,\n  \"color_harmony\": 5.5,\n  \"depth_of_field\": 7.3,\n  \"lighting\": 8.2,\n  \"motion_blur\": 5.5,\n  \"rule_of_thirds\": 6.4,\n  \"vivid_color\": 5.5,\n  \"balancing_elements\": 5.5,\n  \"content\": 10.0,\n  \"object_emphasis\": 5.5,\n  \"repetition\": 6.4,\n  \"symmetry\": 5.5\n}"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.6"
+        },
+        {
+          "label": "raw_scores",
+          "value": "{\n  \"aesthetic\": 0.6,\n  \"color_harmony\": 0.0,\n  \"depth_of_field\": 0.4,\n  \"lighting\": 0.6,\n  \"motion_blur\": 0.0,\n  \"rule_of_thirds\": 0.2,\n  \"vivid_color\": 0.0,\n  \"balancing_elements\": 0.0,\n  \"content\": 1.0,\n  \"object_emphasis\": 0.0,\n  \"repetition\": 0.2,\n  \"symmetry\": 0.0\n}"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  6.4,\n  5.5,\n  7.3,\n  8.2,\n  5.5,\n  6.4,\n  5.5,\n  5.5,\n  10.0,\n  5.5,\n  6.4,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  6.4,\n  5.5,\n  7.3,\n  8.2,\n  5.5,\n  6.4,\n  5.5,\n  5.5,\n  10.0,\n  5.5,\n  6.4,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"6.40\",\n  \"5.50\",\n  \"7.30\",\n  \"8.20\",\n  \"5.50\",\n  \"6.40\",\n  \"5.50\",\n  \"5.50\",\n  \"10.00\",\n  \"5.50\",\n  \"6.40\",\n  \"5.50\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-icaa-by-dataset-official/s1-farm1_273_19900479178_9c64cca006_b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_273_19900479178_9c64cca006_b.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "AADB/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AADB/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nRate the aesthetics, color harmony, depth of field, lighting, motion blur, rule of thirds, vivid color, balancing elements, content, object emphasis, repetition, and symmetry of this image. Use continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.50. The color harmony score is 7.30, the depth of field score is 5.50, the lighting score is 4.60, the motion blur score is 5.50, the rule of thirds score is 4.60, and the vivid color score is 5.50. The balancing elements score is 3.70, the content score is 7.30, the object emphasis score is 5.50, the repetition score is 5.50, and the symmetry score is 5.50.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_285_19484842833_2ebfbc985e_b.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AADB"
+        },
+        {
+          "label": "channel",
+          "value": "AADB"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.5"
+        },
+        {
+          "label": "scores",
+          "value": "{\n  \"aesthetic\": 5.5,\n  \"color_harmony\": 7.3,\n  \"depth_of_field\": 5.5,\n  \"lighting\": 4.6,\n  \"motion_blur\": 5.5,\n  \"rule_of_thirds\": 4.6,\n  \"vivid_color\": 5.5,\n  \"balancing_elements\": 3.7,\n  \"content\": 7.3,\n  \"object_emphasis\": 5.5,\n  \"repetition\": 5.5,\n  \"symmetry\": 5.5\n}"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.5"
+        },
+        {
+          "label": "raw_scores",
+          "value": "{\n  \"aesthetic\": 0.5,\n  \"color_harmony\": 0.4,\n  \"depth_of_field\": 0.0,\n  \"lighting\": -0.2,\n  \"motion_blur\": 0.0,\n  \"rule_of_thirds\": -0.2,\n  \"vivid_color\": 0.0,\n  \"balancing_elements\": -0.4,\n  \"content\": 0.4,\n  \"object_emphasis\": 0.0,\n  \"repetition\": 0.0,\n  \"symmetry\": 0.0\n}"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  5.5,\n  7.3,\n  5.5,\n  4.6,\n  5.5,\n  4.6,\n  5.5,\n  3.7,\n  7.3,\n  5.5,\n  5.5,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  5.5,\n  7.3,\n  5.5,\n  4.6,\n  5.5,\n  4.6,\n  5.5,\n  3.7,\n  7.3,\n  5.5,\n  5.5,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"5.50\",\n  \"7.30\",\n  \"5.50\",\n  \"4.60\",\n  \"5.50\",\n  \"4.60\",\n  \"5.50\",\n  \"3.70\",\n  \"7.30\",\n  \"5.50\",\n  \"5.50\",\n  \"5.50\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-icaa-by-dataset-official/s2-farm1_285_19484842833_2ebfbc985e_b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_285_19484842833_2ebfbc985e_b.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "AADB/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AADB/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nRate the aesthetics, color harmony, depth of field, lighting, motion blur, rule of thirds, vivid color, balancing elements, content, object emphasis, repetition, and symmetry of this image. Use continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 4.15. The color harmony score is 7.30, the depth of field score is 5.50, the lighting score is 5.50, the motion blur score is 5.50, the rule of thirds score is 5.50, and the vivid color score is 5.50. The balancing elements score is 3.70, the content score is 1.00, the object emphasis score is 1.90, the repetition score is 5.50, and the symmetry score is 5.50.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_344_19990824729_56e421dc46_b.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AADB"
+        },
+        {
+          "label": "channel",
+          "value": "AADB"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "4.15"
+        },
+        {
+          "label": "scores",
+          "value": "{\n  \"aesthetic\": 4.15,\n  \"color_harmony\": 7.3,\n  \"depth_of_field\": 5.5,\n  \"lighting\": 5.5,\n  \"motion_blur\": 5.5,\n  \"rule_of_thirds\": 5.5,\n  \"vivid_color\": 5.5,\n  \"balancing_elements\": 3.7,\n  \"content\": 1.0,\n  \"object_emphasis\": 1.9,\n  \"repetition\": 5.5,\n  \"symmetry\": 5.5\n}"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.35"
+        },
+        {
+          "label": "raw_scores",
+          "value": "{\n  \"aesthetic\": 0.35,\n  \"color_harmony\": 0.4,\n  \"depth_of_field\": 0.0,\n  \"lighting\": 0.0,\n  \"motion_blur\": 0.0,\n  \"rule_of_thirds\": 0.0,\n  \"vivid_color\": 0.0,\n  \"balancing_elements\": -0.4,\n  \"content\": -1.0,\n  \"object_emphasis\": -0.8,\n  \"repetition\": 0.0,\n  \"symmetry\": 0.0\n}"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  4.15,\n  7.3,\n  5.5,\n  5.5,\n  5.5,\n  5.5,\n  5.5,\n  3.7,\n  1.0,\n  1.9,\n  5.5,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  4.15,\n  7.3,\n  5.5,\n  5.5,\n  5.5,\n  5.5,\n  5.5,\n  3.7,\n  1.0,\n  1.9,\n  5.5,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"4.15\",\n  \"7.30\",\n  \"5.50\",\n  \"5.50\",\n  \"5.50\",\n  \"5.50\",\n  \"5.50\",\n  \"3.70\",\n  \"1.00\",\n  \"1.90\",\n  \"5.50\",\n  \"5.50\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-icaa-by-dataset-official/s3-farm1_344_19990824729_56e421dc46_b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_344_19990824729_56e421dc46_b.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "AADB/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AADB/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nRate the aesthetics, color harmony, depth of field, lighting, motion blur, rule of thirds, vivid color, balancing elements, content, object emphasis, repetition, and symmetry of this image. Use continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 5.05. The color harmony score is 7.30, the depth of field score is 5.50, the lighting score is 5.50, the motion blur score is 5.50, the rule of thirds score is 6.40, and the vivid color score is 5.50. The balancing elements score is 4.60, the content score is 9.10, the object emphasis score is 6.40, the repetition score is 6.40, and the symmetry score is 6.40.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_388_20301245466_fd4866a2d9_b.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AADB"
+        },
+        {
+          "label": "channel",
+          "value": "AADB"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "5.05"
+        },
+        {
+          "label": "scores",
+          "value": "{\n  \"aesthetic\": 5.05,\n  \"color_harmony\": 7.3,\n  \"depth_of_field\": 5.5,\n  \"lighting\": 5.5,\n  \"motion_blur\": 5.5,\n  \"rule_of_thirds\": 6.4,\n  \"vivid_color\": 5.5,\n  \"balancing_elements\": 4.6,\n  \"content\": 9.1,\n  \"object_emphasis\": 6.4,\n  \"repetition\": 6.4,\n  \"symmetry\": 6.4\n}"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.45"
+        },
+        {
+          "label": "raw_scores",
+          "value": "{\n  \"aesthetic\": 0.45,\n  \"color_harmony\": 0.4,\n  \"depth_of_field\": 0.0,\n  \"lighting\": 0.0,\n  \"motion_blur\": 0.0,\n  \"rule_of_thirds\": 0.2,\n  \"vivid_color\": 0.0,\n  \"balancing_elements\": -0.2,\n  \"content\": 0.8,\n  \"object_emphasis\": 0.2,\n  \"repetition\": 0.2,\n  \"symmetry\": 0.2\n}"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  5.05,\n  7.3,\n  5.5,\n  5.5,\n  5.5,\n  6.4,\n  5.5,\n  4.6,\n  9.1,\n  6.4,\n  6.4,\n  6.4\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  5.05,\n  7.3,\n  5.5,\n  5.5,\n  5.5,\n  6.4,\n  5.5,\n  4.6,\n  9.1,\n  6.4,\n  6.4,\n  6.4\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"5.05\",\n  \"7.30\",\n  \"5.50\",\n  \"5.50\",\n  \"5.50\",\n  \"6.40\",\n  \"5.50\",\n  \"4.60\",\n  \"9.10\",\n  \"6.40\",\n  \"6.40\",\n  \"6.40\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-icaa-by-dataset-official/s4-farm1_388_20301245466_fd4866a2d9_b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_388_20301245466_fd4866a2d9_b.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "AADB/val.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AADB/val.jsonl"
+        },
+        {
+          "label": "messages",
+          "value": "[\n  {\n    \"role\": \"user\",\n    \"content\": \"<image>\\nRate the aesthetics, color harmony, depth of field, lighting, motion blur, rule of thirds, vivid color, balancing elements, content, object emphasis, repetition, and symmetry of this image. Use continuous scores from 1.00 to 10.00.\"\n  },\n  {\n    \"role\": \"assistant\",\n    \"content\": \"The aesthetic score of the image is 3.25. The color harmony score is 5.50, the depth of field score is 5.50, the lighting score is 6.40, the motion blur score is 5.50, the rule of thirds score is 3.70, and the vivid color score is 2.80. The balancing elements score is 5.50, the content score is 2.80, the object emphasis score is 1.00, the repetition score is 5.50, and the symmetry score is 5.50.\"\n  }\n]"
+        },
+        {
+          "label": "images",
+          "value": "[\n  \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_324_20082073656_0a928e1dc5_b.jpg\"\n]"
+        },
+        {
+          "label": "source_dataset",
+          "value": "AADB"
+        },
+        {
+          "label": "channel",
+          "value": "AADB"
+        },
+        {
+          "label": "score_scale",
+          "value": "1-10"
+        },
+        {
+          "label": "score",
+          "value": "3.25"
+        },
+        {
+          "label": "scores",
+          "value": "{\n  \"aesthetic\": 3.25,\n  \"color_harmony\": 5.5,\n  \"depth_of_field\": 5.5,\n  \"lighting\": 6.4,\n  \"motion_blur\": 5.5,\n  \"rule_of_thirds\": 3.7,\n  \"vivid_color\": 2.8,\n  \"balancing_elements\": 5.5,\n  \"content\": 2.8,\n  \"object_emphasis\": 1.0,\n  \"repetition\": 5.5,\n  \"symmetry\": 5.5\n}"
+        },
+        {
+          "label": "raw_score",
+          "value": "0.25"
+        },
+        {
+          "label": "raw_scores",
+          "value": "{\n  \"aesthetic\": 0.25,\n  \"color_harmony\": 0.0,\n  \"depth_of_field\": 0.0,\n  \"lighting\": 0.2,\n  \"motion_blur\": 0.0,\n  \"rule_of_thirds\": -0.4,\n  \"vivid_color\": -0.6,\n  \"balancing_elements\": 0.0,\n  \"content\": -0.6,\n  \"object_emphasis\": -1.0,\n  \"repetition\": 0.0,\n  \"symmetry\": 0.0\n}"
+        },
+        {
+          "label": "roc_targets",
+          "value": "[\n  3.25,\n  5.5,\n  5.5,\n  6.4,\n  5.5,\n  3.7,\n  2.8,\n  5.5,\n  2.8,\n  1.0,\n  5.5,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_targets",
+          "value": "[\n  3.25,\n  5.5,\n  5.5,\n  6.4,\n  5.5,\n  3.7,\n  2.8,\n  5.5,\n  2.8,\n  1.0,\n  5.5,\n  5.5\n]"
+        },
+        {
+          "label": "iaa_target_texts",
+          "value": "[\n  \"3.25\",\n  \"5.50\",\n  \"5.50\",\n  \"6.40\",\n  \"5.50\",\n  \"3.70\",\n  \"2.80\",\n  \"5.50\",\n  \"2.80\",\n  \"1.00\",\n  \"5.50\",\n  \"5.50\"\n]"
+        },
+        {
+          "label": "roc_distributions",
+          "value": "[\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ],\n  [\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0,\n    0.0\n  ]\n]"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-sft-labels-enhanced-split-icaa-by-dataset-official/s5-farm1_324_20082073656_0a928e1dc5_b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AADB/AADB_newtest_originalSize/farm1_324_20082073656_0a928e1dc5_b.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 11,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/swift_iaa_sft_labels_enhanced_split_icaa_by_dataset_official"
+}

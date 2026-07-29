@@ -1,0 +1,360 @@
+{
+  "name": "swift_t2i_preference_hpsv3_exact",
+  "slug": "composition-swift-t2i-preference-hpsv3-exact",
+  "kind": "jsonl",
+  "data_label": "Pick-a-Pic/test.jsonl",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "Pick-a-Pic/test.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Pick-a-Pic/test.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "Pick-a-Pic:test:0"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Pick-a-Pic"
+        },
+        {
+          "label": "split",
+          "value": "test"
+        },
+        {
+          "label": "prompt",
+          "value": "A curious cat exploring a haunted mansion"
+        },
+        {
+          "label": "preferred_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/19/19ab2192-6c9d-42f0-b6f8-f7491ddddbc8.jpg"
+        },
+        {
+          "label": "rejected_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/a1/a1877ac6-b428-464b-9eb2-c15a15390534.jpg"
+        },
+        {
+          "label": "source_json",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test.json"
+        },
+        {
+          "label": "source_index",
+          "value": "0"
+        },
+        {
+          "label": "metadata",
+          "value": "{\n  \"label_0\": 0.0,\n  \"label_1\": 1.0,\n  \"preferred_uid\": \"19ab2192-6c9d-42f0-b6f8-f7491ddddbc8\",\n  \"rejected_uid\": \"a1877ac6-b428-464b-9eb2-c15a15390534\"\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s0-19ab2192-6c9d-42f0-b6f8-f7491ddddbc8.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/19/19ab2192-6c9d-42f0-b6f8-f7491ddddbc8.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s0-a1877ac6-b428-464b-9eb2-c15a15390534.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/a1/a1877ac6-b428-464b-9eb2-c15a15390534.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "Pick-a-Pic/test.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Pick-a-Pic/test.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "Pick-a-Pic:test:1"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Pick-a-Pic"
+        },
+        {
+          "label": "split",
+          "value": "test"
+        },
+        {
+          "label": "prompt",
+          "value": "a spanish water dog breed as arthur morgan from red dead redemption"
+        },
+        {
+          "label": "preferred_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/e3/e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8.jpg"
+        },
+        {
+          "label": "rejected_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/e8/e8e73967-570c-46a0-906f-33fca89f3b84.jpg"
+        },
+        {
+          "label": "source_json",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test.json"
+        },
+        {
+          "label": "source_index",
+          "value": "1"
+        },
+        {
+          "label": "metadata",
+          "value": "{\n  \"label_0\": 1.0,\n  \"label_1\": 0.0,\n  \"preferred_uid\": \"e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8\",\n  \"rejected_uid\": \"e8e73967-570c-46a0-906f-33fca89f3b84\"\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s1-e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/e3/e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s1-e8e73967-570c-46a0-906f-33fca89f3b84.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/e8/e8e73967-570c-46a0-906f-33fca89f3b84.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "Pick-a-Pic/test.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Pick-a-Pic/test.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "Pick-a-Pic:test:2"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Pick-a-Pic"
+        },
+        {
+          "label": "split",
+          "value": "test"
+        },
+        {
+          "label": "prompt",
+          "value": "Portrait of a 26yr white woman, hyper-detailed, extremely ashamed, soft skin"
+        },
+        {
+          "label": "preferred_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/56/569e85b3-8db0-468d-bc68-88f12ce6c440.jpg"
+        },
+        {
+          "label": "rejected_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/d0/d03083e2-161b-40c4-88e6-f8c5bc21502d.jpg"
+        },
+        {
+          "label": "source_json",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test.json"
+        },
+        {
+          "label": "source_index",
+          "value": "2"
+        },
+        {
+          "label": "metadata",
+          "value": "{\n  \"label_0\": 1.0,\n  \"label_1\": 0.0,\n  \"preferred_uid\": \"569e85b3-8db0-468d-bc68-88f12ce6c440\",\n  \"rejected_uid\": \"d03083e2-161b-40c4-88e6-f8c5bc21502d\"\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s2-569e85b3-8db0-468d-bc68-88f12ce6c440.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/56/569e85b3-8db0-468d-bc68-88f12ce6c440.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s2-d03083e2-161b-40c4-88e6-f8c5bc21502d.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/d0/d03083e2-161b-40c4-88e6-f8c5bc21502d.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "Pick-a-Pic/test.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Pick-a-Pic/test.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "Pick-a-Pic:test:3"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Pick-a-Pic"
+        },
+        {
+          "label": "split",
+          "value": "test"
+        },
+        {
+          "label": "prompt",
+          "value": "zentai"
+        },
+        {
+          "label": "preferred_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/c4/c48730d5-d5d6-40f8-9ee5-bff3acf89b2d.jpg"
+        },
+        {
+          "label": "rejected_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/f6/f6a1f780-b9cf-48e5-a233-1c46bbeebeb2.jpg"
+        },
+        {
+          "label": "source_json",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test.json"
+        },
+        {
+          "label": "source_index",
+          "value": "3"
+        },
+        {
+          "label": "metadata",
+          "value": "{\n  \"label_0\": 1.0,\n  \"label_1\": 0.0,\n  \"preferred_uid\": \"c48730d5-d5d6-40f8-9ee5-bff3acf89b2d\",\n  \"rejected_uid\": \"f6a1f780-b9cf-48e5-a233-1c46bbeebeb2\"\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s3-c48730d5-d5d6-40f8-9ee5-bff3acf89b2d.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/c4/c48730d5-d5d6-40f8-9ee5-bff3acf89b2d.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s3-f6a1f780-b9cf-48e5-a233-1c46bbeebeb2.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/f6/f6a1f780-b9cf-48e5-a233-1c46bbeebeb2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "Pick-a-Pic/test.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Pick-a-Pic/test.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "Pick-a-Pic:test:4"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Pick-a-Pic"
+        },
+        {
+          "label": "split",
+          "value": "test"
+        },
+        {
+          "label": "prompt",
+          "value": "A close-up photograph of a fat orange cat with lasagna in its mouth. Shot on Leica M6."
+        },
+        {
+          "label": "preferred_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/81/8147e6a5-0107-4ae3-8555-be279f53d22b.jpg"
+        },
+        {
+          "label": "rejected_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/15/15ff1b03-8088-47bf-aa73-5bacbf67c77a.jpg"
+        },
+        {
+          "label": "source_json",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test.json"
+        },
+        {
+          "label": "source_index",
+          "value": "4"
+        },
+        {
+          "label": "metadata",
+          "value": "{\n  \"label_0\": 1.0,\n  \"label_1\": 0.0,\n  \"preferred_uid\": \"8147e6a5-0107-4ae3-8555-be279f53d22b\",\n  \"rejected_uid\": \"15ff1b03-8088-47bf-aa73-5bacbf67c77a\"\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s4-8147e6a5-0107-4ae3-8555-be279f53d22b.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/81/8147e6a5-0107-4ae3-8555-be279f53d22b.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s4-15ff1b03-8088-47bf-aa73-5bacbf67c77a.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/15/15ff1b03-8088-47bf-aa73-5bacbf67c77a.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "Pick-a-Pic/test.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "Pick-a-Pic/test.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "Pick-a-Pic:test:5"
+        },
+        {
+          "label": "source_dataset",
+          "value": "Pick-a-Pic"
+        },
+        {
+          "label": "split",
+          "value": "test"
+        },
+        {
+          "label": "prompt",
+          "value": "toilet design toilet in style of dodge charger toilet, black, photo"
+        },
+        {
+          "label": "preferred_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/fc/fc3e9f09-b44c-40ac-ba38-3a5b88dc47df.jpg"
+        },
+        {
+          "label": "rejected_image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/32/328802b0-46ca-43a2-82ab-ef693a3a658f.jpg"
+        },
+        {
+          "label": "source_json",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test.json"
+        },
+        {
+          "label": "source_index",
+          "value": "5"
+        },
+        {
+          "label": "metadata",
+          "value": "{\n  \"label_0\": 1.0,\n  \"label_1\": 0.0,\n  \"preferred_uid\": \"fc3e9f09-b44c-40ac-ba38-3a5b88dc47df\",\n  \"rejected_uid\": \"328802b0-46ca-43a2-82ab-ef693a3a658f\"\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s5-fc3e9f09-b44c-40ac-ba38-3a5b88dc47df.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/fc/fc3e9f09-b44c-40ac-ba38-3a5b88dc47df.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-t2i-preference-hpsv3-exact/s5-328802b0-46ca-43a2-82ab-ef693a3a658f.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/HPDv3/pickapic_test_images_sharded/32/328802b0-46ca-43a2-82ab-ef693a3a658f.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 9,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/swift_t2i_preference_hpsv3_exact"
+}

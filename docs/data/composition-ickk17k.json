@@ -1,0 +1,210 @@
+{
+  "name": "ICKK17K",
+  "slug": "composition-ickk17k",
+  "kind": "csv",
+  "data_label": "ICAA17K_csv/test.csv",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "ICAA17K_csv/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICAA17K_csv/test.csv"
+        },
+        {
+          "label": "ID",
+          "value": "complementary/orange_blue/juiedesai19391601268.jpg"
+        },
+        {
+          "label": "color",
+          "value": "5.637041"
+        },
+        {
+          "label": "MOS",
+          "value": "6.720342636108398"
+        },
+        {
+          "label": "probability",
+          "value": "0.6935510635375977"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ickk17k/s0-juiedesai19391601268.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/juiedesai19391601268.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "ICAA17K_csv/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICAA17K_csv/test.csv"
+        },
+        {
+          "label": "ID",
+          "value": "complementary/orange_blue/162814817@N0627431714937.jpg"
+        },
+        {
+          "label": "color",
+          "value": "6.263246"
+        },
+        {
+          "label": "MOS",
+          "value": "4.283255577087402"
+        },
+        {
+          "label": "probability",
+          "value": "0.6248894333839417"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ickk17k/s1-162814817@N0627431714937.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/162814817@N0627431714937.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "ICAA17K_csv/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICAA17K_csv/test.csv"
+        },
+        {
+          "label": "ID",
+          "value": "complementary/orange_blue/148560147@N0337039646742.jpg"
+        },
+        {
+          "label": "color",
+          "value": "6.6362786"
+        },
+        {
+          "label": "MOS",
+          "value": "5.573206901550293"
+        },
+        {
+          "label": "probability",
+          "value": "0.7164198160171509"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ickk17k/s2-148560147@N0337039646742.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/148560147@N0337039646742.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "ICAA17K_csv/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICAA17K_csv/test.csv"
+        },
+        {
+          "label": "ID",
+          "value": "complementary/orange_blue/geelog29034161553.jpg"
+        },
+        {
+          "label": "color",
+          "value": "5.388097"
+        },
+        {
+          "label": "MOS",
+          "value": "4.992234230041504"
+        },
+        {
+          "label": "probability",
+          "value": "0.8187806606292725"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ickk17k/s3-geelog29034161553.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/geelog29034161553.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "ICAA17K_csv/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICAA17K_csv/test.csv"
+        },
+        {
+          "label": "ID",
+          "value": "complementary/orange_blue/117679407@N0828865500835.jpg"
+        },
+        {
+          "label": "color",
+          "value": "6.8465734"
+        },
+        {
+          "label": "MOS",
+          "value": "6.865585803985596"
+        },
+        {
+          "label": "probability",
+          "value": "0.7744191288948059"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ickk17k/s4-117679407@N0828865500835.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/117679407@N0828865500835.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "ICAA17K_csv/test.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "ICAA17K_csv/test.csv"
+        },
+        {
+          "label": "ID",
+          "value": "complementary/orange_blue/159973025@N0742445144115.jpg"
+        },
+        {
+          "label": "color",
+          "value": "6.0529284"
+        },
+        {
+          "label": "MOS",
+          "value": "6.468233108520508"
+        },
+        {
+          "label": "probability",
+          "value": "0.7620482444763184"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ickk17k/s5-159973025@N0742445144115.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K/complementary/orange_blue/159973025@N0742445144115.jpg"
+        }
+      ]
+    }
+  ],
+  "total_files": 17384,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ICKK17K"
+}

@@ -1,0 +1,102 @@
+{
+  "name": "eva-dataset",
+  "slug": "composition-eva-dataset",
+  "kind": "csv",
+  "data_label": "data/region_index.csv",
+  "warnings": [],
+  "samples": [
+    {
+      "title": "Sample 1",
+      "subtitle": "data/region_index.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "data/region_index.csv"
+        },
+        {
+          "label": "4=Afghanistan",
+          "value": "248=Åland Islands"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 2",
+      "subtitle": "data/region_index.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "data/region_index.csv"
+        },
+        {
+          "label": "4=Afghanistan",
+          "value": "8=Albania"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "data/region_index.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "data/region_index.csv"
+        },
+        {
+          "label": "4=Afghanistan",
+          "value": "12=Algeria"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "data/region_index.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "data/region_index.csv"
+        },
+        {
+          "label": "4=Afghanistan",
+          "value": "16=American Samoa"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "data/region_index.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "data/region_index.csv"
+        },
+        {
+          "label": "4=Afghanistan",
+          "value": "20=Andorra"
+        }
+      ],
+      "images": []
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "data/region_index.csv",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "data/region_index.csv"
+        },
+        {
+          "label": "4=Afghanistan",
+          "value": "24=Angola"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "total_files": 5107,
+  "sample_count": 6,
+  "source_dir": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/eva-dataset"
+}
