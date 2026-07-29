@@ -696,6 +696,38 @@ def page_html(name: str, data_file: str) -> str:
 '''
 
 
+ANNOTATION_SUMMARIES = {
+    "composition-ava": "AVA.txt：序号、image_id、1–10 分各档人数（10列）、最多2个语义标签、challenge_id；可由评分分布计算 MOS。附加划分文件还提供通用/内容相关美学训练测试列表，以及 14 类摄影风格标签（训练单标签、测试多标签）。",
+    "composition-para": "PIAA 图像表：session_id、图像名、user_id、总美学分、质量/构图/色彩/景深/内容/光照分、主体突出、情绪类别、判断难度、内容偏好、分享意愿、场景类别。用户表：年龄段、性别、学历、艺术/摄影经验、Big Five。GIAA 表还给出各分项的评分分布、均值/方差及人口属性分布。",
+    "composition-aadb": "图像名/ID、评分者 ID、整体美学评分及聚合分；11 个属性：有趣内容、主体突出、良好光照、色彩和谐、鲜艳色彩、浅景深、运动模糊、三分法、平衡元素、重复、对称。官方 AADBinfo.mat 同时保存划分与属性/评分矩阵。",
+    "composition-tad66k": "发布训练格式包含图像路径/ID、主题类别、聚合美学分（MOS）以及主题相关属性/准则标签；论文还描述每图至少约 1,200 个有效审美意见。注意：转换后的 Hugging Face 版本通常提供聚合标签，不一定保留全部逐人原始投票。",
+    "composition-ickk17k": "ID：相对图像路径/样本 ID；color：主观色彩美学分；MOS：整体图像美学均分；probability：标注置信度。目录路径还编码 15 类单色和 15 类互补/多色组合。",
+    "composition-aesmmit": "Hugging Face 字段：id、image、conversations（多轮列表，每项含 from 与 value）、type、qtype。对话内容中保存问题、答案、选项及与审美维度相关的解释。",
+    "composition-portraitcraft": "Track 1 JSON：image_path、criteria、total_score；每个准则含 score、reason。13 项为色彩和谐、风格一致、清晰度、光影塑造、创意、曝光、经典构图、景深层次、视觉中心稳定、视觉流引导、结构支撑稳定、留白适切、主体完整。Track 2 另含结构化描述/VQA 标注。",
+    "realqa": "图像/路径与多轮 messages 或 conversation；10 个属性分/文字解释：吸引力、构图、主体完整、主体杂乱、背景完整、背景杂乱、水平保持、清晰度、曝光、饱和度；另有综合分，以及按发布版本组织的直接回答、CoT/分析等对话字段。",
+    "artimuse-10k": "图像、主类别、子类别、整体美学分（0–100）及 8 维专家文本：构图与设计、视觉元素与结构、技术执行、原创性与创意、主题与表达、情绪与观众反应、整体格式塔、综合评价。当前 HF 公开内容以测试集为主。",
+    "composition-flickr-aes": "Flickr-AES：图像 ID、评分用户 ID、个人 1–5 分、由多人分数聚合并归一化到 0.2–1.0 的通用美学分及划分。REAL-CUR：图像/相册 ID、所有者/用户 ID、所有者个人评分及归一化分。",
+}
+
+
+def summarize_annotation_fields(data: dict[str, Any]) -> str:
+    if data["slug"] in ANNOTATION_SUMMARIES:
+        return ANNOTATION_SUMMARIES[data["slug"]]
+    labels: list[str] = []
+    for sample in data.get("samples", [])[:6]:
+        for field in sample.get("text_fields", []):
+            label = str(field.get("label", "")).strip()
+            if label and label != "Annotation file" and label not in labels:
+                labels.append(label)
+            if len(labels) >= 14:
+                break
+        if len(labels) >= 14:
+            break
+    if labels:
+        return "子页面样本字段：" + "、".join(labels) + "。"
+    return "子页面未提取到文本标注字段；主要用于查看图片或文件可预览状态。"
+
+
 def update_index(new_datasets: list[dict[str, Any]]) -> None:
     index_path = DOCS / "index.html"
     text = index_path.read_text(encoding="utf-8")
@@ -713,6 +745,7 @@ def update_index(new_datasets: list[dict[str, Any]]) -> None:
             "warnings": len(data.get("warnings", [])),
             "sample_count": data["sample_count"],
             "total_files": data["total_files"],
+            "annotation_summary": summarize_annotation_fields(data),
         }
     merged = sorted(by_slug.values(), key=lambda d: str(d["name"]).lower())
     rendered = "const DATASETS = " + json.dumps(merged, ensure_ascii=False) + ";"
