@@ -15,41 +15,6 @@
         },
         {
           "label": "pair_id",
-          "value": "PortraitCraft:004193"
-        },
-        {
-          "label": "source_dataset",
-          "value": "PortraitCraft"
-        },
-        {
-          "label": "target",
-          "value": "holistic"
-        },
-        {
-          "label": "score_gap",
-          "value": "3.69"
-        },
-        {
-          "label": "high",
-          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_06/unsplash_people_51025_456c631534c3.jpg\"\n  ],\n  \"score\": 7.03,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 5465\n}"
-        },
-        {
-          "label": "low",
-          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_07/unsplash_people_57965_8a55b790afb2.jpg\"\n  ],\n  \"score\": 3.34,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 66277\n}"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 2",
-      "subtitle": "train.jsonl",
-      "text_fields": [
-        {
-          "label": "Annotation file",
-          "value": "train.jsonl"
-        },
-        {
-          "label": "pair_id",
           "value": "AVA:002434"
         },
         {
@@ -87,7 +52,7 @@
       ]
     },
     {
-      "title": "Sample 3",
+      "title": "Sample 2",
       "subtitle": "train.jsonl",
       "text_fields": [
         {
@@ -133,7 +98,7 @@
       ]
     },
     {
-      "title": "Sample 4",
+      "title": "Sample 3",
       "subtitle": "train.jsonl",
       "text_fields": [
         {
@@ -179,7 +144,7 @@
       ]
     },
     {
-      "title": "Sample 5",
+      "title": "Sample 4",
       "subtitle": "train.jsonl",
       "text_fields": [
         {
@@ -225,7 +190,7 @@
       ]
     },
     {
-      "title": "Sample 6",
+      "title": "Sample 5",
       "subtitle": "train.jsonl",
       "text_fields": [
         {
@@ -267,6 +232,52 @@
           "label": "image",
           "src": "../../assets/composition-swift-iaa-rank-pairs40-structured/s5-236292.jpg",
           "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/236292.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "train.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "train.jsonl"
+        },
+        {
+          "label": "pair_id",
+          "value": "TAD66K:001080"
+        },
+        {
+          "label": "source_dataset",
+          "value": "TAD66K"
+        },
+        {
+          "label": "target",
+          "value": "holistic"
+        },
+        {
+          "label": "score_gap",
+          "value": "2.18"
+        },
+        {
+          "label": "high",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/tooloose-letrek28580823478.jpg\"\n  ],\n  \"score\": 5.6,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 2822\n}"
+        },
+        {
+          "label": "low",
+          "value": "{\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"<image>\\nPlease assess the aesthetics of this image and return a continuous aesthetic score from 1.00 to 10.00.\"\n    }\n  ],\n  \"images\": [\n    \"/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/itzick2836627772.jpg\"\n  ],\n  \"score\": 3.42,\n  \"answer_prefix\": \"The aesthetic score of the image is \",\n  \"loss_weight\": 1.0,\n  \"source_line\": 36705\n}"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs40-structured/s6-tooloose-letrek28580823478.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/tooloose-letrek28580823478.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-swift-iaa-rank-pairs40-structured/s6-itzick2836627772.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/TAD66K/itzick2836627772.jpg"
         }
       ]
     }

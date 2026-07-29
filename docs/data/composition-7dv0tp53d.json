@@ -22,7 +22,13 @@
           "value": "null"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-7dv0tp53d/s0-0011-近景-仰拍-白天-顺光.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/景联文/2025-12-10-交付394张/单体建筑/单体建筑/单体建筑/images/0011-近景-仰拍-白天-顺光.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -49,7 +55,13 @@
           "value": "杠铃片居于画面中心，主体形态可辨。背景货架元素杂乱。"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-7dv0tp53d/s1-0057-近景-俯拍-白天-顺光-小.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/景联文/2025-12-05-交付100张/菜品合照/菜品合照/images/0057-近景-俯拍-白天-顺光-小.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -76,7 +88,13 @@
           "value": "咖喱餐食居于画面中心，食材品类清晰，容器标识元素突出。"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-7dv0tp53d/s2-0068-近景-俯拍-白天-顺光-小.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/景联文/2025-12-05-交付100张/菜品合照/菜品合照/images/0068-近景-俯拍-白天-顺光-小.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -103,7 +121,13 @@
           "value": "金刚菩提串居于画面中心，珠串纹理清晰，背景衬物风格统一。"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-7dv0tp53d/s3-0093-近景-俯拍-白天-顺光-小.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/景联文/2025-12-05-交付100张/菜品合照/菜品合照/images/0093-近景-俯拍-白天-顺光-小.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -130,7 +154,13 @@
           "value": "麦当劳餐食集中于画面中心，餐品种类清晰，包装标识元素突出。"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-7dv0tp53d/s4-0074-中景-俯拍-白天-顺光-小.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/景联文/2025-12-05-交付100张/菜品合照/菜品合照/images/0074-中景-俯拍-白天-顺光-小.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -157,7 +187,13 @@
           "value": "石狮造型摆件居于画面中心，雕刻纹理清晰，装饰物件风格突出。"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-7dv0tp53d/s5-0164-近景-俯拍-白天-顺光-小.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/景联文/2025-12-05-交付100张/菜品合照/菜品合照/images/0164-近景-俯拍-白天-顺光-小.jpg"
+        }
+      ]
     }
   ],
   "total_files": 17646,

@@ -30,7 +30,13 @@
           "value": "part1 -> basic_recognition -> major"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-a-bench/s0-part1_0000.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/A-Bench/imgs/part1_0000.png"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -57,7 +63,13 @@
           "value": "part1 -> basic_recognition -> major"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-a-bench/s1-part1_0001.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/A-Bench/imgs/part1_0001.png"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -84,7 +96,13 @@
           "value": "part1 -> basic_recognition -> major"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-a-bench/s2-part1_0002.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/A-Bench/imgs/part1_0002.png"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -111,7 +129,13 @@
           "value": "part1 -> basic_recognition -> major"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-a-bench/s3-part1_0003.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/A-Bench/imgs/part1_0003.png"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -138,7 +162,13 @@
           "value": "part1 -> outside_knowledge -> contradiction overcome"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-a-bench/s4-part1_0004.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/A-Bench/imgs/part1_0004.png"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -165,7 +195,13 @@
           "value": "part1 -> basic_recognition -> major"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-a-bench/s5-part1_0005.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/A-Bench/imgs/part1_0005.png"
+        }
+      ]
     }
   ],
   "total_files": 2868,

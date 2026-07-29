@@ -174,100 +174,6 @@
         },
         {
           "label": "image",
-          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_10/unsplash_plus_people_18156_fc03f424052e.jpg"
-        },
-        {
-          "label": "error_type",
-          "value": "OSError"
-        },
-        {
-          "label": "error",
-          "value": "image file is truncated (1 bytes not processed)"
-        },
-        {
-          "label": "row_index",
-          "value": "46973"
-        },
-        {
-          "label": "image_index",
-          "value": "0"
-        },
-        {
-          "label": "source_index",
-          "value": "46973"
-        },
-        {
-          "label": "reward_type",
-          "value": "overall_0_100"
-        },
-        {
-          "label": "reward_metric",
-          "value": "overall_aesthetic"
-        },
-        {
-          "label": "data_source",
-          "value": "portrait_composition_overall_0_100"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 5",
-      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
-      "text_fields": [
-        {
-          "label": "Annotation file",
-          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
-        },
-        {
-          "label": "image",
-          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_10/unsplash_plus_people_18200_6b532cdda99f.jpg"
-        },
-        {
-          "label": "error_type",
-          "value": "OSError"
-        },
-        {
-          "label": "error",
-          "value": "image file is truncated (11 bytes not processed)"
-        },
-        {
-          "label": "row_index",
-          "value": "48251"
-        },
-        {
-          "label": "image_index",
-          "value": "0"
-        },
-        {
-          "label": "source_index",
-          "value": "48251"
-        },
-        {
-          "label": "reward_type",
-          "value": "score_reason"
-        },
-        {
-          "label": "reward_metric",
-          "value": "appropriateness_of_negative_space"
-        },
-        {
-          "label": "data_source",
-          "value": "portrait_composition_score_reason_appropriateness_of_negative_space"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 6",
-      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
-      "text_fields": [
-        {
-          "label": "Annotation file",
-          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
-        },
-        {
-          "label": "image",
           "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_09/unsplash_plus_people_10898_69525281b725.jpg"
         },
         {
@@ -308,6 +214,112 @@
           "label": "image",
           "src": "../../assets/composition-portraitcraft/s5-unsplash_plus_people_10898_69525281b725.jpg",
           "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_09/unsplash_plus_people_10898_69525281b725.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
+        },
+        {
+          "label": "image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_08/unsplash_plus_people_09691_9a83c9474985.jpg"
+        },
+        {
+          "label": "error_type",
+          "value": "OSError"
+        },
+        {
+          "label": "error",
+          "value": "image file is truncated (5 bytes not processed)"
+        },
+        {
+          "label": "row_index",
+          "value": "94705"
+        },
+        {
+          "label": "image_index",
+          "value": "0"
+        },
+        {
+          "label": "source_index",
+          "value": "94705"
+        },
+        {
+          "label": "reward_type",
+          "value": "overall_0_100"
+        },
+        {
+          "label": "reward_metric",
+          "value": "overall_aesthetic"
+        },
+        {
+          "label": "data_source",
+          "value": "portrait_composition_overall_0_100"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-portraitcraft/s7-unsplash_plus_people_09691_9a83c9474985.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_08/unsplash_plus_people_09691_9a83c9474985.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "json/train_data_39_except_test500_0422_classified_bad_images.jsonl"
+        },
+        {
+          "label": "image",
+          "value": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_08/unsplash_plus_people_08464_60f643cad5d1.jpg"
+        },
+        {
+          "label": "error_type",
+          "value": "OSError"
+        },
+        {
+          "label": "error",
+          "value": "image file is truncated (0 bytes not processed)"
+        },
+        {
+          "label": "row_index",
+          "value": "106013"
+        },
+        {
+          "label": "image_index",
+          "value": "0"
+        },
+        {
+          "label": "source_index",
+          "value": "106013"
+        },
+        {
+          "label": "reward_type",
+          "value": "choice"
+        },
+        {
+          "label": "reward_metric",
+          "value": "color_harmony"
+        },
+        {
+          "label": "data_source",
+          "value": "portrait_composition_choice_color_harmony"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-portraitcraft/s11-unsplash_plus_people_08464_60f643cad5d1.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PortraitCraft/images_08/unsplash_plus_people_08464_60f643cad5d1.jpg"
         }
       ]
     }

@@ -54,7 +54,13 @@
           "value": "AesA"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesbench/s0-image.jpg",
+          "alt": "image"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -105,7 +111,13 @@
           "value": "AesP"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesbench/s1-image.jpg",
+          "alt": "image"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -156,7 +168,13 @@
           "value": "AesE"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesbench/s2-image.jpg",
+          "alt": "image"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -207,7 +225,13 @@
           "value": "AesA"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesbench/s3-image.jpg",
+          "alt": "image"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -258,7 +282,13 @@
           "value": "AesP"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesbench/s4-image.jpg",
+          "alt": "image"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -309,7 +339,13 @@
           "value": "AesE"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesbench/s5-image.jpg",
+          "alt": "image"
+        }
+      ]
     }
   ],
   "total_files": 4,

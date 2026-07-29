@@ -2,92 +2,16 @@
   "name": "AVA",
   "slug": "composition-ava",
   "kind": "txt",
-  "data_label": "AVA_dataset/style_image_lists/styles.txt",
+  "data_label": "AVA_dataset/AVA.txt",
   "warnings": [],
   "samples": [
     {
       "title": "Sample 1",
-      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
+      "subtitle": "AVA_dataset/AVA.txt",
       "text_fields": [
         {
           "label": "Annotation file",
-          "value": "AVA_dataset/style_image_lists/styles.txt"
-        },
-        {
-          "label": "line_number",
-          "value": "1"
-        },
-        {
-          "label": "text",
-          "value": "1 Complementary_Colors"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 2",
-      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
-      "text_fields": [
-        {
-          "label": "Annotation file",
-          "value": "AVA_dataset/style_image_lists/styles.txt"
-        },
-        {
-          "label": "line_number",
-          "value": "2"
-        },
-        {
-          "label": "text",
-          "value": "2 Duotones"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 3",
-      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
-      "text_fields": [
-        {
-          "label": "Annotation file",
-          "value": "AVA_dataset/style_image_lists/styles.txt"
-        },
-        {
-          "label": "line_number",
-          "value": "3"
-        },
-        {
-          "label": "text",
-          "value": "3 HDR"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 4",
-      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
-      "text_fields": [
-        {
-          "label": "Annotation file",
-          "value": "AVA_dataset/style_image_lists/styles.txt"
-        },
-        {
-          "label": "line_number",
-          "value": "4"
-        },
-        {
-          "label": "text",
-          "value": "4 Image_Grain"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Sample 5",
-      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
-      "text_fields": [
-        {
-          "label": "Annotation file",
-          "value": "AVA_dataset/style_image_lists/styles.txt"
+          "value": "AVA_dataset/AVA.txt"
         },
         {
           "label": "line_number",
@@ -95,29 +19,141 @@
         },
         {
           "label": "text",
-          "value": "5 Light_On_White"
+          "value": "5 953980 0 3 6 15 57 39 6 1 1 1 22 38 1396"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ava/s4-953980.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/953980.jpg"
+        }
+      ]
     },
     {
-      "title": "Sample 6",
-      "subtitle": "AVA_dataset/style_image_lists/styles.txt",
+      "title": "Sample 2",
+      "subtitle": "AVA_dataset/AVA.txt",
       "text_fields": [
         {
           "label": "Annotation file",
-          "value": "AVA_dataset/style_image_lists/styles.txt"
+          "value": "AVA_dataset/AVA.txt"
         },
         {
           "label": "line_number",
-          "value": "6"
+          "value": "11"
         },
         {
           "label": "text",
-          "value": "6 Long_Exposure"
+          "value": "11 953417 0 0 0 5 32 50 23 10 3 1 22 0 1396"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ava/s10-953417.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/953417.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 3",
+      "subtitle": "AVA_dataset/AVA.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/AVA.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "12"
+        },
+        {
+          "label": "text",
+          "value": "12 953777 0 3 2 3 13 40 35 21 8 3 20 53 1396"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ava/s11-953777.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/953777.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 4",
+      "subtitle": "AVA_dataset/AVA.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/AVA.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "13"
+        },
+        {
+          "label": "text",
+          "value": "13 953756 0 2 3 9 35 50 20 5 2 2 0 0 1396"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ava/s12-953756.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/953756.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 5",
+      "subtitle": "AVA_dataset/AVA.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/AVA.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "14"
+        },
+        {
+          "label": "text",
+          "value": "14 954195 0 1 7 26 56 23 6 1 0 2 0 0 1396"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ava/s13-954195.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/954195.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sample 6",
+      "subtitle": "AVA_dataset/AVA.txt",
+      "text_fields": [
+        {
+          "label": "Annotation file",
+          "value": "AVA_dataset/AVA.txt"
+        },
+        {
+          "label": "line_number",
+          "value": "15"
+        },
+        {
+          "label": "text",
+          "value": "15 953903 0 1 4 5 33 50 17 9 3 2 21 28 1396"
+        }
+      ],
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ava/s14-953903.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AVA/AVA_dataset/image/953903.jpg"
+        }
+      ]
     }
   ],
   "total_files": 20000,

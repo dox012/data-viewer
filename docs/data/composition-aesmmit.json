@@ -34,7 +34,13 @@
           "value": "vqa"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesmmit/s0-baid_95698.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AesMMIT/images_21904/baid_95698.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -65,7 +71,13 @@
           "value": "vqa"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesmmit/s1-para_iaa_pub22358_.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AesMMIT/images_21904/para_iaa_pub22358_.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -96,7 +108,13 @@
           "value": "vqa"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesmmit/s2-sd1.5_lowstep_158.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AesMMIT/images_21904/sd1.5_lowstep_158.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -127,7 +145,13 @@
           "value": "vqa"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesmmit/s3-para_iaa_pub23806_.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AesMMIT/images_21904/para_iaa_pub23806_.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -158,7 +182,13 @@
           "value": "mcq"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesmmit/s4-TAD66K_fraying8316640156.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AesMMIT/images_21904/TAD66K_fraying8316640156.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -189,7 +219,13 @@
           "value": "mcq"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-aesmmit/s5-artemis_pierre-puvis-de-chavannes_life-of-st-genevieve.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/AesMMIT/images_21904/artemis_pierre-puvis-de-chavannes_life-of-st-genevieve.jpg"
+        }
+      ]
     }
   ],
   "total_files": 20000,

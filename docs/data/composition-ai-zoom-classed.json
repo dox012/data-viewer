@@ -22,7 +22,18 @@
           "value": "0 23 1041 801"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ai-zoom-classed/s0-23.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/23.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-ai-zoom-classed/s0-1041.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/1041.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -41,7 +52,18 @@
           "value": "30 6 1079 788"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ai-zoom-classed/s1-6.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/6.jpg"
+        },
+        {
+          "label": "image",
+          "src": "../../assets/composition-ai-zoom-classed/s1-1079.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/动物/images/1079.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -60,7 +82,13 @@
           "value": "78 0 1002 688"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ai-zoom-classed/s2-f5899e3a-70bd-41b7-a62c-8d566750b646.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/ai/人像/images/f5899e3a-70bd-41b7-a62c-8d566750b646.png"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -79,7 +107,13 @@
           "value": "67 81 311 316"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ai-zoom-classed/s3-0f31a05d-d98b-450d-8764-72f1c400ec72.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/ai/人像/images/0f31a05d-d98b-450d-8764-72f1c400ec72.png"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -98,7 +132,13 @@
           "value": "60 49 313 308"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ai-zoom-classed/s4-313.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/313.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -117,7 +157,13 @@
           "value": "42 88 316 295"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-ai-zoom-classed/s5-42.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/42.jpg"
+        }
+      ]
     }
   ],
   "total_files": 20000,

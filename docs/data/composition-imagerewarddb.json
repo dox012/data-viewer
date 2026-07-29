@@ -7,78 +7,84 @@
   "samples": [
     {
       "title": "Sample 1",
-      "subtitle": "metadata-validation.parquet",
+      "subtitle": "metadata-test.parquet",
       "text_fields": [
         {
           "label": "Annotation file",
-          "value": "metadata-validation.parquet"
+          "value": "metadata-test.parquet"
         },
         {
           "label": "image_path",
-          "value": "images/validation/validation_1/b3682ff9-e89e-4733-b3cd-3b8cfbd0f0ea.webp"
+          "value": "images/test/test_1/45b0de4d-5a57-4ae3-8810-ffbd328204fd.webp"
         },
         {
           "label": "prompt_id",
-          "value": "001667-0100"
+          "value": "005658-0040"
         },
         {
           "label": "prompt",
-          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+          "value": "deathly portal to the abyss, ultra detailed, warm interior light, cinematic shot, photorealistic, octane render, high definition, fine details, sinister tones, 8 k, mcbess mood,"
         },
         {
           "label": "classification",
-          "value": "People"
+          "value": "Arts"
         },
         {
           "label": "image_amount_in_total",
-          "value": "6"
+          "value": "4"
         },
         {
           "label": "rank",
-          "value": "2"
+          "value": "1"
         },
         {
           "label": "overall_rating",
-          "value": "6"
+          "value": "5"
         },
         {
           "label": "image_text_alignment_rating",
-          "value": "6"
+          "value": "5"
         },
         {
           "label": "fidelity_rating",
           "value": "6"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-imagerewarddb/s80-45b0de4d-5a57-4ae3-8810-ffbd328204fd.webp",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ImageRewardDB/images/test/test_1/45b0de4d-5a57-4ae3-8810-ffbd328204fd.webp"
+        }
+      ]
     },
     {
       "title": "Sample 2",
-      "subtitle": "metadata-validation.parquet",
+      "subtitle": "metadata-test.parquet",
       "text_fields": [
         {
           "label": "Annotation file",
-          "value": "metadata-validation.parquet"
+          "value": "metadata-test.parquet"
         },
         {
           "label": "image_path",
-          "value": "images/validation/validation_1/e40ab1ef-eb83-4bb3-a54c-d707b1d4b7ff.webp"
+          "value": "images/test/test_1/7d4cc31d-2451-4a9d-99e6-3bdc157aaf2d.webp"
         },
         {
           "label": "prompt_id",
-          "value": "001667-0100"
+          "value": "005658-0040"
         },
         {
           "label": "prompt",
-          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+          "value": "deathly portal to the abyss, ultra detailed, warm interior light, cinematic shot, photorealistic, octane render, high definition, fine details, sinister tones, 8 k, mcbess mood,"
         },
         {
           "label": "classification",
-          "value": "People"
+          "value": "Arts"
         },
         {
           "label": "image_amount_in_total",
-          "value": "6"
+          "value": "4"
         },
         {
           "label": "rank",
@@ -86,97 +92,109 @@
         },
         {
           "label": "overall_rating",
-          "value": "6"
+          "value": "5"
         },
         {
           "label": "image_text_alignment_rating",
-          "value": "6"
+          "value": "5"
         },
         {
           "label": "fidelity_rating",
           "value": "6"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-imagerewarddb/s81-7d4cc31d-2451-4a9d-99e6-3bdc157aaf2d.webp",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ImageRewardDB/images/test/test_1/7d4cc31d-2451-4a9d-99e6-3bdc157aaf2d.webp"
+        }
+      ]
     },
     {
       "title": "Sample 3",
-      "subtitle": "metadata-validation.parquet",
+      "subtitle": "metadata-test.parquet",
       "text_fields": [
         {
           "label": "Annotation file",
-          "value": "metadata-validation.parquet"
+          "value": "metadata-test.parquet"
         },
         {
           "label": "image_path",
-          "value": "images/validation/validation_1/4e46207a-522f-4db9-bf93-81f21d26cc5e.webp"
+          "value": "images/test/test_1/e77d096b-cc89-49cc-ae9a-39679ae23aeb.webp"
         },
         {
           "label": "prompt_id",
-          "value": "001667-0100"
+          "value": "005658-0040"
         },
         {
           "label": "prompt",
-          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+          "value": "deathly portal to the abyss, ultra detailed, warm interior light, cinematic shot, photorealistic, octane render, high definition, fine details, sinister tones, 8 k, mcbess mood,"
         },
         {
           "label": "classification",
-          "value": "People"
+          "value": "Arts"
         },
         {
           "label": "image_amount_in_total",
-          "value": "6"
+          "value": "4"
         },
         {
           "label": "rank",
-          "value": "4"
+          "value": "3"
         },
         {
           "label": "overall_rating",
-          "value": "4"
+          "value": "5"
         },
         {
           "label": "image_text_alignment_rating",
-          "value": "4"
+          "value": "5"
         },
         {
           "label": "fidelity_rating",
-          "value": "5"
+          "value": "6"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-imagerewarddb/s82-e77d096b-cc89-49cc-ae9a-39679ae23aeb.webp",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ImageRewardDB/images/test/test_1/e77d096b-cc89-49cc-ae9a-39679ae23aeb.webp"
+        }
+      ]
     },
     {
       "title": "Sample 4",
-      "subtitle": "metadata-validation.parquet",
+      "subtitle": "metadata-test.parquet",
       "text_fields": [
         {
           "label": "Annotation file",
-          "value": "metadata-validation.parquet"
+          "value": "metadata-test.parquet"
         },
         {
           "label": "image_path",
-          "value": "images/validation/validation_1/20908a9e-58c8-4508-9659-f7c43b3e05aa.webp"
+          "value": "images/test/test_1/f24a2c01-b1ed-4d4f-ba23-5ba5755b1ce7.webp"
         },
         {
           "label": "prompt_id",
-          "value": "001667-0100"
+          "value": "005658-0040"
         },
         {
           "label": "prompt",
-          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+          "value": "deathly portal to the abyss, ultra detailed, warm interior light, cinematic shot, photorealistic, octane render, high definition, fine details, sinister tones, 8 k, mcbess mood,"
         },
         {
           "label": "classification",
-          "value": "People"
+          "value": "Arts"
         },
         {
           "label": "image_amount_in_total",
-          "value": "6"
+          "value": "4"
         },
         {
           "label": "rank",
-          "value": "4"
+          "value": "5"
         },
         {
           "label": "overall_rating",
@@ -188,104 +206,122 @@
         },
         {
           "label": "fidelity_rating",
-          "value": "5"
+          "value": "4"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-imagerewarddb/s83-f24a2c01-b1ed-4d4f-ba23-5ba5755b1ce7.webp",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ImageRewardDB/images/test/test_1/f24a2c01-b1ed-4d4f-ba23-5ba5755b1ce7.webp"
+        }
+      ]
     },
     {
       "title": "Sample 5",
-      "subtitle": "metadata-validation.parquet",
+      "subtitle": "metadata-test.parquet",
       "text_fields": [
         {
           "label": "Annotation file",
-          "value": "metadata-validation.parquet"
+          "value": "metadata-test.parquet"
         },
         {
           "label": "image_path",
-          "value": "images/validation/validation_1/b6475b54-feb8-406e-b905-fbc336a66743.webp"
+          "value": "images/test/test_1/06f3eff4-303d-4fae-b751-7f172ec641f0.webp"
         },
         {
           "label": "prompt_id",
-          "value": "001667-0100"
+          "value": "005664-0153"
         },
         {
           "label": "prompt",
-          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+          "value": "cola made from cockroaches"
         },
         {
           "label": "classification",
-          "value": "People"
+          "value": "Food"
         },
         {
           "label": "image_amount_in_total",
-          "value": "6"
+          "value": "4"
         },
         {
           "label": "rank",
-          "value": "5"
+          "value": "1"
         },
         {
           "label": "overall_rating",
-          "value": "3"
+          "value": "5"
         },
         {
           "label": "image_text_alignment_rating",
-          "value": "3"
+          "value": "6"
         },
         {
           "label": "fidelity_rating",
-          "value": "4"
+          "value": "5"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-imagerewarddb/s84-06f3eff4-303d-4fae-b751-7f172ec641f0.webp",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ImageRewardDB/images/test/test_1/06f3eff4-303d-4fae-b751-7f172ec641f0.webp"
+        }
+      ]
     },
     {
       "title": "Sample 6",
-      "subtitle": "metadata-validation.parquet",
+      "subtitle": "metadata-test.parquet",
       "text_fields": [
         {
           "label": "Annotation file",
-          "value": "metadata-validation.parquet"
+          "value": "metadata-test.parquet"
         },
         {
           "label": "image_path",
-          "value": "images/validation/validation_1/d6397e81-b115-4075-9387-a53acfe79d36.webp"
+          "value": "images/test/test_1/cab5e96b-6df8-4b38-8755-b7b4d9f882ae.webp"
         },
         {
           "label": "prompt_id",
-          "value": "001667-0100"
+          "value": "005664-0153"
         },
         {
           "label": "prompt",
-          "value": "professional full body photo of a tall late-20s caucasian man with short dark-brown hair, stubble, and bold eyebrows"
+          "value": "cola made from cockroaches"
         },
         {
           "label": "classification",
-          "value": "People"
+          "value": "Food"
         },
         {
           "label": "image_amount_in_total",
-          "value": "6"
+          "value": "4"
         },
         {
           "label": "rank",
-          "value": "5"
+          "value": "2"
         },
         {
           "label": "overall_rating",
-          "value": "4"
+          "value": "2"
         },
         {
           "label": "image_text_alignment_rating",
-          "value": "4"
+          "value": "2"
         },
         {
           "label": "fidelity_rating",
-          "value": "5"
+          "value": "6"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-imagerewarddb/s85-cab5e96b-6df8-4b38-8755-b7b4d9f882ae.webp",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ImageRewardDB/images/test/test_1/cab5e96b-6df8-4b38-8755-b7b4d9f882ae.webp"
+        }
+      ]
     }
   ],
   "total_files": 20000,

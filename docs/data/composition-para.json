@@ -174,7 +174,13 @@
           "value": "10"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-para/s0-iaa_pub10022_.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PARA/imgs/session144/iaa_pub10022_.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 2",
@@ -345,7 +351,13 @@
           "value": "12"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-para/s1-iaa_pub10043_.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PARA/imgs/session144/iaa_pub10043_.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 3",
@@ -516,7 +528,13 @@
           "value": "13"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-para/s2-iaa_pub10074_.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PARA/imgs/session144/iaa_pub10074_.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 4",
@@ -687,7 +705,13 @@
           "value": "17"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-para/s3-iaa_pub10077_.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PARA/imgs/session144/iaa_pub10077_.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 5",
@@ -858,7 +882,13 @@
           "value": "14"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-para/s4-iaa_pub10079_.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PARA/imgs/session144/iaa_pub10079_.jpg"
+        }
+      ]
     },
     {
       "title": "Sample 6",
@@ -1029,7 +1059,13 @@
           "value": "15"
         }
       ],
-      "images": []
+      "images": [
+        {
+          "label": "image",
+          "src": "../../assets/composition-para/s5-iaa_pub10080_.jpg",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/PARA/imgs/session144/iaa_pub10080_.jpg"
+        }
+      ]
     }
   ],
   "total_files": 20000,

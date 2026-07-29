@@ -5,6 +5,9 @@ Reads source datasets from /mnt/.../composition and writes only into this repo's
 """
 from __future__ import annotations
 
+import ast
+import base64
+import binascii
 import csv
 import html
 import json
@@ -13,6 +16,8 @@ import shutil
 import subprocess
 from pathlib import Path
 from typing import Any
+
+csv.field_size_limit(1024 * 1024 * 64)
 
 try:
     import pandas as pd
@@ -32,10 +37,12 @@ DATASET_DIR = DOCS / "datasets"
 ASSET_DIR = DOCS / "assets"
 
 MAX_SAMPLES = 6
+READ_AHEAD_ROWS = 80
 MAX_FIELD_CHARS = 5000
 MAX_IMAGE_BYTES = 8 * 1024 * 1024
 MAX_CANDIDATE_FILES = 120
 MAX_COUNTED_FILES = 20000
+MAX_IMAGE_INDEX_FILES = 20000
 TEXT_EXTS = {".json", ".jsonl", ".csv", ".tsv", ".txt"}
 STRUCTURED_EXTS = TEXT_EXTS | {".parquet"}
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
@@ -101,11 +108,28 @@ def count_files_limited(root: Path) -> int:
     return len(files) if len(files) < MAX_COUNTED_FILES else MAX_COUNTED_FILES
 
 
+def build_image_index(root: Path) -> dict[str, Any]:
+    patterns = [f"*{ext}" for ext in IMAGE_EXTS]
+    index: dict[str, Any] = {}
+    for p in find_limited(root, patterns, MAX_IMAGE_INDEX_FILES):
+        try:
+            if p.stat().st_size > MAX_IMAGE_BYTES:
+                continue
+        except OSError:
+            continue
+        keys = {p.name.lower(), p.stem.lower()}
+        for key in keys:
+            index.setdefault(key, []).append(p)
+    return index
+
+
 def rel(path: Path, root: Path) -> str:
     return str(path.relative_to(root))
 
 
 def compact(value: Any, limit: int = MAX_FIELD_CHARS) -> str:
+    if isinstance(value, (bytes, bytearray)):
+        return f"<binary image/data: {len(value)} bytes>"
     if isinstance(value, str):
         text = value
     else:
@@ -150,12 +174,66 @@ def find_image_strings(value: Any) -> list[str]:
     elif isinstance(value, list):
         for item in value:
             found.extend(find_image_strings(item))
-    elif isinstance(value, str) and Path(value).suffix.lower() in IMAGE_EXTS:
-        found.append(value)
+    elif isinstance(value, str):
+        if Path(value).suffix.lower() in IMAGE_EXTS:
+            found.append(value)
+        found.extend(re.findall(r"[^\\s,;:'\"()<>]+\\.(?:jpg|jpeg|png|webp|bmp)", value, flags=re.I))
     return found
 
 
-def resolve_image(path_text: str, dataset_root: Path, annotation_file: Path) -> Path | None:
+def find_image_by_name(dataset_root: Path, names: list[str], cache: dict[str, Path | None]) -> Path | None:
+    patterns = [name for name in names if name]
+    cache_key = "\0".join(patterns)
+    if cache_key in cache:
+        return cache[cache_key]
+    for p in find_limited(dataset_root, patterns, 1):
+        try:
+            if p.suffix.lower() in IMAGE_EXTS and p.stat().st_size <= MAX_IMAGE_BYTES:
+                cache[cache_key] = p
+                return p
+        except OSError:
+            continue
+    cache[cache_key] = None
+    return None
+
+
+def token_image_candidates(text: str, allow_numeric: bool) -> list[str]:
+    out: list[str] = []
+    tokens = re.split(r"[\s,;:=|]+", text.strip())
+    for token in tokens[:4]:
+        token = token.strip().strip('"\'')
+        if Path(token).suffix.lower() in IMAGE_EXTS:
+            out.append(token)
+        elif allow_numeric and re.fullmatch(r"\d{1,12}", token):
+            out.extend([f"{token}{ext}" for ext in IMAGE_EXTS])
+    return out
+
+
+def extra_image_candidates(value: Any) -> list[str]:
+    out: list[str] = []
+    if isinstance(value, dict):
+        for k, v in value.items():
+            key = str(k).lower()
+            if isinstance(v, list):
+                for item in v:
+                    out.extend(extra_image_candidates(item))
+                continue
+            if isinstance(v, dict):
+                out.extend(extra_image_candidates(v))
+                continue
+            text = str(v).strip().strip('"\'')
+            if Path(text).suffix.lower() in IMAGE_EXTS:
+                out.append(text)
+            elif key in {"image_id", "imageid", "img_id", "id"} and re.fullmatch(r"\d{1,12}", text):
+                out.extend([f"{text}{ext}" for ext in IMAGE_EXTS])
+            elif key in {"text", "line", "images", "image", "img"}:
+                out.extend(token_image_candidates(text, allow_numeric=(key in {"text", "line"})))
+    elif isinstance(value, str):
+        out.extend(token_image_candidates(value, allow_numeric=True))
+    return out
+
+
+def resolve_image(path_text: str, dataset_root: Path, annotation_file: Path, image_index: dict[str, Any]) -> Path | None:
     raw = path_text.strip().strip('"\'')
     if not raw:
         return None
@@ -179,10 +257,24 @@ def resolve_image(path_text: str, dataset_root: Path, annotation_file: Path) -> 
                 return c
         except OSError:
             continue
+    lookup_names = []
+    for key in [Path(raw).name.lower(), Path(raw).stem.lower()]:
+        lookup_names.append(key)
+        for match in image_index.get(key, []):
+            try:
+                if match.exists() and match.stat().st_size <= MAX_IMAGE_BYTES:
+                    return match
+            except OSError:
+                continue
+    cache = image_index.setdefault("__find_cache__", {})
+    if Path(raw).suffix.lower() in IMAGE_EXTS:
+        return find_image_by_name(dataset_root, [Path(raw).name], cache)
+    if re.fullmatch(r"\d{1,12}", raw) or Path(raw).stem:
+        return find_image_by_name(dataset_root, [f"{Path(raw).stem}{ext}" for ext in IMAGE_EXTS], cache)
     return None
 
 
-def find_neighbor_image(annotation_file: Path, dataset_root: Path, used: set[Path]) -> Path | None:
+def find_neighbor_image(annotation_file: Path, dataset_root: Path, used: set[Path], image_index: dict[str, Any]) -> Path | None:
     stem = annotation_file.stem
     search_dirs = [annotation_file.parent, annotation_file.parent.parent, dataset_root]
     for d in search_dirs:
@@ -196,6 +288,13 @@ def find_neighbor_image(annotation_file: Path, dataset_root: Path, used: set[Pat
                         return p
                 except OSError:
                     pass
+    for match in image_index.get(stem.lower(), []):
+        if match not in used:
+            return match
+    cache = image_index.setdefault("__find_cache__", {})
+    found = find_image_by_name(dataset_root, [f"{stem}{ext}" for ext in IMAGE_EXTS], cache)
+    if found and found not in used:
+        return found
     return None
 
 
@@ -211,21 +310,79 @@ def copy_image(src: Path, slug: str, index: int) -> dict[str, str] | None:
     return {"label": "image", "src": f"../../assets/{slug}/{out_name}", "alt": str(src)}
 
 
-def make_sample(title: str, subtitle: str, annotation_file: Path, dataset_root: Path, value: Any, slug: str, index: int, used_images: set[Path]) -> dict[str, Any]:
+def image_bytes(value: Any) -> bytes | None:
+    if isinstance(value, (bytes, bytearray)):
+        data = bytes(value)
+    elif isinstance(value, str) and value.startswith("b'"):
+        try:
+            data = ast.literal_eval(value)
+        except (SyntaxError, ValueError):
+            return None
+    elif isinstance(value, str) and len(value) > 200 and re.fullmatch(r"[A-Za-z0-9+/=\n\r]+", value):
+        try:
+            data = base64.b64decode(value, validate=False)
+        except (binascii.Error, ValueError):
+            return None
+    else:
+        return None
+    if data.startswith(b"\xff\xd8\xff") or data.startswith(b"\x89PNG") or data.startswith(b"RIFF"):
+        return data
+    return None
+
+
+def write_image_bytes(data: bytes, slug: str, index: int, label: str) -> dict[str, str] | None:
+    out_dir = ASSET_DIR / slug
+    out_dir.mkdir(parents=True, exist_ok=True)
+    ext = ".jpg" if data.startswith(b"\xff\xd8\xff") else ".png" if data.startswith(b"\x89PNG") else ".webp"
+    safe_label = re.sub(r"[^a-zA-Z0-9_-]+", "-", label).strip("-") or "image"
+    out_name = f"s{index}-{safe_label}{ext}"
+    dst = out_dir / out_name
+    try:
+        dst.write_bytes(data)
+    except OSError:
+        return None
+    return {"label": label, "src": f"../../assets/{slug}/{out_name}", "alt": label}
+
+
+def embedded_images(value: Any) -> list[tuple[str, bytes]]:
+    found: list[tuple[str, bytes]] = []
+    if isinstance(value, dict):
+        for k, v in value.items():
+            data = image_bytes(v)
+            if data:
+                found.append((str(k), data))
+            else:
+                found.extend(embedded_images(v))
+    elif isinstance(value, list):
+        for i, v in enumerate(value):
+            data = image_bytes(v)
+            if data:
+                found.append((f"image_{i}", data))
+            else:
+                found.extend(embedded_images(v))
+    return found
+
+
+def make_sample(title: str, subtitle: str, annotation_file: Path, dataset_root: Path, value: Any, slug: str, index: int, used_images: set[Path], image_index: dict[str, Any]) -> dict[str, Any]:
     fields = [{"label": "Annotation file", "value": rel(annotation_file, dataset_root)}]
     flat = flatten_fields(value)
     for k, v in flat[:40]:
         fields.append({"label": str(k), "value": compact(v)})
     images = []
-    for img_text in find_image_strings(value)[:4]:
-        img_path = resolve_image(img_text, dataset_root, annotation_file)
+    for img_text in (find_image_strings(value) + extra_image_candidates(value))[:16]:
+        img_path = resolve_image(img_text, dataset_root, annotation_file, image_index)
         if img_path and img_path not in used_images:
             copied = copy_image(img_path, slug, index)
             if copied:
                 images.append(copied)
                 used_images.add(img_path)
     if not images:
-        neighbor = find_neighbor_image(annotation_file, dataset_root, used_images)
+        for label, data in embedded_images(value)[:4]:
+            copied = write_image_bytes(data, slug, index, label)
+            if copied:
+                images.append(copied)
+    if not images:
+        neighbor = find_neighbor_image(annotation_file, dataset_root, used_images, image_index)
         if neighbor:
             copied = copy_image(neighbor, slug, index)
             if copied:
@@ -238,11 +395,11 @@ def read_json_samples(path: Path) -> list[Any]:
     with path.open("r", encoding="utf-8", errors="replace") as f:
         data = json.load(f)
     if isinstance(data, list):
-        return data[:MAX_SAMPLES]
+        return data[:READ_AHEAD_ROWS]
     if isinstance(data, dict):
         for key in ["data", "samples", "annotations", "items", "records", "train", "test", "val"]:
             if isinstance(data.get(key), list):
-                return data[key][:MAX_SAMPLES]
+                return data[key][:READ_AHEAD_ROWS]
         return [data]
     return [data]
 
@@ -258,27 +415,33 @@ def read_jsonl_samples(path: Path) -> list[Any]:
                 rows.append(json.loads(line))
             except json.JSONDecodeError:
                 rows.append(line)
-            if len(rows) >= MAX_SAMPLES:
+            if len(rows) >= READ_AHEAD_ROWS:
                 break
     return rows
 
 
 def read_table_samples(path: Path) -> list[Any]:
     delimiter = "\t" if path.suffix.lower() == ".tsv" else ","
+    try:
+        first_line = path.read_text(encoding="utf-8", errors="replace").splitlines()[0]
+        if first_line.count("=") > first_line.count(",") and first_line.count("=") >= 2:
+            delimiter = "="
+    except (OSError, IndexError):
+        pass
     rows = []
     with path.open("r", encoding="utf-8", errors="replace", newline="") as f:
         reader = csv.DictReader(f, delimiter=delimiter)
         if reader.fieldnames:
             for row in reader:
                 rows.append(dict(row))
-                if len(rows) >= MAX_SAMPLES:
+                if len(rows) >= READ_AHEAD_ROWS:
                     break
         else:
             f.seek(0)
             raw = csv.reader(f, delimiter=delimiter)
             for row in raw:
                 rows.append(row)
-                if len(rows) >= MAX_SAMPLES:
+                if len(rows) >= READ_AHEAD_ROWS:
                     break
     return rows
 
@@ -290,7 +453,7 @@ def read_txt_samples(path: Path) -> list[Any]:
             line = line.strip()
             if line:
                 rows.append({"line_number": i + 1, "text": line})
-            if len(rows) >= MAX_SAMPLES:
+            if len(rows) >= READ_AHEAD_ROWS:
                 break
     return rows
 
@@ -298,12 +461,12 @@ def read_txt_samples(path: Path) -> list[Any]:
 def read_parquet_samples(path: Path) -> list[Any]:
     if pq is not None:
         table = pq.read_table(path, use_threads=False)
-        rows = table.slice(0, MAX_SAMPLES).to_pylist()
+        rows = table.slice(0, READ_AHEAD_ROWS).to_pylist()
         return rows
     if pd is None:
         return []
     df = pd.read_parquet(path)
-    return json.loads(df.head(MAX_SAMPLES).to_json(orient="records", force_ascii=False))
+    return json.loads(df.head(READ_AHEAD_ROWS).to_json(orient="records", force_ascii=False))
 
 
 def candidate_score(path: Path) -> tuple[int, int, str]:
@@ -314,8 +477,14 @@ def candidate_score(path: Path) -> tuple[int, int, str]:
     if path.suffix.lower() in {".csv", ".tsv"}: score -= 40
     if path.suffix.lower() == ".json": score -= 35
     if path.suffix.lower() == ".txt": score -= 20
+    rel_lower = str(path).lower()
     if any(name in lower for name in SKIP_FILE_NAMES): score += 100
+    if lower in {"styles.txt", "tags.txt", "challenges.txt", "users.csv", "region_index.csv", "image_content_category.csv"}: score += 80
+    if lower in {"ava.txt", "votes.csv", "votes_filtered.csv"}: score -= 80
+    if lower.endswith("_score.txt") or "giaa" in lower: score -= 35
+    if "metadata-" in lower: score -= 20
     if "label" in lower or "annotation" in lower or "train" in lower or "test" in lower or "val" in lower: score -= 10
+    if "/images/" in rel_lower and path.suffix.lower() == ".json": score += 30
     try:
         size = path.stat().st_size
     except OSError:
@@ -330,13 +499,14 @@ def build_dataset(dataset_root: Path) -> dict[str, Any] | None:
     candidates.sort(key=candidate_score)
     if not candidates:
         return None
-    samples = []
+    candidate_samples = []
     warnings = []
     used_images: set[Path] = set()
+    image_index: dict[str, Any] = {}
     data_labels = []
     kinds = []
     for path in candidates[:80]:
-        if len(samples) >= MAX_SAMPLES:
+        if len([s for s in candidate_samples if s.get("images")]) >= MAX_SAMPLES:
             break
         suffix = path.suffix.lower()
         try:
@@ -362,10 +532,16 @@ def build_dataset(dataset_root: Path) -> dict[str, Any] | None:
         if suffix.lstrip(".") not in kinds:
             kinds.append(suffix.lstrip("."))
         for row in rows:
-            if len(samples) >= MAX_SAMPLES:
+            idx = len(candidate_samples)
+            sample = make_sample(f"Sample {idx + 1}", rel(path, dataset_root), path, dataset_root, row, slug, idx, used_images, image_index)
+            candidate_samples.append(sample)
+            if len([s for s in candidate_samples if s.get("images")]) >= MAX_SAMPLES:
                 break
-            idx = len(samples)
-            samples.append(make_sample(f"Sample {idx + 1}", rel(path, dataset_root), path, dataset_root, row, slug, idx, used_images))
+    samples = [s for s in candidate_samples if s.get("images")][:MAX_SAMPLES]
+    if len(samples) < MAX_SAMPLES:
+        samples.extend([s for s in candidate_samples if not s.get("images")][:MAX_SAMPLES - len(samples)])
+    for i, sample in enumerate(samples):
+        sample["title"] = f"Sample {i + 1}"
     if not samples:
         return None
     total_files = count_files_limited(dataset_root)
@@ -476,6 +652,9 @@ def update_index(new_datasets: list[dict[str, Any]]) -> None:
 def main() -> None:
     if not SOURCE_ROOT.exists():
         raise SystemExit(f"source directory does not exist: {SOURCE_ROOT}")
+    for old_asset in ASSET_DIR.glob("composition-*"):
+        if old_asset.is_dir():
+            shutil.rmtree(old_asset)
     built = []
     skipped = []
     for dataset_root in sorted([p for p in SOURCE_ROOT.iterdir() if p.is_dir()], key=lambda p: p.name.lower()):
