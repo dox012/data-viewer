@@ -92,14 +92,14 @@
       ],
       "images": [
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s0-19ab2192-6c9d-42f0-b6f8-f7491ddddbc8.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/19/19ab2192-6c9d-42f0-b6f8-f7491ddddbc8.jpg"
+          "label": "jpg_0",
+          "src": "../../assets/composition-pickapic-v1/s0-jpg_0.jpg",
+          "alt": "jpg_0"
         },
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s0-a1877ac6-b428-464b-9eb2-c15a15390534.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/a1/a1877ac6-b428-464b-9eb2-c15a15390534.jpg"
+          "label": "jpg_1",
+          "src": "../../assets/composition-pickapic-v1/s0-jpg_1.jpg",
+          "alt": "jpg_1"
         }
       ]
     },
@@ -190,14 +190,14 @@
       ],
       "images": [
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s1-e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/e3/e378ac29-ecb4-470e-b1fe-2aa1fd28b0d8.jpg"
+          "label": "jpg_0",
+          "src": "../../assets/composition-pickapic-v1/s1-jpg_0.jpg",
+          "alt": "jpg_0"
         },
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s1-e8e73967-570c-46a0-906f-33fca89f3b84.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/e8/e8e73967-570c-46a0-906f-33fca89f3b84.jpg"
+          "label": "jpg_1",
+          "src": "../../assets/composition-pickapic-v1/s1-jpg_1.jpg",
+          "alt": "jpg_1"
         }
       ]
     },
@@ -288,14 +288,14 @@
       ],
       "images": [
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s2-569e85b3-8db0-468d-bc68-88f12ce6c440.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/56/569e85b3-8db0-468d-bc68-88f12ce6c440.jpg"
+          "label": "jpg_0",
+          "src": "../../assets/composition-pickapic-v1/s2-jpg_0.jpg",
+          "alt": "jpg_0"
         },
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s2-d03083e2-161b-40c4-88e6-f8c5bc21502d.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/d0/d03083e2-161b-40c4-88e6-f8c5bc21502d.jpg"
+          "label": "jpg_1",
+          "src": "../../assets/composition-pickapic-v1/s2-jpg_1.jpg",
+          "alt": "jpg_1"
         }
       ]
     },
@@ -386,14 +386,14 @@
       ],
       "images": [
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s3-c48730d5-d5d6-40f8-9ee5-bff3acf89b2d.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/c4/c48730d5-d5d6-40f8-9ee5-bff3acf89b2d.jpg"
+          "label": "jpg_0",
+          "src": "../../assets/composition-pickapic-v1/s3-jpg_0.jpg",
+          "alt": "jpg_0"
         },
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s3-f6a1f780-b9cf-48e5-a233-1c46bbeebeb2.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/f6/f6a1f780-b9cf-48e5-a233-1c46bbeebeb2.jpg"
+          "label": "jpg_1",
+          "src": "../../assets/composition-pickapic-v1/s3-jpg_1.jpg",
+          "alt": "jpg_1"
         }
       ]
     },
@@ -484,14 +484,14 @@
       ],
       "images": [
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s4-8147e6a5-0107-4ae3-8555-be279f53d22b.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/81/8147e6a5-0107-4ae3-8555-be279f53d22b.jpg"
+          "label": "jpg_0",
+          "src": "../../assets/composition-pickapic-v1/s4-jpg_0.jpg",
+          "alt": "jpg_0"
         },
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s4-15ff1b03-8088-47bf-aa73-5bacbf67c77a.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/15/15ff1b03-8088-47bf-aa73-5bacbf67c77a.jpg"
+          "label": "jpg_1",
+          "src": "../../assets/composition-pickapic-v1/s4-jpg_1.jpg",
+          "alt": "jpg_1"
         }
       ]
     },
@@ -582,14 +582,14 @@
       ],
       "images": [
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s5-fc3e9f09-b44c-40ac-ba38-3a5b88dc47df.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/fc/fc3e9f09-b44c-40ac-ba38-3a5b88dc47df.jpg"
+          "label": "jpg_0",
+          "src": "../../assets/composition-pickapic-v1/s5-jpg_0.jpg",
+          "alt": "jpg_0"
         },
         {
-          "label": "image",
-          "src": "../../assets/composition-pickapic-v1/s5-328802b0-46ca-43a2-82ab-ef693a3a658f.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/pickapic_v1/eval_images/test/32/328802b0-46ca-43a2-82ab-ef693a3a658f.jpg"
+          "label": "jpg_1",
+          "src": "../../assets/composition-pickapic-v1/s5-jpg_1.jpg",
+          "alt": "jpg_1"
         }
       ]
     }

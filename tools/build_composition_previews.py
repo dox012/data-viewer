@@ -241,11 +241,37 @@ def resolve_image(path_text: str, dataset_root: Path, annotation_file: Path, ima
     p = Path(raw)
     if p.is_absolute():
         candidates.append(p)
+    common_image_dirs = [
+        dataset_root,
+        dataset_root / "images",
+        dataset_root / "image",
+        dataset_root / "imgs",
+        dataset_root / "images_21904",
+        dataset_root / "AVA_dataset" / "image",
+        dataset_root / "datasetImages_originalSize",
+        dataset_root / "AADB_newtest_originalSize",
+        dataset_root / "40K",
+        dataset_root / "images" / "EVA_together",
+        annotation_file.parent,
+        annotation_file.parent.parent / "images",
+        annotation_file.parent.parent / "image",
+        annotation_file.parent.parent / "imgs",
+    ]
     candidates.extend([
         dataset_root / raw,
         annotation_file.parent / raw,
         dataset_root / Path(raw).name,
     ])
+    for d in common_image_dirs:
+        candidates.append(d / Path(raw).name)
+    imgs_dir = dataset_root / "imgs"
+    if imgs_dir.exists():
+        try:
+            for child in list(imgs_dir.iterdir())[:300]:
+                if child.is_dir():
+                    candidates.append(child / Path(raw).name)
+        except OSError:
+            pass
     stem = Path(raw).stem
     if stem:
         for base in [annotation_file.parent, dataset_root]:
@@ -266,17 +292,12 @@ def resolve_image(path_text: str, dataset_root: Path, annotation_file: Path, ima
                     return match
             except OSError:
                 continue
-    cache = image_index.setdefault("__find_cache__", {})
-    if Path(raw).suffix.lower() in IMAGE_EXTS:
-        return find_image_by_name(dataset_root, [Path(raw).name], cache)
-    if re.fullmatch(r"\d{1,12}", raw) or Path(raw).stem:
-        return find_image_by_name(dataset_root, [f"{Path(raw).stem}{ext}" for ext in IMAGE_EXTS], cache)
     return None
 
 
 def find_neighbor_image(annotation_file: Path, dataset_root: Path, used: set[Path], image_index: dict[str, Any]) -> Path | None:
     stem = annotation_file.stem
-    search_dirs = [annotation_file.parent, annotation_file.parent.parent, dataset_root]
+    search_dirs = [annotation_file.parent, annotation_file.parent.parent, annotation_file.parent.parent / "images", annotation_file.parent.parent / "image", annotation_file.parent.parent / "imgs", dataset_root]
     for d in search_dirs:
         if not d.exists():
             continue
@@ -291,10 +312,6 @@ def find_neighbor_image(annotation_file: Path, dataset_root: Path, used: set[Pat
     for match in image_index.get(stem.lower(), []):
         if match not in used:
             return match
-    cache = image_index.setdefault("__find_cache__", {})
-    found = find_image_by_name(dataset_root, [f"{stem}{ext}" for ext in IMAGE_EXTS], cache)
-    if found and found not in used:
-        return found
     return None
 
 
@@ -446,13 +463,67 @@ def read_table_samples(path: Path) -> list[Any]:
     return rows
 
 
+def parse_txt_line(path: Path, line: str, line_number: int) -> dict[str, Any]:
+    tokens = line.split()
+    row: dict[str, Any] = {"line_number": line_number, "raw_text": line}
+    if not tokens:
+        return row
+    first = tokens[0]
+    if Path(first).suffix.lower() in IMAGE_EXTS:
+        row["image"] = first
+        if len(tokens) == 2:
+            row["score"] = tokens[1]
+        elif len(tokens) > 2:
+            row["values"] = tokens[1:]
+        return row
+    lower_name = path.name.lower()
+    if lower_name == "ava.txt" and len(tokens) >= 15:
+        row.update({
+            "image_id": tokens[0],
+            "semantic_tag_id_1": tokens[1],
+            "rating_1_count": tokens[2],
+            "rating_2_count": tokens[3],
+            "rating_3_count": tokens[4],
+            "rating_4_count": tokens[5],
+            "rating_5_count": tokens[6],
+            "rating_6_count": tokens[7],
+            "rating_7_count": tokens[8],
+            "rating_8_count": tokens[9],
+            "rating_9_count": tokens[10],
+            "rating_10_count": tokens[11],
+            "semantic_tag_id_2": tokens[12],
+            "challenge_id": tokens[13],
+            "source_id": tokens[14],
+        })
+        return row
+    if all(re.fullmatch(r"-?\d+(?:\.\d+)?", token) for token in tokens):
+        row["label_format"] = "numeric_tokens"
+        row["image_stem"] = path.stem
+        if len(tokens) == 4:
+            row["bbox_x1"] = tokens[0]
+            row["bbox_y1"] = tokens[1]
+            row["bbox_x2"] = tokens[2]
+            row["bbox_y2"] = tokens[3]
+        elif len(tokens) >= 5:
+            row["class_id"] = tokens[0]
+            row["bbox_x1"] = tokens[1]
+            row["bbox_y1"] = tokens[2]
+            row["bbox_x2"] = tokens[3]
+            row["bbox_y2"] = tokens[4]
+        elif len(tokens) > 1:
+            row["values"] = tokens
+        return row
+    row["text"] = line
+    return row
+
+
 def read_txt_samples(path: Path) -> list[Any]:
     rows = []
     with path.open("r", encoding="utf-8", errors="replace") as f:
         for i, line in enumerate(f):
             line = line.strip()
             if line:
-                rows.append({"line_number": i + 1, "text": line})
+                rows.append(parse_txt_line(path, line, i + 1))
             if len(rows) >= READ_AHEAD_ROWS:
                 break
     return rows

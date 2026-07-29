@@ -18,20 +18,39 @@
           "value": "1"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "0 23 1041 801"
+        },
+        {
+          "label": "label_format",
+          "value": "numeric_tokens"
+        },
+        {
+          "label": "image_stem",
+          "value": "3fb14117-b76b-46d1-9b74-5fbf5572c3dd"
+        },
+        {
+          "label": "bbox_x1",
+          "value": "0"
+        },
+        {
+          "label": "bbox_y1",
+          "value": "23"
+        },
+        {
+          "label": "bbox_x2",
+          "value": "1041"
+        },
+        {
+          "label": "bbox_y2",
+          "value": "801"
         }
       ],
       "images": [
         {
           "label": "image",
-          "src": "../../assets/composition-ai-zoom-classed/s0-23.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/23.jpg"
-        },
-        {
-          "label": "image",
-          "src": "../../assets/composition-ai-zoom-classed/s0-1041.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/1041.jpg"
+          "src": "../../assets/composition-ai-zoom-classed/s0-3fb14117-b76b-46d1-9b74-5fbf5572c3dd.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/ai/人像/images/3fb14117-b76b-46d1-9b74-5fbf5572c3dd.png"
         }
       ]
     },
@@ -48,20 +67,39 @@
           "value": "1"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "30 6 1079 788"
+        },
+        {
+          "label": "label_format",
+          "value": "numeric_tokens"
+        },
+        {
+          "label": "image_stem",
+          "value": "843ea602-ce13-4490-a459-cd5c405cdce6"
+        },
+        {
+          "label": "bbox_x1",
+          "value": "30"
+        },
+        {
+          "label": "bbox_y1",
+          "value": "6"
+        },
+        {
+          "label": "bbox_x2",
+          "value": "1079"
+        },
+        {
+          "label": "bbox_y2",
+          "value": "788"
         }
       ],
       "images": [
         {
           "label": "image",
-          "src": "../../assets/composition-ai-zoom-classed/s1-6.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/6.jpg"
-        },
-        {
-          "label": "image",
-          "src": "../../assets/composition-ai-zoom-classed/s1-1079.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/动物/images/1079.jpg"
+          "src": "../../assets/composition-ai-zoom-classed/s1-843ea602-ce13-4490-a459-cd5c405cdce6.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/ai/人像/images/843ea602-ce13-4490-a459-cd5c405cdce6.png"
         }
       ]
     },
@@ -78,8 +116,32 @@
           "value": "1"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "78 0 1002 688"
+        },
+        {
+          "label": "label_format",
+          "value": "numeric_tokens"
+        },
+        {
+          "label": "image_stem",
+          "value": "f5899e3a-70bd-41b7-a62c-8d566750b646"
+        },
+        {
+          "label": "bbox_x1",
+          "value": "78"
+        },
+        {
+          "label": "bbox_y1",
+          "value": "0"
+        },
+        {
+          "label": "bbox_x2",
+          "value": "1002"
+        },
+        {
+          "label": "bbox_y2",
+          "value": "688"
         }
       ],
       "images": [
@@ -103,8 +165,32 @@
           "value": "1"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "67 81 311 316"
+        },
+        {
+          "label": "label_format",
+          "value": "numeric_tokens"
+        },
+        {
+          "label": "image_stem",
+          "value": "0f31a05d-d98b-450d-8764-72f1c400ec72"
+        },
+        {
+          "label": "bbox_x1",
+          "value": "67"
+        },
+        {
+          "label": "bbox_y1",
+          "value": "81"
+        },
+        {
+          "label": "bbox_x2",
+          "value": "311"
+        },
+        {
+          "label": "bbox_y2",
+          "value": "316"
         }
       ],
       "images": [
@@ -128,15 +214,39 @@
           "value": "1"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "60 49 313 308"
+        },
+        {
+          "label": "label_format",
+          "value": "numeric_tokens"
+        },
+        {
+          "label": "image_stem",
+          "value": "132d5794-f1ab-4fc6-bb34-28a25e7bc537"
+        },
+        {
+          "label": "bbox_x1",
+          "value": "60"
+        },
+        {
+          "label": "bbox_y1",
+          "value": "49"
+        },
+        {
+          "label": "bbox_x2",
+          "value": "313"
+        },
+        {
+          "label": "bbox_y2",
+          "value": "308"
         }
       ],
       "images": [
         {
           "label": "image",
-          "src": "../../assets/composition-ai-zoom-classed/s4-313.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/313.jpg"
+          "src": "../../assets/composition-ai-zoom-classed/s4-132d5794-f1ab-4fc6-bb34-28a25e7bc537.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/ai/人像/images/132d5794-f1ab-4fc6-bb34-28a25e7bc537.png"
         }
       ]
     },
@@ -153,15 +263,39 @@
           "value": "1"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "42 88 316 295"
+        },
+        {
+          "label": "label_format",
+          "value": "numeric_tokens"
+        },
+        {
+          "label": "image_stem",
+          "value": "1392a180-163e-4eb0-b683-2cd1debbda15"
+        },
+        {
+          "label": "bbox_x1",
+          "value": "42"
+        },
+        {
+          "label": "bbox_y1",
+          "value": "88"
+        },
+        {
+          "label": "bbox_x2",
+          "value": "316"
+        },
+        {
+          "label": "bbox_y2",
+          "value": "295"
         }
       ],
       "images": [
         {
           "label": "image",
-          "src": "../../assets/composition-ai-zoom-classed/s5-42.jpg",
-          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/算法/未分类/images/42.jpg"
+          "src": "../../assets/composition-ai-zoom-classed/s5-1392a180-163e-4eb0-b683-2cd1debbda15.png",
+          "alt": "/mnt/vlm-ks3/FoundationModel/dataset/pose_intriduct/composition/ai_zoom_classed/ai/人像/images/1392a180-163e-4eb0-b683-2cd1debbda15.png"
         }
       ]
     }

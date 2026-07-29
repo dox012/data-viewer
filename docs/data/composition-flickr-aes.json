@@ -18,8 +18,16 @@
           "value": "1"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "farm6_5119_5849501483_7c21d5c65d.jpg 0.485205505948"
+        },
+        {
+          "label": "image",
+          "value": "farm6_5119_5849501483_7c21d5c65d.jpg"
+        },
+        {
+          "label": "score",
+          "value": "0.485205505948"
         }
       ],
       "images": [
@@ -43,8 +51,16 @@
           "value": "2"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "farm7_6167_6159459192_e903d5414e.jpg 0.649201338548"
+        },
+        {
+          "label": "image",
+          "value": "farm7_6167_6159459192_e903d5414e.jpg"
+        },
+        {
+          "label": "score",
+          "value": "0.649201338548"
         }
       ],
       "images": [
@@ -68,8 +84,16 @@
           "value": "3"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "farm6_5022_5602049214_6176c09055.jpg 0.670466555056"
+        },
+        {
+          "label": "image",
+          "value": "farm6_5022_5602049214_6176c09055.jpg"
+        },
+        {
+          "label": "score",
+          "value": "0.670466555056"
         }
       ],
       "images": [
@@ -93,8 +117,16 @@
           "value": "4"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "farm4_3635_3687643789_5311c69897.jpg 0.84414196789"
+        },
+        {
+          "label": "image",
+          "value": "farm4_3635_3687643789_5311c69897.jpg"
+        },
+        {
+          "label": "score",
+          "value": "0.84414196789"
         }
       ],
       "images": [
@@ -118,8 +150,16 @@
           "value": "5"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "farm2_1230_1438623421_5f75ef58a7.jpg 0.6"
+        },
+        {
+          "label": "image",
+          "value": "farm2_1230_1438623421_5f75ef58a7.jpg"
+        },
+        {
+          "label": "score",
+          "value": "0.6"
         }
       ],
       "images": [
@@ -143,8 +183,16 @@
           "value": "6"
         },
         {
-          "label": "text",
+          "label": "raw_text",
           "value": "farm6_5329_7059675427_6a9742473c.jpg 0.791333225792"
+        },
+        {
+          "label": "image",
+          "value": "farm6_5329_7059675427_6a9742473c.jpg"
+        },
+        {
+          "label": "score",
+          "value": "0.791333225792"
         }
       ],
       "images": [
