@@ -811,6 +811,53 @@ FIELD_DESCRIPTIONS = {
     "构图方法": "人工标注的构图方法类别",
     "构图描述": "对图像构图方式的文字描述",
     "annotations": "原始标注对象或标注列表",
+    "Image": "图像文件名、图像路径或内嵌图像内容",
+    "Description": "图像描述、审美分析说明或样本文本描述",
+    "File": "当前可预览文件的文件名或路径",
+    "Image id": "图像 ID，用于关联输入/输出图像和编辑记录",
+    "Edit instruction": "图像编辑任务的自然语言指令",
+    "Edit type": "编辑任务类型或编辑所依赖的视觉条件类型",
+    "Input": "编辑前的输入图像描述或源图像内容",
+    "Output": "编辑后的目标图像描述或结果图像内容",
+    "Example id": "样本 ID",
+    "Split": "数据划分，如 train/val/test/dev",
+    "Image file": "图像文件名",
+    "Task id": "任务 ID",
+    "Prompt": "文本提示词、生成指令或编程题题面",
+    "Canonical solution": "参考标准答案或标准解法代码",
+    "Test": "用于验证答案的测试代码或测试条件",
+    "Entry point": "待实现函数或程序入口名称",
+    "Edit": "正向图像编辑指令",
+    "Inverse edit": "反向编辑指令，用于把目标图像还原到输入状态",
+    "File name": "样本对应的文件名或输出图像路径",
+    "Sample id": "样本 ID",
+    "Input style ref": "输入风格参考图像路径",
+    "Instruction": "图像编辑、生成或风格迁移的自然语言指令",
+    "Dist img": "失真图像文件名",
+    "Ref img": "参考原图文件名",
+    "Dmos": "差分平均意见分，表示失真图像相对参考图的主观质量下降程度",
+    "Var": "主观评分方差，反映评分者一致性或不确定性",
+    "Image name": "图像文件名",
+    "M O S zscore": "MOS 的 z-score 标准化分数",
+    "M O S": "平均意见分，表示图像主观质量/美学质量",
+    "Excerpt": "从 README、说明文档或文本文件中截取的内容片段",
+    "Img id": "图像 ID",
+    "Turn index": "多轮编辑任务中的轮次序号",
+    "Challenge": "提示词所属挑战类型或评测难点",
+    "Note": "对提示词、类别或样本的补充说明",
+    "Sub split": "数据子划分或细分测试 split",
+    "Img name": "图像文件名",
+    "Target text": "目标文本描述，表示希望图像编辑后匹配的内容",
+    "Clip sim source": "编辑结果与源图像/源文本的 CLIP 相似度",
+    "Clip sim target": "编辑结果与目标文本的 CLIP 相似度",
+    "Clip sim dir": "CLIP 方向一致性分数，衡量编辑方向是否符合指令",
+    "Clip sim image": "图像间 CLIP 相似度，衡量编辑前后视觉保持程度",
+    "Dinov2 sim": "DINOv2 特征相似度，衡量图像内容/结构保持程度",
+    "Ssim": "结构相似性指标，衡量编辑前后低层视觉结构相似度",
+    "Id": "样本 ID",
+    "Domain": "评测领域或任务大类",
+    "Criterion": "评价准则或评价维度",
+    "Qa template": "问答模板类型，用于生成评价问题",
 }
 
 
@@ -832,7 +879,7 @@ def describe_field(label: str) -> str:
         return "类别或任务类型"
     if "id" in lower:
         return "样本、图像或记录的 ID"
-    return "子页面展示的原始标注字段，含义需结合样本值和源文件查看"
+    return "数据集中保留的原始标注字段，用于承载该样本的标签、说明或元数据"
 
 
 def summarize_annotation_fields(data: dict[str, Any]) -> str:
@@ -850,7 +897,7 @@ def summarize_annotation_fields(data: dict[str, Any]) -> str:
             break
     if labels:
         return "；".join(f"{label}：{describe_field(label)}" for label in labels) + "。"
-    return "子页面未提取到文本标注字段；主要用于查看图片或文件可预览状态。"
+    return "当前入口未发现结构化标注字段；卡片仅记录可预览文件、目录或资源占位信息。"
 
 
 def update_index(new_datasets: list[dict[str, Any]]) -> None:
