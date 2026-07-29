@@ -710,6 +710,131 @@ ANNOTATION_SUMMARIES = {
 }
 
 
+FIELD_DESCRIPTIONS = {
+    "line_number": "源标注文件中的行号",
+    "raw_text": "源标注文件中的原始行内容",
+    "image": "图像文件名或图像内容字段",
+    "images": "样本关联的图像路径或图像列表",
+    "image_stem": "由标注文件名推断出的图像文件主名",
+    "image_id": "图像 ID，可用于关联本地图片或评分记录",
+    "id": "样本唯一 ID",
+    "index": "样本序号或表格索引",
+    "score": "美学评分或该样本的目标分数",
+    "scores": "多个维度或多个来源的评分集合",
+    "raw_score": "转换前的原始评分",
+    "raw_scores": "转换前的多个原始评分",
+    "score_scale": "评分取值范围或归一化尺度",
+    "label_format": "文本标注行被解析出的格式类型",
+    "bbox_2d": "二维边界框坐标",
+    "bbox_x1": "边界框左上角 x 坐标",
+    "bbox_y1": "边界框左上角 y 坐标",
+    "bbox_x2": "边界框右下角 x 坐标",
+    "bbox_y2": "边界框右下角 y 坐标",
+    "class_id": "类别 ID 或标签 ID",
+    "question": "围绕图像提出的问题或评价任务",
+    "answers": "问题对应的答案集合",
+    "answer": "正确答案或标注答案",
+    "A": "选择题 A 选项",
+    "B": "选择题 B 选项",
+    "C": "选择题 C 选项",
+    "D": "选择题 D 选项",
+    "category": "类别、任务类别或图像内容类别",
+    "classification": "图像分类或内容类别",
+    "split": "数据划分，如 train/val/test",
+    "messages": "多轮对话消息，通常包含用户问题和助手回答",
+    "conversations": "多轮视觉问答/指令微调对话内容",
+    "source_dataset": "样本来源数据集名称",
+    "channel": "训练样本所属通道或任务类型",
+    "prompt": "文本提示词或生成/评价指令",
+    "caption": "图像描述或生成提示文本",
+    "path1": "第一张候选图像路径",
+    "path2": "第二张候选图像路径",
+    "preferred_uid": "偏好比较中被选中的图像 ID",
+    "rejected_uid": "偏好比较中未被选中的图像 ID",
+    "best_image_uid": "偏好标注中最佳图像 ID",
+    "preferred_image": "偏好比较中胜出的图像",
+    "rejected_image": "偏好比较中落败的图像",
+    "preferred_position": "偏好图像在候选列表中的位置",
+    "preference_target": "偏好学习目标或胜负标签",
+    "pair_id": "成对比较样本 ID",
+    "target": "成对比较或训练任务的目标标签",
+    "score_gap": "高低质量/偏好图像之间的分数差",
+    "high": "成对比较中高分或更优样本的信息",
+    "low": "成对比较中低分或较差样本的信息",
+    "are_different": "两张候选图是否被认为存在差异",
+    "has_label": "该样本是否具备有效人工标签",
+    "image_0_uid": "第一张候选图像 ID",
+    "image_0_url": "第一张候选图像 URL",
+    "image_1_uid": "第二张候选图像 ID",
+    "image_1_url": "第二张候选图像 URL",
+    "jpg_0": "第一张候选图像的内嵌 JPEG 二进制内容",
+    "jpg_1": "第二张候选图像的内嵌 JPEG 二进制内容",
+    "label_0": "第一张候选图像的偏好/标签值",
+    "label_1": "第二张候选图像的偏好/标签值",
+    "model_0": "生成第一张候选图像的模型名称",
+    "model_1": "生成第二张候选图像的模型名称",
+    "prompt_id": "提示词 ID",
+    "image_path": "图像相对路径",
+    "image_amount_in_total": "同一提示词或分组下的候选图像总数",
+    "rank": "图像在候选集合中的排序名次",
+    "overall_rating": "总体评分",
+    "image_text_alignment_rating": "图文一致性评分",
+    "fidelity_rating": "保真度或真实感评分",
+    "difficulty": "标注者感知的判断难度",
+    "visual": "视觉表现维度评分",
+    "composition": "构图维度评分",
+    "quality": "图像质量维度评分",
+    "semantic": "语义相关维度评分",
+    "vote_time": "投票或标注耗时",
+    "device": "标注或采集设备信息",
+    "user_id": "评分用户或标注者 ID",
+    "created_at": "样本创建时间",
+    "type": "样本或问题类型",
+    "qtype": "问题子类型",
+    "source_parquet": "来源 parquet 文件",
+    "source_row": "来源文件中的行号",
+    "source_json": "来源 JSON/JSONL 文件",
+    "source_index": "来源文件中的样本索引",
+    "metadata": "补充元数据",
+    "iaa_targets": "图像美学评价的辅助目标标签",
+    "iaa_target_texts": "辅助目标标签对应的文本说明",
+    "roc_targets": "排序/相对比较目标标签",
+    "roc_distributions": "相对比较或评分分布信息",
+    "aesthetic_target": "美学评价目标",
+    "icaa_target": "色彩美学评价目标",
+    "annotation_confidence": "标注置信度",
+    "confidence_normalization_mean": "置信度归一化使用的均值",
+    "archive": "压缩包路径或来源归档文件",
+    "image_root": "图片根目录",
+    "newly_extracted": "本次新解压图片数量",
+    "reused": "复用已有图片数量",
+    "构图方法": "人工标注的构图方法类别",
+    "构图描述": "对图像构图方式的文字描述",
+    "annotations": "原始标注对象或标注列表",
+}
+
+
+def describe_field(label: str) -> str:
+    if label in FIELD_DESCRIPTIONS:
+        return FIELD_DESCRIPTIONS[label]
+    lower = label.lower().replace(" ", "_")
+    if lower in FIELD_DESCRIPTIONS:
+        return FIELD_DESCRIPTIONS[lower]
+    if lower in {"1", "2", "3", "4"}:
+        return f"第 {label} 个离散选项/标签的取值或计数"
+    if "prompt" in lower:
+        return "文本提示词或任务指令"
+    if "image" in lower or "img" in lower:
+        return "图像路径、图像 ID 或图像内容"
+    if "score" in lower or "rating" in lower or "mos" in lower or "dmos" in lower:
+        return "评分、均分或质量评价值"
+    if "category" in lower or "class" in lower or "type" in lower:
+        return "类别或任务类型"
+    if "id" in lower:
+        return "样本、图像或记录的 ID"
+    return "子页面展示的原始标注字段，含义需结合样本值和源文件查看"
+
+
 def summarize_annotation_fields(data: dict[str, Any]) -> str:
     if data["slug"] in ANNOTATION_SUMMARIES:
         return ANNOTATION_SUMMARIES[data["slug"]]
@@ -719,12 +844,12 @@ def summarize_annotation_fields(data: dict[str, Any]) -> str:
             label = str(field.get("label", "")).strip()
             if label and label != "Annotation file" and label not in labels:
                 labels.append(label)
-            if len(labels) >= 14:
+            if len(labels) >= 10:
                 break
-        if len(labels) >= 14:
+        if len(labels) >= 10:
             break
     if labels:
-        return "子页面样本字段：" + "、".join(labels) + "。"
+        return "；".join(f"{label}：{describe_field(label)}" for label in labels) + "。"
     return "子页面未提取到文本标注字段；主要用于查看图片或文件可预览状态。"
 
 
